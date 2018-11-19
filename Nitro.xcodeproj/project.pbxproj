@@ -20,6 +20,8 @@
 		AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA5907F421A30F1C00D8493F /* Stickers.xcstickers */; };
 		AA5907F921A3147900D8493F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5907F821A3147900D8493F /* MapKit.framework */; };
 		AA8FE05F21A3310C0066338D /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE05E21A3310C0066338D /* LaunchController.swift */; };
+		AA8FE06121A33D080066338D /* UniInfos.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA8FE06021A33D080066338D /* UniInfos.txt */; };
+		AA8FE06321A33DE00066338D /* DatenLader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06221A33DE00066338D /* DatenLader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		AA5907F621A3141800D8493F /* Nitro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nitro.entitlements; sourceTree = "<group>"; };
 		AA5907F821A3147900D8493F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AA8FE05E21A3310C0066338D /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
+		AA8FE06021A33D080066338D /* UniInfos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UniInfos.txt; sourceTree = "<group>"; };
+		AA8FE06221A33DE00066338D /* DatenLader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatenLader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 				AA1B53C42196EEBB00941DF6 /* Main.storyboard */,
 				AA8FE05E21A3310C0066338D /* LaunchController.swift */,
 				AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */,
+				AA8FE06021A33D080066338D /* UniInfos.txt */,
+				AA8FE06221A33DE00066338D /* DatenLader.swift */,
 				AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */,
 				AA1B53C72196EEBB00941DF6 /* Assets.xcassets */,
 				AA1B53C92196EEBB00941DF6 /* LaunchScreen.storyboard */,
@@ -278,6 +284,7 @@
 				AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */,
 				AA1B53CB2196EEBB00941DF6 /* LaunchScreen.storyboard in Resources */,
 				AA1B53C82196EEBB00941DF6 /* Assets.xcassets in Resources */,
+				AA8FE06121A33D080066338D /* UniInfos.txt in Resources */,
 				AA1B53C62196EEBB00941DF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8FE06321A33DE00066338D /* DatenLader.swift in Sources */,
 				AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */,
 				AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */,
 				AA5907EE21A30B5200D8493F /* InfoAuflistung.swift in Sources */,

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LaunchController: UIViewController {
+class LaunchController: UIViewController{
     //Lädt die erste Seite
     //Baut die Animation ein
     //Lädt alle daten und geht dann weiter
@@ -29,6 +29,10 @@ class LaunchController: UIViewController {
         let appVersion = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String
         VersionSchrift.text = "Version " + appVersion!
         
+        //Lädt die Daten für dei Uni Infos aus der Txt Datei
+        DatenLader().ladeDatenAusTxt(name: "UniInfos.txt")
+        
+        //Lädt das Image an eine Stelle außerhalb der View
         logo.center.x  -= view.bounds.width
     }
     
