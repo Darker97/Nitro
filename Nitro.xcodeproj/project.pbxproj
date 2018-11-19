@@ -19,6 +19,7 @@
 		AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */; };
 		AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA5907F421A30F1C00D8493F /* Stickers.xcstickers */; };
 		AA5907F921A3147900D8493F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5907F821A3147900D8493F /* MapKit.framework */; };
+		AA8FE05F21A3310C0066338D /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE05E21A3310C0066338D /* LaunchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		AA5907F421A30F1C00D8493F /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
 		AA5907F621A3141800D8493F /* Nitro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nitro.entitlements; sourceTree = "<group>"; };
 		AA5907F821A3147900D8493F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AA8FE05E21A3310C0066338D /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */,
 				AA5907F421A30F1C00D8493F /* Stickers.xcstickers */,
 				AA1B53C42196EEBB00941DF6 /* Main.storyboard */,
+				AA8FE05E21A3310C0066338D /* LaunchController.swift */,
 				AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */,
 				AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */,
 				AA1B53C72196EEBB00941DF6 /* Assets.xcassets */,
@@ -304,6 +307,7 @@
 				AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */,
 				AA5907EE21A30B5200D8493F /* InfoAuflistung.swift in Sources */,
 				AA1B53C32196EEBB00941DF6 /* ViewController.swift in Sources */,
+				AA8FE05F21A3310C0066338D /* LaunchController.swift in Sources */,
 				AA1B53C12196EEBB00941DF6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
