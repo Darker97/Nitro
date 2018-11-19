@@ -22,8 +22,10 @@
 		AA8FE05F21A3310C0066338D /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE05E21A3310C0066338D /* LaunchController.swift */; };
 		AA8FE06121A33D080066338D /* UniInfos.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA8FE06021A33D080066338D /* UniInfos.txt */; };
 		AA8FE06321A33DE00066338D /* DatenLader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06221A33DE00066338D /* DatenLader.swift */; };
-		AA8FE06521A352D50066338D /* NFC-Abfrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06421A352D50066338D /* NFC-Abfrage.swift */; };
+		AA8FE06521A352D50066338D /* Sicherheits_Abfrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06421A352D50066338D /* Sicherheits_Abfrage.swift */; };
 		AA8FE06721A352EE0066338D /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06621A352EE0066338D /* LoginScreen.swift */; };
+		AA8FE06921A3649D0066338D /* HardCodedVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06821A3649D0066338D /* HardCodedVar.swift */; };
+		AA8FE06B21A373CB0066338D /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8FE06A21A373CA0066338D /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +68,10 @@
 		AA8FE05E21A3310C0066338D /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
 		AA8FE06021A33D080066338D /* UniInfos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UniInfos.txt; sourceTree = "<group>"; };
 		AA8FE06221A33DE00066338D /* DatenLader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatenLader.swift; sourceTree = "<group>"; };
-		AA8FE06421A352D50066338D /* NFC-Abfrage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NFC-Abfrage.swift"; sourceTree = "<group>"; };
+		AA8FE06421A352D50066338D /* Sicherheits_Abfrage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sicherheits_Abfrage.swift; sourceTree = "<group>"; };
 		AA8FE06621A352EE0066338D /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		AA8FE06821A3649D0066338D /* HardCodedVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardCodedVar.swift; sourceTree = "<group>"; };
+		AA8FE06A21A373CA0066338D /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8FE06B21A373CB0066338D /* LocalAuthentication.framework in Frameworks */,
 				AA5907F921A3147900D8493F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +125,7 @@
 		AA1B53BF2196EEBB00941DF6 /* Nitro */ = {
 			isa = PBXGroup;
 			children = (
+				AA8FE06821A3649D0066338D /* HardCodedVar.swift */,
 				AA5907F621A3141800D8493F /* Nitro.entitlements */,
 				AA1B53C02196EEBB00941DF6 /* AppDelegate.swift */,
 				AA1B53C22196EEBB00941DF6 /* ViewController.swift */,
@@ -127,7 +133,7 @@
 				AA5907F421A30F1C00D8493F /* Stickers.xcstickers */,
 				AA1B53C42196EEBB00941DF6 /* Main.storyboard */,
 				AA8FE06621A352EE0066338D /* LoginScreen.swift */,
-				AA8FE06421A352D50066338D /* NFC-Abfrage.swift */,
+				AA8FE06421A352D50066338D /* Sicherheits_Abfrage.swift */,
 				AA8FE05E21A3310C0066338D /* LaunchController.swift */,
 				AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */,
 				AA8FE06021A33D080066338D /* UniInfos.txt */,
@@ -161,6 +167,7 @@
 		AA5907F721A3147900D8493F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA8FE06A21A373CA0066338D /* LocalAuthentication.framework */,
 				AA5907F821A3147900D8493F /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -316,8 +323,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA8FE06521A352D50066338D /* NFC-Abfrage.swift in Sources */,
+				AA8FE06521A352D50066338D /* Sicherheits_Abfrage.swift in Sources */,
 				AA8FE06321A33DE00066338D /* DatenLader.swift in Sources */,
+				AA8FE06921A3649D0066338D /* HardCodedVar.swift in Sources */,
 				AA8FE06721A352EE0066338D /* LoginScreen.swift in Sources */,
 				AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */,
 				AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */,

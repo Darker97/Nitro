@@ -59,6 +59,14 @@
                                     <segue destination="FbA-5f-kQf" kind="push" id="Ych-0s-mXU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Acy-m1-sGC">
+                                <rect key="frame" x="153" y="546" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="nfc"/>
+                                <connections>
+                                    <segue destination="I75-ik-IfV" kind="show" id="GXW-9P-vfp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -67,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="530" y="590"/>
+            <point key="canvasLocation" x="661.60000000000002" y="589.65517241379314"/>
         </scene>
         <!--test-->
         <scene sceneID="5Jx-mQ-qiM">
@@ -102,7 +110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OHD-Wu-Mtx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3055" y="590"/>
+            <point key="canvasLocation" x="3992.8000000000002" y="589.65517241379314"/>
         </scene>
         <!--Infos-->
         <scene sceneID="x3I-vb-CeI">
@@ -150,22 +158,55 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hcv-aw-Nnw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2263" y="590"/>
+            <point key="canvasLocation" x="3200.8000000000002" y="589.65517241379314"/>
         </scene>
         <!--NFC-Abfrage-->
         <scene sceneID="E65-aS-Jww">
             <objects>
-                <viewController id="I75-ik-IfV" userLabel="NFC-Abfrage" sceneMemberID="viewController">
+                <viewController id="I75-ik-IfV" userLabel="NFC-Abfrage" customClass="Sicherheits_Abfrage" customModule="Nitro" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ee1-RW-cQB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3X-zv-pF7">
+                                <rect key="frame" x="16" y="598" width="343" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.077994062176552179" green="0.22074706004279823" blue="0.93150906735751293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="NFC-Scan">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="scanPressed:" destination="I75-ik-IfV" eventType="touchUpInside" id="Y0C-WF-9ho"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Lk-qb-mAx">
+                                <rect key="frame" x="16" y="460" width="343" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.077994062180000004" green="0.22074705999999999" blue="0.93150906739999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Touch-ID">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="TouchIdButton:" destination="I75-ik-IfV" eventType="touchUpInside" id="yIk-5z-iW0"/>
+                                    <action selector="scanPressed:" destination="I75-ik-IfV" eventType="touchUpInside" id="GZr-03-Q81"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="2Gc-h3-K20"/>
                     </view>
+                    <navigationItem key="navigationItem" title="NFC-Abfrage" id="REo-PH-l9l"/>
+                    <connections>
+                        <outlet property="TouchIDButton" destination="1Lk-qb-mAx" id="yxx-rM-FEW"/>
+                        <outlet property="start_button" destination="b3X-zv-pF7" id="F7S-HG-zid"/>
+                        <segue destination="1TV-tQ-FPA" kind="show" identifier="NFC-AbfrageKorrekt" id="MAy-Z8-0X7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S8h-7P-vbH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-298" y="1039"/>
+            <point key="canvasLocation" x="-298" y="1072"/>
         </scene>
         <!--Login Screen-->
         <scene sceneID="VpR-Jo-Gp5">
@@ -177,6 +218,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="AVN-Rz-GQA"/>
                     </view>
+                    <navigationItem key="navigationItem" id="qrG-T3-GbO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HOB-bC-pHm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -199,7 +241,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lzT-ib-C7d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1313" y="590"/>
+            <point key="canvasLocation" x="2252" y="589.65517241379314"/>
         </scene>
     </scenes>
     <resources>
