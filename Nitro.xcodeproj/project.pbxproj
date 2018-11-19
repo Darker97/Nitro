@@ -14,6 +14,11 @@
 		AA1B53CB2196EEBB00941DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1B53C92196EEBB00941DF6 /* LaunchScreen.storyboard */; };
 		AA1B53D62196EEBB00941DF6 /* NitroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53D52196EEBB00941DF6 /* NitroTests.swift */; };
 		AA1B53E12196EEBB00941DF6 /* NitroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53E02196EEBB00941DF6 /* NitroUITests.swift */; };
+		AA5907EE21A30B5200D8493F /* InfoAuflistung.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */; };
+		AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */; };
+		AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */; };
+		AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA5907F421A30F1C00D8493F /* Stickers.xcstickers */; };
+		AA5907F921A3147900D8493F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5907F821A3147900D8493F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,12 @@
 		AA1B53DC2196EEBB00941DF6 /* NitroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NitroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1B53E02196EEBB00941DF6 /* NitroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NitroUITests.swift; sourceTree = "<group>"; };
 		AA1B53E22196EEBB00941DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAuflistung.swift; sourceTree = "<group>"; };
+		AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAusgabe.swift; sourceTree = "<group>"; };
+		AA5907F221A30DE200D8493F /* Noten.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noten.xcdatamodel; sourceTree = "<group>"; };
+		AA5907F421A30F1C00D8493F /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
+		AA5907F621A3141800D8493F /* Nitro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nitro.entitlements; sourceTree = "<group>"; };
+		AA5907F821A3147900D8493F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5907F921A3147900D8493F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,7 @@
 				AA1B53D42196EEBB00941DF6 /* NitroTests */,
 				AA1B53DF2196EEBB00941DF6 /* NitroUITests */,
 				AA1B53BE2196EEBB00941DF6 /* Products */,
+				AA5907F721A3147900D8493F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +110,14 @@
 		AA1B53BF2196EEBB00941DF6 /* Nitro */ = {
 			isa = PBXGroup;
 			children = (
+				AA5907F621A3141800D8493F /* Nitro.entitlements */,
 				AA1B53C02196EEBB00941DF6 /* AppDelegate.swift */,
 				AA1B53C22196EEBB00941DF6 /* ViewController.swift */,
+				AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */,
+				AA5907F421A30F1C00D8493F /* Stickers.xcstickers */,
 				AA1B53C42196EEBB00941DF6 /* Main.storyboard */,
+				AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */,
+				AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */,
 				AA1B53C72196EEBB00941DF6 /* Assets.xcassets */,
 				AA1B53C92196EEBB00941DF6 /* LaunchScreen.storyboard */,
 				AA1B53CC2196EEBB00941DF6 /* Info.plist */,
@@ -123,6 +141,14 @@
 				AA1B53E22196EEBB00941DF6 /* Info.plist */,
 			);
 			path = NitroUITests;
+			sourceTree = "<group>";
+		};
+		AA5907F721A3147900D8493F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5907F821A3147900D8493F /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +219,23 @@
 				TargetAttributes = {
 					AA1B53BC2196EEBA00941DF6 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					AA1B53D02196EEBB00941DF6 = {
 						CreatedOnToolsVersion = 10.1;
@@ -229,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */,
 				AA1B53CB2196EEBB00941DF6 /* LaunchScreen.storyboard in Resources */,
 				AA1B53C82196EEBB00941DF6 /* Assets.xcassets in Resources */,
 				AA1B53C62196EEBB00941DF6 /* Main.storyboard in Resources */,
@@ -256,6 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */,
+				AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */,
+				AA5907EE21A30B5200D8493F /* InfoAuflistung.swift in Sources */,
 				AA1B53C32196EEBB00941DF6 /* ViewController.swift in Sources */,
 				AA1B53C12196EEBB00941DF6 /* AppDelegate.swift in Sources */,
 			);
@@ -432,6 +479,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Nitro/Nitro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QHAK8XB995;
 				INFOPLIST_FILE = Nitro/Info.plist;
@@ -450,6 +498,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Nitro/Nitro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QHAK8XB995;
 				INFOPLIST_FILE = Nitro/Info.plist;
@@ -586,6 +635,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA5907F221A30DE200D8493F /* Noten.xcdatamodel */,
+			);
+			currentVersion = AA5907F221A30DE200D8493F /* Noten.xcdatamodel */;
+			path = Noten.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AA1B53B52196EEBA00941DF6 /* Project object */;
 }
