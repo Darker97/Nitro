@@ -23,7 +23,9 @@ class Sicherheits_Abfrage: UIViewController, NFCNDEFReaderSessionDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        if(HardCodedVar().NFCEnabled){
+            
+        }
 
         // Do any additional setup after loading the view.
     }
@@ -56,6 +58,8 @@ class Sicherheits_Abfrage: UIViewController, NFCNDEFReaderSessionDelegate {
     //------------------------------------------------------------------------
     //Funktion um TouchID als Alternative einzuführen
     @IBAction func TouchIdButton(_ sender: Any) {
+        
+        
     }
 
     
