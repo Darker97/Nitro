@@ -19,6 +19,8 @@
 		AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */; };
 		AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA5907F421A30F1C00D8493F /* Stickers.xcstickers */; };
 		AA5907F921A3147900D8493F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5907F821A3147900D8493F /* MapKit.framework */; };
+		AA635E3D21AC2610002ED75C /* Einstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635E3C21AC2610002ED75C /* Einstellungen.swift */; };
+		AA635E3F21AC27DC002ED75C /* DatenSpeicher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */; };
 		AA8FE05F21A3310C0066338D /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE05E21A3310C0066338D /* LaunchController.swift */; };
 		AA8FE06121A33D080066338D /* UniInfos.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA8FE06021A33D080066338D /* UniInfos.txt */; };
 		AA8FE06321A33DE00066338D /* DatenLader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06221A33DE00066338D /* DatenLader.swift */; };
@@ -65,6 +67,8 @@
 		AA5907F421A30F1C00D8493F /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
 		AA5907F621A3141800D8493F /* Nitro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nitro.entitlements; sourceTree = "<group>"; };
 		AA5907F821A3147900D8493F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AA635E3C21AC2610002ED75C /* Einstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Einstellungen.swift; sourceTree = "<group>"; };
+		AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatenSpeicher.swift; sourceTree = "<group>"; };
 		AA8FE05E21A3310C0066338D /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
 		AA8FE06021A33D080066338D /* UniInfos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UniInfos.txt; sourceTree = "<group>"; };
 		AA8FE06221A33DE00066338D /* DatenLader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatenLader.swift; sourceTree = "<group>"; };
@@ -126,18 +130,20 @@
 			isa = PBXGroup;
 			children = (
 				AA8FE06821A3649D0066338D /* HardCodedVar.swift */,
+				AA8FE06221A33DE00066338D /* DatenLader.swift */,
+				AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */,
 				AA5907F621A3141800D8493F /* Nitro.entitlements */,
 				AA1B53C02196EEBB00941DF6 /* AppDelegate.swift */,
 				AA1B53C22196EEBB00941DF6 /* ViewController.swift */,
 				AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */,
 				AA5907F421A30F1C00D8493F /* Stickers.xcstickers */,
 				AA1B53C42196EEBB00941DF6 /* Main.storyboard */,
+				AA635E3C21AC2610002ED75C /* Einstellungen.swift */,
 				AA8FE06621A352EE0066338D /* LoginScreen.swift */,
 				AA8FE06421A352D50066338D /* Sicherheits_Abfrage.swift */,
 				AA8FE05E21A3310C0066338D /* LaunchController.swift */,
 				AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */,
 				AA8FE06021A33D080066338D /* UniInfos.txt */,
-				AA8FE06221A33DE00066338D /* DatenLader.swift */,
 				AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */,
 				AA1B53C72196EEBB00941DF6 /* Assets.xcassets */,
 				AA1B53C92196EEBB00941DF6 /* LaunchScreen.storyboard */,
@@ -324,6 +330,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA8FE06521A352D50066338D /* Sicherheits_Abfrage.swift in Sources */,
+				AA635E3F21AC27DC002ED75C /* DatenSpeicher.swift in Sources */,
+				AA635E3D21AC2610002ED75C /* Einstellungen.swift in Sources */,
 				AA8FE06321A33DE00066338D /* DatenLader.swift in Sources */,
 				AA8FE06921A3649D0066338D /* HardCodedVar.swift in Sources */,
 				AA8FE06721A352EE0066338D /* LoginScreen.swift in Sources */,

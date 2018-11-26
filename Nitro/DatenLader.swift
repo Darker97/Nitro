@@ -36,6 +36,18 @@ class DatenLader{
             
         }
     }
+    func ladeCoreData(name: String){
+        
+    }
+    
+    
+    //Laden aller Einstellungen, Variablen werden in der Hardcoded var gespeichert
+    func ladeEinstellungen(){
+        var arr = HardCodedVar().GibSpeicher()
+        
+        
+        
+    }
     
     
     
