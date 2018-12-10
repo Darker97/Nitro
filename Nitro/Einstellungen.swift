@@ -21,10 +21,10 @@ class Einstellungen: UIViewController {
     }
     @IBAction func NFCan(_ sender: Any) {
         HardCodedVar().NFCEnabled = NFCregler.isOn
-        HardCodedVar().TouchIdEnabled = fingerRegler.isOn
     }
     
     @IBAction func Fingerabdruckan(_ sender: Any) {
+        HardCodedVar().TouchIdEnabled=fingerRegler.isOn
     }
     
     override func viewWillAppear(_ animated: Bool) {

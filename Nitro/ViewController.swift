@@ -15,6 +15,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    
+    //-----------------------------------------------
+    //Abfrage ob jemmand eingelogt ist. Wenn nicht, werden bestimmte Objekte versteckt.
+    override func viewWillAppear(_ animated: Bool) {
+        if (HardCodedVar().isLockedIn == false){
+            machSichtbar();
+        }
+    }
+    func machSichtbar(){
+        //Alle Views die nur der User sieht kommen hierher.
+    }
 
 }
 

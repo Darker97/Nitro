@@ -18,12 +18,14 @@ class DatenLader{
             
             let fileURL = dir.appendingPathComponent(file)
             print (fileURL)
+            
+            /*
             //writing
             do {
                 try text.write(to: fileURL, atomically: false, encoding: .utf8)
             }
             catch {/* error handling here */}
-            
+            */
             
             //reading
             do {

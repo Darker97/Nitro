@@ -13,23 +13,34 @@ import LocalAuthentication
 class Sicherheits_Abfrage: UIViewController, NFCNDEFReaderSessionDelegate {
     
 
-    //Bau einer NFC Abfrage zum anmelden mit einem NFC Key.
+    //Bau der Sicherheitsabfrage
     
     @IBOutlet weak var TouchIDButton: UIButton!
 
     @IBOutlet weak var start_button: UIButton!
     var nfcSession: NFCNDEFReaderSession?
+    @IBOutlet weak var NameInput: UITextField!
+    @IBOutlet weak var PasswortInput: UITextField!
     
+    @IBOutlet weak var AnmeldungFehgelschlagen: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if(HardCodedVar().NFCEnabled){
-            
+        
+        //Abfrgage ob die einzelnen Optionen aktiv sind
+        if(HardCodedVar().NFCEnabled == false){
+            start_button.isHidden = true
+        }
+        if (HardCodedVar().TouchIdEnabled == false){
+            TouchIDButton.isHidden = true
         }
 
-        // Do any additional setup after loading the view.
+
     }
+
     
+    //-----------------------------------------------------------------------
+    //NFC - Scan
     @IBAction func scanPressed(_ sender: Any) {
         nfcSession = NFCNDEFReaderSession.init(delegate: self, queue: nil, invalidateAfterFirstRead: true)
         nfcSession?.begin()
@@ -59,12 +70,46 @@ class Sicherheits_Abfrage: UIViewController, NFCNDEFReaderSessionDelegate {
     //Funktion um TouchID als Alternative einzuführen
     @IBAction func TouchIdButton(_ sender: Any) {
         
+        let context = LAContext()
+        var error: NSError?
         
+        if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
+            let reason = "Identify yourself!"
+            
+            context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) {
+                [unowned self] success, authenticationError in
+                
+                DispatchQueue.main.async {
+                    if success {
+                        self.testErfolgreich()
+                    } else {
+                        let ac = UIAlertController(title: "Fehler", message: "Sorry!", preferredStyle: .alert)
+                        ac.addAction(UIAlertAction(title: "Zurück zum Hautmenü", style: .default))
+                        self.present(ac, animated: true)
+                        self.performSegue(withIdentifier: "AnmeldungFehleschlagen", sender: nil)
+                    }
+                }
+            }
+        } else {
+            let ac = UIAlertController(title: "Touch ID nicht möglich", message: "Touch ID ist nicht aktiviert", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "OK", style: .default))
+            present(ac, animated: true)
+        }
     }
-
     
-    
-    
+    //------------------------------------------------------------------------
+    //Funktion um die Passswortabfrage durchzuführen
+    @IBAction func anmeldeButton(_ sender: Any) {
+        
+        /*
+        if(){
+            testErfolgreich()
+            
+        }
+        else{
+            AnmeldungFehgelschlagen.isHidden = false
+        }*/
+    }
     
     
     

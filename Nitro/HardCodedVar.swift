@@ -24,13 +24,15 @@ class HardCodedVar{
     var NFCEnabled = true
     
     //Abfrage für den Touch- und FaceId
-    var TouchIdEnabled = false
+    var TouchIdEnabled = true
     
     
     
     
     //____________________________________________________
     //Funktionen für die Variablen
+    var isLockedIn = false;
+
     
     
     //gibt alle Werte des Zwischenspeichers zurück
@@ -40,7 +42,8 @@ class HardCodedVar{
             [
                 "NFCCoder",
                 "NFCEnabled",
-                "TouchIdEnabled"
+                "TouchIdEnabled",
+                "isLockedIn"
             ]
         return erg;
     }

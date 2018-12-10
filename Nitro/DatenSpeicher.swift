@@ -9,7 +9,7 @@
 import Foundation
 class DatenSpeicher{
     
-    func SpeicherCoreData(name:String){
+    func SpeicherCoreData(name:String, Data:String){
         
     }
     

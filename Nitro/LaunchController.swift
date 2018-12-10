@@ -17,6 +17,8 @@ class LaunchController: UIViewController{
     
     @IBOutlet weak var VersionSchrift: UILabel!
     
+    var WurdeGeladen = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,6 +28,11 @@ class LaunchController: UIViewController{
     
     
     override func viewWillAppear(_ animated: Bool) {
+        
+        if (WurdeGeladen){
+            self.performSegue(withIdentifier: "MenübildschirmWechsel", sender: nil)
+        }
+        
         let appVersion = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String
         VersionSchrift.text = "Version " + appVersion!
         
@@ -58,6 +65,7 @@ class LaunchController: UIViewController{
 
         //warten 3 Sekunden um dann auf den nächsten Bildschrim zu wechseln.
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(3), execute: {
+            self.WurdeGeladen = true
             self.performSegue(withIdentifier: "MenübildschirmWechsel", sender: nil)
         })
         
