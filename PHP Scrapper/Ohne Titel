@@ -1,0 +1,14 @@
+<?PHP
+
+
+class curl{
+
+  $curl = new Curl();
+  $html = $curl->get("http://www.spiegel.de");
+
+  //Headline
+
+    $title = $html_Source -> find('headline', 0)-> plaintext;
+    echo 'Title';
+}
+?>

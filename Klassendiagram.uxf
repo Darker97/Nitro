@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>3</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>309</x>
+      <y>0</y>
+      <w>63</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>*HardCodedVar*
+--
+_Speicher für alle_
+_Hardgecodeten und _
+_übergreifenden Variablen_
+--
+var TouchIdEnabled: boolean
+var NFCCoder: String
+var NFCEnabled: boolean
+--
+GibSpeicher()-&gt; [String]
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>309</x>
+      <y>72</y>
+      <w>96</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>*DatenLader*
+--
+_Laden aller Daten_
+_des Programmes_
+--
+
+--
+ladeDatenAusTxt(name: String)-&gt;[String]
+ladeCoreData(name: String) -&gt; String
+ladeEinstellungen()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>435</x>
+      <y>72</y>
+      <w>93</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>*DatenSpeicher*
+--
+_Speichert alle Daten_
+_des Programmes_
+--
+
+--
+SpeicherCoreData(name:String, Data:String)
+SpeicherDatenInTxt(name: String)
+SpeicherEinstellungen()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>309</x>
+      <y>144</y>
+      <w>309</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>*AppDelegate*
+--
+importiert:
+	UIResponder
+	UIApplicationDelegate
+--
+
+--
+application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -&gt; Bool
+applicationWillResignActive(_ application: UIApplication)
+applicationDidEnterBackground(_ application: UIApplication) 
+applicationWillEnterForeground(_ application: UIApplication)
+applicationDidBecomeActive(_ application: UIApplication)
+applicationWillTerminate(_ application: UIApplication)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>555</x>
+      <y>435</y>
+      <w>63</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>*ViewController*
+--
+_Menü View_
+--
+
+--
+viewDidLoad()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>351</y>
+      <w>93</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>*Einstellungen*
+--
+_Einstellungs View_
+--
+var NFCregler: UISwitch!
+var fingerRegler: UISwitch!
+--
+viewDidLoad()
+NFCan(_ sender: Any)
+Fingerabdruckan(_ sender: Any) 
+viewWillAppear(_ animated: Bool) </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>150</x>
+      <y>375</y>
+      <w>285</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>SicherheitsViews
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>258</x>
+      <y>381</y>
+      <w>63</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>*LoginScreen*
+--
+_Login View_
+--
+
+--
+func viewDidLoad()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>186</x>
+      <y>462</y>
+      <w>204</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>*Sicherheits_Abfrage*
+--
+_View für die Abfrage von Token und ID_
+--
+var TouchIDButton: UIButton!
+var start_button: UIButton!
+var nfcSession: NFCNDEFReaderSession?
+--
+viewDidLoad()
+scanPressed(_ sender: Any)
+readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error: Error)
+readerSession(_ session: NFCNDEFReaderSession, didDetectNDEFs messages: [NFCNDEFMessage]) 
+TouchIdButton(_ sender: Any)
+testErfolgreich()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>0</x>
+      <y>318</y>
+      <w>1173</w>
+      <h>426</h>
+    </coordinates>
+    <panel_attributes>
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>474</x>
+      <y>435</y>
+      <w>63</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>*SicheresLaden*
+--
+_Lädt alle Daten erst nach_
+_der Sicherheitsabrfrage_
+--
+
+--
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>18</x>
+      <y>435</y>
+      <w>63</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>*LaunchController*
+--
+_Lädt den Loadingscreen_
+--
+var logo: UIImageView!
+var VersionSchrift: UILabel!
+var WurdeGeladen: boolean
+--
+viewDidLoad()
+viewWillAppear(_ animated: Bool)
+viewDidAppear(_ animated: Bool)
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>792</x>
+      <y>438</y>
+      <w>204</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>*InfoAuflistung*
+--
+_Zuständig für die Tabelle_
+_wo wir die Infos darstellen_
+--
+viewDidLoad()
+numberOfSections(in tableView: UITableView) -&gt; Int
+tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int
+tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

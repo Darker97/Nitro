@@ -1,0 +1,6 @@
+framework module EasySocial {
+  umbrella header "EasySocial-umbrella.h"
+
+  export *
+  module * { export * }
+}
