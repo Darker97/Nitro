@@ -1,57 +1,24 @@
 PODS:
-  - Bolts (1.9.0):
-    - Bolts/AppLinks (= 1.9.0)
-    - Bolts/Tasks (= 1.9.0)
-  - Bolts/AppLinks (1.9.0):
-    - Bolts/Tasks
-  - Bolts/Tasks (1.9.0)
-  - BulletinBoard (2.0.2)
-  - EasySocial (1.0.0):
-    - Facebook-iOS-SDK (~> 3)
-  - Facebook-iOS-SDK (3.24.4):
-    - Bolts (~> 1.2)
-  - FoldingCell (4.0.2)
-  - hpple (0.2.0)
-  - HTYTextField (1.1)
   - Proposer (1.2.1)
+  - SideMenu (5.0.3)
   - TransitionButton (0.5.2)
-  - WKZombie (1.1.1):
-    - hpple (= 0.2.0)
 
 DEPENDENCIES:
-  - BulletinBoard
-  - EasySocial
-  - FoldingCell
-  - HTYTextField
   - Proposer
+  - SideMenu
   - TransitionButton
-  - WKZombie
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Bolts
-    - BulletinBoard
-    - EasySocial
-    - Facebook-iOS-SDK
-    - FoldingCell
-    - hpple
-    - HTYTextField
     - Proposer
+    - SideMenu
     - TransitionButton
-    - WKZombie
 
 SPEC CHECKSUMS:
-  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
-  BulletinBoard: a4a3022789e5202167127c3231975313c1d76c51
-  EasySocial: 4e2ae12111f0346f817475eb013c64f24bce92c8
-  Facebook-iOS-SDK: 5a7c414a084708220b72d5fd016f2cf3eb6deda4
-  FoldingCell: 352f0211a53f957b885a1b37d5ffa875da90bca5
-  hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
-  HTYTextField: 2b867b89a6bc15bca8a809737f45736eddcf6500
   Proposer: 97409ade1f80d8b19bba20972c03c9253bdd59b1
+  SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
   TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
-  WKZombie: 345930c44980d4d3529d5b54b131df0dc04bbb0a
 
-PODFILE CHECKSUM: b83401c0fc000ab3b7112cc48143c7f354803d16
+PODFILE CHECKSUM: a640dcb76d85bbb71e79e4c30a2e0e1794900f46
 
 COCOAPODS: 1.5.2

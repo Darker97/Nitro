@@ -32,6 +32,15 @@ class Einstellungen: UIViewController {
         fingerRegler.isOn = HardCodedVar().TouchIdEnabled
     }
 
- 
+    //------------------------------------------
+    //zurück zum Menü
+    @IBAction func zurück(_ sender: Any) {
+        //self.performSegue(withIdentifier: "unwindToViewController1", sender: self)
+        //self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
+        
+    }
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {
+        self.performSegue(withIdentifier: "unwindToViewController1", sender: self)
+    }
 
 }

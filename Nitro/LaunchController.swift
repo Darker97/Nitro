@@ -21,12 +21,27 @@ class LaunchController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if (WurdeGeladen){
+            self.performSegue(withIdentifier: "MenübildschirmWechsel", sender: nil)
+        }
+        
         
         // Do any additional setup after loading the view.
     }
     
+    //---------------------------------------------------
+    //Alles was geladen werden muss + alles was geprüft werden muss
+    
+    //TODO: Wipe data nach 1 Woche???
+    //TODO: Laden der Mensadaten
+    
+    //TODO: Noten laden
     
     
+    
+    
+    //---------------------------------------------------
+    //Animation
     override func viewWillAppear(_ animated: Bool) {
         
         if (WurdeGeladen){

@@ -14,6 +14,18 @@ class HardCodedVar{
     
     
     //Alle anderen Variablen die ich übersichtlich speichern will kommen hier her
+    //----------------------------------------------------
+    //Daten die immer neu geladen werden
+    
+    //TODO: Speichern der Mensadaten???
+    //TODO: Speichern der News???
+    
+    //----------------------------------------------------
+    //Daten die nicht neu geladen werden müssen:
+    
+    //TODO: Speichern der RSS Feeds
+    //TODO: Speichern der Noten
+    
     
 
     //___________________________________________________

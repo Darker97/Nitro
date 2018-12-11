@@ -9,6 +9,9 @@
 import Foundation
 class DatenLader{
     
+    
+    //----------------------------------------------
+    //Laden aus dem Speicher
     func ladeDatenAusTxt(name: String){
         let file = name //this is the file. we will write to and read from it
         
@@ -51,6 +54,29 @@ class DatenLader{
         
     }
     
+    //------------------------------------------------
+    //Laden aus dem Netz
+    
+    //Laden der Daten der Mensa
+    func MensaData(){
+        //http://www.studentenwerk-giessen.de/Mensen_und_Cafeterien/Speisepl%E4ne/Mensa_Fulda.html
+        
+    }
+    
+    //Laden der RSS FEEDS
+    func RSSLoader(){
+        
+    }
+    
+    //Laden der Hochschulwebsitedaten
+    func DatenDerWebsite(){
+        
+    }
+    
+    
+    
+    
+    //Noten laden
     
     
 }

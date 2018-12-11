@@ -11,12 +11,13 @@ target 'Nitro' do
 
   pod 'TransitionButton'
   pod 'Proposer'
-  pod 'WKZombie'
-  pod 'FoldingCell'
-  pod 'HTYTextField'
-  pod 'EasySocial'
-  pod 'BulletinBoard'
-  
+  #pod 'WKZombie'
+  #pod 'FoldingCell'
+  #pod 'HTYTextField'
+  #pod 'EasySocial'
+  #pod 'BulletinBoard'
+  #pod "ILLoginKit"
+  pod 'SideMenu'
   
   target 'NitroTests' do
     inherit! :search_paths
