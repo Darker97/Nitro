@@ -17,6 +17,7 @@
 		AA1B53CB2196EEBB00941DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1B53C92196EEBB00941DF6 /* LaunchScreen.storyboard */; };
 		AA1B53D62196EEBB00941DF6 /* NitroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53D52196EEBB00941DF6 /* NitroTests.swift */; };
 		AA1B53E12196EEBB00941DF6 /* NitroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53E02196EEBB00941DF6 /* NitroUITests.swift */; };
+		AA4C4F0921C0FB3C000B5BCC /* Mensa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */; };
 		AA5907EE21A30B5200D8493F /* InfoAuflistung.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */; };
 		AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */; };
 		AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */; };
@@ -24,6 +25,8 @@
 		AA5907F921A3147900D8493F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5907F821A3147900D8493F /* MapKit.framework */; };
 		AA635E3D21AC2610002ED75C /* Einstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635E3C21AC2610002ED75C /* Einstellungen.swift */; };
 		AA635E3F21AC27DC002ED75C /* DatenSpeicher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */; };
+		AA8E661B21C0135900929FE8 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E661A21C0135900929FE8 /* Map.swift */; };
+		AA8E662321C036E900929FE8 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E662221C036E900929FE8 /* Places.swift */; };
 		AA8FE05F21A3310C0066338D /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE05E21A3310C0066338D /* LaunchController.swift */; };
 		AA8FE06121A33D080066338D /* UniInfos.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA8FE06021A33D080066338D /* UniInfos.txt */; };
 		AA8FE06321A33DE00066338D /* DatenLader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06221A33DE00066338D /* DatenLader.swift */; };
@@ -69,6 +72,7 @@
 		AA1B53DC2196EEBB00941DF6 /* NitroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NitroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1B53E02196EEBB00941DF6 /* NitroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NitroUITests.swift; sourceTree = "<group>"; };
 		AA1B53E22196EEBB00941DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensa.swift; sourceTree = "<group>"; };
 		AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAuflistung.swift; sourceTree = "<group>"; };
 		AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAusgabe.swift; sourceTree = "<group>"; };
 		AA5907F221A30DE200D8493F /* Noten.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noten.xcdatamodel; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		AA5907F821A3147900D8493F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AA635E3C21AC2610002ED75C /* Einstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Einstellungen.swift; sourceTree = "<group>"; };
 		AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatenSpeicher.swift; sourceTree = "<group>"; };
+		AA8E661A21C0135900929FE8 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		AA8E662221C036E900929FE8 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 		AA8FE05E21A3310C0066338D /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
 		AA8FE06021A33D080066338D /* UniInfos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UniInfos.txt; sourceTree = "<group>"; };
 		AA8FE06221A33DE00066338D /* DatenLader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatenLader.swift; sourceTree = "<group>"; };
@@ -158,25 +164,16 @@
 		AA1B53BF2196EEBB00941DF6 /* Nitro */ = {
 			isa = PBXGroup;
 			children = (
-				AA8FE06821A3649D0066338D /* HardCodedVar.swift */,
-				AA8FE06221A33DE00066338D /* DatenLader.swift */,
-				AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */,
-				AA5907F621A3141800D8493F /* Nitro.entitlements */,
-				AA1B53C02196EEBB00941DF6 /* AppDelegate.swift */,
+				AA4C4F0621C0FAE1000B5BCC /* Allgemein */,
 				AA1B53C22196EEBB00941DF6 /* ViewController.swift */,
-				AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */,
-				AA5907F421A30F1C00D8493F /* Stickers.xcstickers */,
 				AA1B53C42196EEBB00941DF6 /* Main.storyboard */,
 				AA8FE05E21A3310C0066338D /* LaunchController.swift */,
 				AA8FE06621A352EE0066338D /* LoginScreen.swift */,
 				AA635E3C21AC2610002ED75C /* Einstellungen.swift */,
 				AA8FE06421A352D50066338D /* Sicherheits_Abfrage.swift */,
-				AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */,
-				AA8FE06021A33D080066338D /* UniInfos.txt */,
-				AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */,
-				AA1B53C72196EEBB00941DF6 /* Assets.xcassets */,
-				AA1B53C92196EEBB00941DF6 /* LaunchScreen.storyboard */,
-				AA1B53CC2196EEBB00941DF6 /* Info.plist */,
+				AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */,
+				AA4C4F0721C0FB15000B5BCC /* Allgemeine Infos */,
+				AA4C4F0521C0FAA1000B5BCC /* Karte */,
 			);
 			path = Nitro;
 			sourceTree = "<group>";
@@ -197,6 +194,42 @@
 				AA1B53E22196EEBB00941DF6 /* Info.plist */,
 			);
 			path = NitroUITests;
+			sourceTree = "<group>";
+		};
+		AA4C4F0521C0FAA1000B5BCC /* Karte */ = {
+			isa = PBXGroup;
+			children = (
+				AA8E661A21C0135900929FE8 /* Map.swift */,
+				AA8E662221C036E900929FE8 /* Places.swift */,
+			);
+			name = Karte;
+			sourceTree = "<group>";
+		};
+		AA4C4F0621C0FAE1000B5BCC /* Allgemein */ = {
+			isa = PBXGroup;
+			children = (
+				AA8FE06821A3649D0066338D /* HardCodedVar.swift */,
+				AA8FE06221A33DE00066338D /* DatenLader.swift */,
+				AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */,
+				AA5907F621A3141800D8493F /* Nitro.entitlements */,
+				AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */,
+				AA5907F421A30F1C00D8493F /* Stickers.xcstickers */,
+				AA1B53C72196EEBB00941DF6 /* Assets.xcassets */,
+				AA1B53C92196EEBB00941DF6 /* LaunchScreen.storyboard */,
+				AA1B53C02196EEBB00941DF6 /* AppDelegate.swift */,
+				AA1B53CC2196EEBB00941DF6 /* Info.plist */,
+			);
+			name = Allgemein;
+			sourceTree = "<group>";
+		};
+		AA4C4F0721C0FB15000B5BCC /* Allgemeine Infos */ = {
+			isa = PBXGroup;
+			children = (
+				AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */,
+				AA8FE06021A33D080066338D /* UniInfos.txt */,
+				AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */,
+			);
+			name = "Allgemeine Infos";
 			sourceTree = "<group>";
 		};
 		AA5907F721A3147900D8493F /* Frameworks */ = {
@@ -393,12 +426,16 @@
 				"${BUILT_PRODUCTS_DIR}/Proposer/Proposer.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework",
+				"${BUILT_PRODUCTS_DIR}/WKZombie/WKZombie.framework",
+				"${BUILT_PRODUCTS_DIR}/hpple/hpple.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Proposer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WKZombie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hpple.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -452,7 +489,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "TAGS=\"TODO:|FIXME:\"\nERRORTAG=\"ERROR:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$|($ERRORTAG).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\" | perl -p -e \"s/($ERRORTAG)/ error: \\$1/\"\n";
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -461,8 +499,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4C4F0921C0FB3C000B5BCC /* Mensa.swift in Sources */,
 				AA8FE06521A352D50066338D /* Sicherheits_Abfrage.swift in Sources */,
 				AA635E3F21AC27DC002ED75C /* DatenSpeicher.swift in Sources */,
+				AA8E661B21C0135900929FE8 /* Map.swift in Sources */,
+				AA8E662321C036E900929FE8 /* Places.swift in Sources */,
 				AA635E3D21AC2610002ED75C /* Einstellungen.swift in Sources */,
 				AA8FE06321A33DE00066338D /* DatenLader.swift in Sources */,
 				AA8FE06921A3649D0066338D /* HardCodedVar.swift in Sources */,

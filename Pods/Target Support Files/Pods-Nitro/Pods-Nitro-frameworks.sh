@@ -146,11 +146,15 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Proposer/Proposer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WKZombie/WKZombie.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/hpple/hpple.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Proposer/Proposer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/WKZombie/WKZombie.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/hpple/hpple.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

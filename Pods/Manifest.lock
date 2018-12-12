@@ -1,24 +1,32 @@
 PODS:
+  - hpple (0.2.0)
   - Proposer (1.2.1)
   - SideMenu (5.0.3)
   - TransitionButton (0.5.2)
+  - WKZombie (1.1.1):
+    - hpple (= 0.2.0)
 
 DEPENDENCIES:
   - Proposer
   - SideMenu
   - TransitionButton
+  - WKZombie
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - hpple
     - Proposer
     - SideMenu
     - TransitionButton
+    - WKZombie
 
 SPEC CHECKSUMS:
+  hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
   Proposer: 97409ade1f80d8b19bba20972c03c9253bdd59b1
   SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
   TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
+  WKZombie: 345930c44980d4d3529d5b54b131df0dc04bbb0a
 
-PODFILE CHECKSUM: a640dcb76d85bbb71e79e4c30a2e0e1794900f46
+PODFILE CHECKSUM: 6b8a00b0837792ac59058a8a7ab375919567b606
 
 COCOAPODS: 1.5.2

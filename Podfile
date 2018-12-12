@@ -11,7 +11,7 @@ target 'Nitro' do
 
   pod 'TransitionButton'
   pod 'Proposer'
-  #pod 'WKZombie'
+  pod 'WKZombie'
   #pod 'FoldingCell'
   #pod 'HTYTextField'
   #pod 'EasySocial'

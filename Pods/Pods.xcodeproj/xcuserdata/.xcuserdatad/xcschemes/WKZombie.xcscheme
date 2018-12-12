@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC52670879A49E1BC95D2848777FBF9A"
+               BlueprintIdentifier = "20EE5B1F5FF364E2A065653EEF891BF2"
                BlueprintName = "WKZombie"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "WKZombie.framework">

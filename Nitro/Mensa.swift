@@ -1,15 +1,18 @@
 //
-//  InfoAuflistung.swift
+//  Mensa.swift
 //  Nitro
 //
-//  Created by Christian Baltzer on 19.11.18.
+//  Created by Christian Baltzer on 12.12.18.
 //  Copyright © 2018 Christian Baltzer. All rights reserved.
 //
 
 import UIKit
 
-class InfoAuflistung: UITableViewController {
-
+class Mensa: UITableViewController {
+    
+    @IBAction func zurück(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -35,20 +38,19 @@ class InfoAuflistung: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
         // Configure the cell...
 
         return cell
     }
-    
+ 
 
-    
+    /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         // Return false if you do not want the specified item to be editable.
-        return false
+        return true
     }
-    
+    */
 
     /*
     // Override to support editing the table view.
@@ -86,11 +88,5 @@ class InfoAuflistung: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    
-    //------------------------------------------------------------------------
-    //zurück Button
-    @IBAction func zutück(_ sender: Any) {
-            self.dismiss(animated: true, completion: nil)
-    }
-    
+
 }

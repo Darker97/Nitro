@@ -9,10 +9,20 @@
 import UIKit
 
 class Einstellungen: UIViewController {
-
+    @IBAction func zurück(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     @IBOutlet weak var NFCregler: UISwitch!
     
     @IBOutlet weak var fingerRegler: UISwitch!
+    
+    @IBOutlet weak var Regler: UISegmentedControl!
+    
+    @IBAction func ReglerChange(_ sender: Any) {
+        HardCodedVar().Zustand = Regler.selectedSegmentIndex
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,15 +40,12 @@ class Einstellungen: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         NFCregler.isOn = HardCodedVar().NFCEnabled
         fingerRegler.isOn = HardCodedVar().TouchIdEnabled
+        Regler.selectedSegmentIndex = HardCodedVar().Zustand
     }
 
     //------------------------------------------
     //zurück zum Menü
-    @IBAction func zurück(_ sender: Any) {
-        //self.performSegue(withIdentifier: "unwindToViewController1", sender: self)
-        //self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
-        
-    }
+
     @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {
         self.performSegue(withIdentifier: "unwindToViewController1", sender: self)
     }

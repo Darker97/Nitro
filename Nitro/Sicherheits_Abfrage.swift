@@ -122,7 +122,13 @@ class Sicherheits_Abfrage: UIViewController, NFCNDEFReaderSessionDelegate {
         self.performSegue(withIdentifier: "NFC-AbfrageKorrekt", sender: nil)
     }
     
-
+    
+    //------------------------------------------------------------------------
+    //zurück Button
+    @IBAction func zurück(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     
     
     /*

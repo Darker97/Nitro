@@ -7,159 +7,250 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AA5B6334DE280EE0108A12083BE3559 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		10FD2425D462E4095EEF04814F3F16F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		0AA5B6334DE280EE0108A12083BE3559 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86079DB68378C72B0D1EF9768B8C604D /* Foundation.framework */; };
+		13E62E2D838E1805097A61BB85AFFE30 /* HTMLForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D321DFF5CFD188A39B972DFEC1F71255 /* HTMLForm.swift */; };
+		18D88EEC2A72436494C43C65CE263DA1 /* Proposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66290F824C1E5E46AE164A258CEF36D /* Proposer.swift */; };
+		19A9A3A2ABF4217B8F1BD2125C3EB85F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86079DB68378C72B0D1EF9768B8C604D /* Foundation.framework */; };
+		1ECED4B252E252679D905439C88AD18A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017BAABDC48E8A3063E23A7C119D62C1 /* UIKit.framework */; };
 		220E3481B6B05CD505D092F7D9BAFB71 /* Pods-NitroTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F01ECBBF9309BEE650EBAEAC9325D9 /* Pods-NitroTests-dummy.m */; };
-		23754F5093F377C943581C8EBBA8C30C /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CDCBD3B2394DE6394994FBED83699 /* CGRectExtension.swift */; };
-		2577FF104D92EBBE0E72796800BA1027 /* TransitionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD0F60A33BA0504F598755DC040B8A1 /* TransitionButton.swift */; };
-		4A67D3D29EA2C1A1931173BA8434F4EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		518D9BA3B9E2D4454799ACFEB21B153B /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CF766B485ECF7288977ACC8C935F18 /* FadeTransition.swift */; };
-		5613908372B99EEBE6BF0B8BDE91E899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		65E2C11D575DD864511A58845A94D937 /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031FC25F938FB234727A33F2094913D0 /* UITableViewVibrantCell.swift */; };
-		68F910FBB74A79EA520CDBC3E3B7DC27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		6C1B06DCE356C4D7C249FB6C2769F4F9 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFF6E807BACABF9973B2C3DC5128203 /* SideMenu-dummy.m */; };
+		22BAA8E509D6935D4C0BD300FDA76FA6 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34812EE2241501ED3FC8A3CA6E4B7CA5 /* Error.swift */; };
+		273EF73DD3E229B0AC512F5E555119B7 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC001941E429DF3105A535D1579151E /* Page.swift */; };
+		2C5FD16F031AFABCAC3D589E2FEBE8C0 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B8DD8948A8C5CAE5A62E8B238604C6 /* SideMenuManager.swift */; };
+		2D2D2077180EFBA0ED3F09831FB1CA3E /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = D38BEC316649034F24D9E31B254B00D4 /* TFHppleElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E35D4F4961BAE58A4BDFA6BA003F98B /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E689AE1C9D28EE3BE8D9827E06DF5A53 /* SpinerLayer.swift */; };
+		30B646141C90138E25876C68FBA73E19 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6060B578EEAF860C6FA6664D11899A97 /* Snapshot.swift */; };
+		30FCD2CAAAF4DD6CDC807A8FFCDA3A86 /* RenderOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76EFF400D07CE1B813CB0249CDC76AC /* RenderOperation.swift */; };
+		311E0B87A923C020977FEC4BE19C16FC /* HTMLPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92C74B64965EE9C3A78E955007FD2E8 /* HTMLPage.swift */; };
+		3A341E75F169C88D2946D3F59314645D /* TransitionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7A3FC79C35A9A6BED202ED52C41225 /* TransitionButton-dummy.m */; };
+		3BBA3A4044452263383B111696648D75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86079DB68378C72B0D1EF9768B8C604D /* Foundation.framework */; };
+		4086AC8D4AEDE6EA1E5164CF96015885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86079DB68378C72B0D1EF9768B8C604D /* Foundation.framework */; };
+		4562DD695C7074BD4ACF44314D232816 /* HTMLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C373D9D52CF42F85C3D32838D2A4E3 /* HTMLButton.swift */; };
+		45F3DD4275CE11A712A13F07739C235A /* WKZombie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8150EBA71E8DC2518B87EFBFB4F5FF /* WKZombie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A67D3D29EA2C1A1931173BA8434F4EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86079DB68378C72B0D1EF9768B8C604D /* Foundation.framework */; };
+		4E1A8F6E1CC0BBBF0720FA176FF10A9B /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7D0886BC58321794FC91F492C09A9 /* UITableViewVibrantCell.swift */; };
+		4EAFD509B930697E9FF6C88F44BD2B91 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = A51EE610126E92C7DB4F5160DCF64104 /* XPathQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		588F1E8ED50CF204B25850623CE146EC /* Proposer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FE9A8157292EBA36031E5231CD6F6 /* Proposer-dummy.m */; };
+		5F4D7C7D5DCB914A421C1157AA40811C /* WKZombie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61F19295EAD95934346EECF22C29652 /* WKZombie.swift */; };
+		623EA9E9EE7A25315E7C010B59C93047 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6BD6AAA8A62EB447CB8CD77BA35D2A /* Functions.swift */; };
+		62AEBE6A489E27198D24926AA58D65E2 /* HTMLElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF1A76ACA85A7DE62B7F47C9338A73E /* HTMLElement.swift */; };
+		664265DB830A6EC91317C2226FBE96B4 /* WKZombie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 728F0A1213E20738F0931C83F36383BC /* WKZombie-dummy.m */; };
+		66DD0501E629326C34C6F803E96DA880 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1776E7A152AF8D6C59E3E9E1682D775B /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6726F7EF71A2DF3AF611B33F0E5ACE32 /* HTMLFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6689C7E4935DF70830B39396DA1E126 /* HTMLFetchable.swift */; };
+		6B6C52C900DCB01EAA59030D5119EACE /* HTMLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601F596B9AC5D9E17698AC3A760F8E9 /* HTMLImage.swift */; };
+		70B0EB0E34DE1E0B780FF86774E3DBD9 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1A6B2431C4755A05E7C6FD3F0878D /* SideMenu-dummy.m */; };
+		76E491E62BC23BE314E02DCA83953FD0 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09173A14EB885A57D3D53A689568FA8 /* FadeTransition.swift */; };
+		7A9D81A94E363A673D2F2D7272F17594 /* hpple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D02F888A17659EBF769DA09DE6F8815 /* hpple-dummy.m */; };
+		7B0C18F0EBD937BDB5AA342DBA442D9A /* TransitionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2A97F878F45FEAE3960FF31D90C96D /* TransitionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BDE7B40F6D53535E96B8A2E6A8AF653 /* HTMLLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F10A41CF4B62920D469CC5A2129C7 /* HTMLLink.swift */; };
+		80E225AC6ACF6A19CD69456C37FA5131 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A75A8D12C7F00AB5F5E70E04CCFDC5 /* Parser.swift */; };
+		8747E44A5A202A8450F1A2D9950D493C /* hpple-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E232AF84B1092E99CC03E3335E3953 /* hpple-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AF585275D000FE98F9C3EB9C915483 /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740469E71A7E43BB39DD723A31E0FB48 /* UISideMenuNavigationController.swift */; };
 		8B14E96E74FDB888DD68CD47919652B7 /* Pods-NitroTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 631378155978002658199A20E83C16C4 /* Pods-NitroTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D0E21137BEAB5C7CAC37AAECDEBE4AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		8CDB03EBD614D3DFBC7529B9AD68188C /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C22A368FF35D9D13DA5D268675A7E7 /* TFHppleElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		909DB1305F128114BC4FE4C1E946A7D8 /* Pods-Nitro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 257C41F9F15BE07AE8582984B44BABE1 /* Pods-Nitro-dummy.m */; };
 		9886A12FDAE6EB4F877CF48DF153BB1D /* Pods-NitroUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34944FB811AFA22E8A52AA8ED6A0E9DA /* Pods-NitroUITests-dummy.m */; };
-		9A88D3A99049D0F30B67B4DB2F2EED8A /* Proposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2034807D441A1D0B40FFBB0A96BA2 /* Proposer.swift */; };
+		9B19BA12DD1ADA1325442B3DC1BE1D12 /* Proposer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6072A97952B498E5A5E7C1C2DA3A6963 /* Proposer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FC9BC59E72E7C3022934AFF2110625B /* Pods-NitroUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6069A212592D47D0A3D0A33D41257BF /* Pods-NitroUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1CB62B87AFEEEE2B53BB97C193666E9 /* Proposer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A02D945E2A19B1752E936BF01806416B /* Proposer-dummy.m */; };
-		AC5CD35FAA0CF95EBFFBD0928B12972C /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2F35990C2B5002274B37DC960C8D12 /* SideMenuTransition.swift */; };
-		B19412C5E8A7286A89CF213020DB7D6B /* TransitionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F2E6C5FC99BC67CD68EE57454F6CA6 /* TransitionButton-dummy.m */; };
-		B9E047F689B7DDE527B842DC3D04A231 /* Proposer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 517126CCB86428FB45BFE446DA002800 /* Proposer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB31C863FA47686CFA355FFC1C99EFF0 /* CustomTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A12C54476B72696A7A26CD9DD2D84 /* CustomTransitionViewController.swift */; };
-		BD7F837BFA2115410C6621AD994D2669 /* Pods-Nitro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D37A9B64114084101F7806DF778AD352 /* Pods-Nitro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE2B04AB7CE0CC32F47EDAA8EDF5CDA5 /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62705866BAC1E9F76156AD173280BEB8 /* UISideMenuNavigationController.swift */; };
-		D33E81A39850D1855FCD4CDA27ED4D87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		D4F5EBBF493C18683CB104BC564A041C /* Pods-Nitro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 257C41F9F15BE07AE8582984B44BABE1 /* Pods-Nitro-dummy.m */; };
-		DA97ADD3AA20B99F6443B97881AB5AEF /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF682ACA94BF66221CFCDE2F9E20374 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA9D6B06104C1B0A9A4492AE4CA09F75 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690441D66BACA6BD4F026AD340AB909B /* SpinerLayer.swift */; };
-		E5F87EA21AB57D4BD9EC8D40479E9C18 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60C2129A0DCF06C96A7A6979DA1BB74 /* SideMenuManager.swift */; };
-		F950106E9FB5617533F2534CD110A238 /* TransitionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E119BE718D951A662ADEB5487F2275D6 /* TransitionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD2C11DF949E226E762B9BBEC01536E0 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2C357A4553883F4E13B1D7F83E8BE1 /* CGRectExtension.swift */; };
+		B29C76A61A08F4A7E4A3A886BD194ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86079DB68378C72B0D1EF9768B8C604D /* Foundation.framework */; };
+		B38637EE1A557982F952F878C522BCFC /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C6AE5E76CFDD3723A3AC195377D56E /* Renderer.swift */; };
+		BADBC28C1562D46B6057843F187B735D /* Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A648197B7481CA02E0D88CF9706F0D /* Definitions.swift */; };
+		BD92A6A6DAB7DD5F3612AE493C26FBAE /* Pods-Nitro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D37A9B64114084101F7806DF778AD352 /* Pods-Nitro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFB0C44AD7126511BAE182126CAC7537 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740A18C14FA5C3792E1471DBF0B75150 /* SideMenuTransition.swift */; };
+		C074BF9B88EBE61E0AD88378CAD67701 /* hpple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2024EE9E08F7C1C4590240B1495F85 /* hpple.framework */; };
+		C4FEE47F93FF120348E166F9A897A352 /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D684CA6CBC4E8B39DDED46756261BB /* TFHpple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8D5C831C7513CB1C0C3C7765233DF2A /* JSONPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF594088AE21DBB1624F68347324910 /* JSONPage.swift */; };
+		D2352A942E88BFCCD6DC163F91ED658B /* HTMLRedirectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF61C9AB895A3E84D97B3B486E8AA77 /* HTMLRedirectable.swift */; };
+		D8867A819704FA650FFE76B4BA1B4531 /* HTMLFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E7E7D8475A650115428BE9BD72E5DF /* HTMLFrame.swift */; };
+		DC24D8382A5661E2FF4C0B7842F9AAD4 /* ContentFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB59D8F8F37AF0B8C022C9F64A9AC84E /* ContentFetcher.swift */; };
+		DF479582352847EDE1375283CCABCA3E /* CustomTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE7CA36D249C1E883B1E27D31724FC0 /* CustomTransitionViewController.swift */; };
+		E22B54CDA97F68EC92B5888C58EFFBBE /* HTMLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43403D8878FBE11C87651316A5F7CA08 /* HTMLTable.swift */; };
+		E2E5F42A79A70D81F4B9DB211EFE24FB /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E468A4C97CC73765B6CE01DB722798C /* XPathQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E90A1AE00AC42B6142E1C8DA8245D1E9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79070DB660F480F9DD09507D15A7D56E /* Logger.swift */; };
+		EA96E0556F48D95BFE1FD4030260C4B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86079DB68378C72B0D1EF9768B8C604D /* Foundation.framework */; };
+		F1E5AB656BD0BFD2D6452AD031DEF936 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F12AD0B19D66B0804D8CECEC5ABD96 /* TFHpple.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F3338CEA1DCCDBE3695EBC7B899A2ADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86079DB68378C72B0D1EF9768B8C604D /* Foundation.framework */; };
+		FA8E951807E8B0B03E2FE4C0364C56AE /* TransitionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0884DD59FD944A5FA79FD22FDDA7925C /* TransitionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C77A475ADF9B6F6F9CFCBB3A8F32F72 /* PBXContainerItemProxy */ = {
+		089F431D755303E028BB4879CA8F9710 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E6DA6E0EDBB06B5E4AA64BD32E5FD08A;
+			remoteGlobalIDString = 32C7962D74ED6D556082048393D69224;
+			remoteInfo = TransitionButton;
+		};
+		2E2FDC20D316E586C0BD6448B54DBEC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C7AFCE3258BC1D59D5A375DDB10FABC;
+			remoteInfo = hpple;
+		};
+		6F0923A78F1A92C109016F39AC3E9A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A8CD8209CB5D15A929697A67B75D42A;
 			remoteInfo = SideMenu;
 		};
-		832D27BCE580B98D54CD906AEC998F1B /* PBXContainerItemProxy */ = {
+		741323EC78E7C2B348469C50581984CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8CED710AA49DDF5F4ACA39CAF15093AA;
-			remoteInfo = Proposer;
-		};
-		8FED6897F8C6FBDB9F300CF75E704474 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 902AD7832CE54EDC1818FD279F2BED9A;
-			remoteInfo = TransitionButton;
+			remoteGlobalIDString = 3C7AFCE3258BC1D59D5A375DDB10FABC;
+			remoteInfo = hpple;
 		};
 		9A78AB8398C984CFE7621987D0823EB5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 01CA32466F20A0654471255470C1B3C2;
+			remoteGlobalIDString = A130EA0D24C8676518F173D584ABF372;
 			remoteInfo = "Pods-Nitro";
 		};
 		9B0A1376FD03EFCC0637061725DB9FEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 01CA32466F20A0654471255470C1B3C2;
+			remoteGlobalIDString = A130EA0D24C8676518F173D584ABF372;
 			remoteInfo = "Pods-Nitro";
+		};
+		C6CD2EE15CE1DF2444F4E4160FB106C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20EE5B1F5FF364E2A065653EEF891BF2;
+			remoteInfo = WKZombie;
+		};
+		F46F1BC85DB933B33475D0062C5C0567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5602EF1A3F390CBA2874F12ACC7E04D;
+			remoteInfo = Proposer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00F2E6C5FC99BC67CD68EE57454F6CA6 /* TransitionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TransitionButton-dummy.m"; sourceTree = "<group>"; };
-		031FC25F938FB234727A33F2094913D0 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
-		045D10F6CD7644DBB57491BD69506257 /* TransitionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-prefix.pch"; sourceTree = "<group>"; };
-		04C6A95987603284850AFF8657FADBEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10CF766B485ECF7288977ACC8C935F18 /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = Source/FadeTransition.swift; sourceTree = "<group>"; };
+		017BAABDC48E8A3063E23A7C119D62C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		049FE9A8157292EBA36031E5231CD6F6 /* Proposer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Proposer-dummy.m"; sourceTree = "<group>"; };
+		04B7D0886BC58321794FC91F492C09A9 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		06B8DD8948A8C5CAE5A62E8B238604C6 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		0884DD59FD944A5FA79FD22FDDA7925C /* TransitionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionButton.swift; path = Source/TransitionButton.swift; sourceTree = "<group>"; };
+		0E2A97F878F45FEAE3960FF31D90C96D /* TransitionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-umbrella.h"; sourceTree = "<group>"; };
+		0E468A4C97CC73765B6CE01DB722798C /* XPathQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		0EF594088AE21DBB1624F68347324910 /* JSONPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONPage.swift; path = Sources/WKZombie/JSONPage.swift; sourceTree = "<group>"; };
+		0F38552003CA663E87A3FD029DA25303 /* hpple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = hpple.xcconfig; sourceTree = "<group>"; };
+		11B8EF0825791488D8131E37CF7F46D1 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
 		1302E04BA1D4ED344017FE5EA082194B /* Pods-NitroTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NitroTests-frameworks.sh"; sourceTree = "<group>"; };
-		19CBC2AC18384D3BB14F61BD7F001189 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		1776E7A152AF8D6C59E3E9E1682D775B /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		1A23241F53A29B3AA2A9EB3B3C9D0D70 /* Pods_Nitro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nitro.framework; path = "Pods-Nitro.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF8CFD785ACBDDF0F5BC61133DADCB3 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		2119161DDF4ECE2A9C1BD5E89B98D44D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2241EB1166B203D5D05742C39BB316F3 /* hpple-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hpple-prefix.pch"; sourceTree = "<group>"; };
 		257C41F9F15BE07AE8582984B44BABE1 /* Pods-Nitro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nitro-dummy.m"; sourceTree = "<group>"; };
+		26A648197B7481CA02E0D88CF9706F0D /* Definitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Definitions.swift; path = Sources/WKZombie/Definitions.swift; sourceTree = "<group>"; };
 		2A9B1B594B53710DFB851704B8E596C3 /* Pods-NitroTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NitroTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2B0FBA886B97749A3FDD46107F647B29 /* Pods-Nitro-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nitro-frameworks.sh"; sourceTree = "<group>"; };
-		2C2C0C302937C9FD9642317577D92B1E /* Proposer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Proposer-prefix.pch"; sourceTree = "<group>"; };
 		2C96FB809B411B14307A8CE3B6B5BDAC /* Pods-Nitro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nitro.debug.xcconfig"; sourceTree = "<group>"; };
+		3306204C30D5C00E5AEE7FE523DA16F5 /* WKZombie.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKZombie.xcconfig; sourceTree = "<group>"; };
+		34812EE2241501ED3FC8A3CA6E4B7CA5 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/WKZombie/Error.swift; sourceTree = "<group>"; };
 		34944FB811AFA22E8A52AA8ED6A0E9DA /* Pods-NitroUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NitroUITests-dummy.m"; sourceTree = "<group>"; };
+		3611C91219974A722273EF2CCC0E5DB6 /* WKZombie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKZombie.modulemap; sourceTree = "<group>"; };
+		3A25417CE7F075D94ABCBD02C6EE580A /* TransitionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransitionButton.xcconfig; sourceTree = "<group>"; };
 		3A4CD9273EFAF6837636CF67006B414C /* Pods-Nitro-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nitro-resources.sh"; sourceTree = "<group>"; };
-		3B045F931C924BE299AA20341BC19107 /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
-		3CF2034807D441A1D0B40FFBB0A96BA2 /* Proposer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Proposer.swift; path = Proposer/Proposer.swift; sourceTree = "<group>"; };
+		3A933C07DF76BC83F15F5FC403CDE7D1 /* WKZombie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WKZombie.framework; path = WKZombie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DACBD84EE85DFDBFEA6E987C9ADE640 /* Pods-Nitro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Nitro.modulemap"; sourceTree = "<group>"; };
+		3E32582B869E1D074E13F7D7FD35F571 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1741F2775323099F02D3D38F3952D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		414C6CE9E62C3AB30765F9F151D9312A /* Pods-Nitro-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nitro-acknowledgements.plist"; sourceTree = "<group>"; };
+		43403D8878FBE11C87651316A5F7CA08 /* HTMLTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLTable.swift; path = Sources/WKZombie/HTMLTable.swift; sourceTree = "<group>"; };
+		45C765FE3BEE9A3326353A5FD7B6169B /* TransitionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TransitionButton.modulemap; sourceTree = "<group>"; };
+		46218AE1C714FAFA4D1E7D4279A6A88A /* Pods_NitroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NitroUITests.framework; path = "Pods-NitroUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B589C5F20B286CE88C303ACBD81D70F /* Pods-NitroUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NitroUITests-frameworks.sh"; sourceTree = "<group>"; };
-		517126CCB86428FB45BFE446DA002800 /* Proposer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Proposer-umbrella.h"; sourceTree = "<group>"; };
-		53B45E546111F6AE849D516B3B86A720 /* TransitionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransitionButton.xcconfig; sourceTree = "<group>"; };
+		4C112B7A4C89F96149E1E835A9136CDB /* Proposer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Proposer.xcconfig; sourceTree = "<group>"; };
+		4D0191798234D109E3EEF06CD95AA99C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5445647A15DAC9F6E83E2AC9A4CFDE0B /* hpple.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = hpple.modulemap; sourceTree = "<group>"; };
 		55858913E903AC8579B68583DF8E6DF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56FB3D5CBC7E96640DEDEFC49E28D10B /* hpple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = hpple.framework; path = hpple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E6CF25719AC14ECF70989A161B695A /* Pods-NitroUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NitroUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A55FB83BC40F422C28F55F684EA559C /* Pods-NitroTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NitroTests-resources.sh"; sourceTree = "<group>"; };
-		5A64CB0D7CE270735670A42974FD3EDF /* Proposer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Proposer.xcconfig; sourceTree = "<group>"; };
-		62705866BAC1E9F76156AD173280BEB8 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		5D2024EE9E08F7C1C4590240B1495F85 /* hpple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = hpple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4F10A41CF4B62920D469CC5A2129C7 /* HTMLLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLLink.swift; path = Sources/WKZombie/HTMLLink.swift; sourceTree = "<group>"; };
+		6060B578EEAF860C6FA6664D11899A97 /* Snapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Snapshot.swift; path = Sources/WKZombie/Snapshot.swift; sourceTree = "<group>"; };
+		6072A97952B498E5A5E7C1C2DA3A6963 /* Proposer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Proposer-umbrella.h"; sourceTree = "<group>"; };
 		631378155978002658199A20E83C16C4 /* Pods-NitroTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NitroTests-umbrella.h"; sourceTree = "<group>"; };
 		64C3C204A14BFEAB421647AD7A209757 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		690441D66BACA6BD4F026AD340AB909B /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = Source/SpinerLayer.swift; sourceTree = "<group>"; };
 		6C2685CF87228B1BD8DD925561C5B085 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DD1A6B2431C4755A05E7C6FD3F0878D /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		6E5F5DF3B35FE0626CFC3EEBE0762627 /* TransitionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-prefix.pch"; sourceTree = "<group>"; };
+		728F0A1213E20738F0931C83F36383BC /* WKZombie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKZombie-dummy.m"; sourceTree = "<group>"; };
+		740469E71A7E43BB39DD723A31E0FB48 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		740A18C14FA5C3792E1471DBF0B75150 /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
+		77C373D9D52CF42F85C3D32838D2A4E3 /* HTMLButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLButton.swift; path = Sources/WKZombie/HTMLButton.swift; sourceTree = "<group>"; };
 		780460079A2475B3666D6C56AA3B613F /* Pods-NitroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NitroTests.release.xcconfig"; sourceTree = "<group>"; };
-		7E3661BC2AFB49470547D8268EBB8ABA /* TransitionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TransitionButton.modulemap; sourceTree = "<group>"; };
-		8603188896BA3E377F341CFA2B0CA422 /* Pods_Nitro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nitro.framework; path = "Pods-Nitro.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88EDD66CFC0D024EDF8754990F45FE52 /* TransitionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TransitionButton.framework; path = TransitionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		785186FFB6516D0DB627FD16BF6BC741 /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
+		79070DB660F480F9DD09507D15A7D56E /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Sources/WKZombie/Logger.swift; sourceTree = "<group>"; };
+		79E454CD050C230E64C43BA73ACAFB9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E7E7D8475A650115428BE9BD72E5DF /* HTMLFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLFrame.swift; path = Sources/WKZombie/HTMLFrame.swift; sourceTree = "<group>"; };
+		82AD2C8FBD263C385C006608BEE7A00F /* Proposer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Proposer.framework; path = Proposer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86079DB68378C72B0D1EF9768B8C604D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		89F12AD0B19D66B0804D8CECEC5ABD96 /* TFHpple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		8A9DD68B3A7984693699D1EE6E72A1B8 /* TransitionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TransitionButton.framework; path = TransitionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93CD96C4687471F10436C53AA3A51081 /* Pods_NitroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NitroTests.framework; path = "Pods-NitroTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		959F385B7236532AD200B7E292C6E1EF /* Pods-NitroUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NitroUITests.modulemap"; sourceTree = "<group>"; };
+		96E232AF84B1092E99CC03E3335E3953 /* hpple-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hpple-umbrella.h"; sourceTree = "<group>"; };
+		97A75A8D12C7F00AB5F5E70E04CCFDC5 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/WKZombie/Parser.swift; sourceTree = "<group>"; };
 		9B53AE1DB5FE5751CE81A790CEEDD4E8 /* Pods-NitroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NitroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D02F888A17659EBF769DA09DE6F8815 /* hpple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "hpple-dummy.m"; sourceTree = "<group>"; };
 		9F44A659F09B88FFCF7190460C1A6E20 /* Pods-NitroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NitroTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A02D945E2A19B1752E936BF01806416B /* Proposer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Proposer-dummy.m"; sourceTree = "<group>"; };
+		A09173A14EB885A57D3D53A689568FA8 /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = Source/FadeTransition.swift; sourceTree = "<group>"; };
+		A1FB2BBACE67BE2648103B1C9B90F432 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32235F30AFB060F6C0B47BBA9C5B90D /* Pods-NitroUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NitroUITests-resources.sh"; sourceTree = "<group>"; };
+		A51EE610126E92C7DB4F5160DCF64104 /* XPathQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		A6069A212592D47D0A3D0A33D41257BF /* Pods-NitroUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NitroUITests-umbrella.h"; sourceTree = "<group>"; };
-		AAECF8073E6BDAABD7D67651146544F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD919A0C2BB50FDFC8186BC4F9D97C3B /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
-		B2DEA42D0A9A8F402C2652E6CA9FCF79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B58A12C54476B72696A7A26CD9DD2D84 /* CustomTransitionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTransitionViewController.swift; path = Source/CustomTransitionViewController.swift; sourceTree = "<group>"; };
-		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BEDC2CA987B98B182585497F5E6D5480 /* Pods_NitroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NitroTests.framework; path = "Pods-NitroTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC001941E429DF3105A535D1579151E /* Page.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Page.swift; path = Sources/WKZombie/Page.swift; sourceTree = "<group>"; };
+		AE6BD6AAA8A62EB447CB8CD77BA35D2A /* Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functions.swift; path = Sources/WKZombie/Functions.swift; sourceTree = "<group>"; };
+		AF38C86CAFF9A0E0647F6EAEB1862BD0 /* WKZombie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKZombie-prefix.pch"; sourceTree = "<group>"; };
+		B92C74B64965EE9C3A78E955007FD2E8 /* HTMLPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLPage.swift; path = Sources/WKZombie/HTMLPage.swift; sourceTree = "<group>"; };
+		BBE7CA36D249C1E883B1E27D31724FC0 /* CustomTransitionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTransitionViewController.swift; path = Source/CustomTransitionViewController.swift; sourceTree = "<group>"; };
 		C1E546643DDBE92E84ECAAF0211EC8EF /* Pods-Nitro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nitro.release.xcconfig"; sourceTree = "<group>"; };
-		C41CDCBD3B2394DE6394994FBED83699 /* CGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtension.swift; path = Source/CGRectExtension.swift; sourceTree = "<group>"; };
 		C5884C8E91BF4370E102D2A3B519F1B5 /* Pods-NitroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NitroUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C58A91C4579FB14B3EDFBD1FF2A125A7 /* Pods-Nitro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nitro-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C61F19295EAD95934346EECF22C29652 /* WKZombie.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKZombie.swift; path = Sources/WKZombie/WKZombie.swift; sourceTree = "<group>"; };
+		C6689C7E4935DF70830B39396DA1E126 /* HTMLFetchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLFetchable.swift; path = Sources/WKZombie/HTMLFetchable.swift; sourceTree = "<group>"; };
 		C76D17348102119680EBD519101910E1 /* Pods-NitroUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NitroUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CAD0F60A33BA0504F598755DC040B8A1 /* TransitionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionButton.swift; path = Source/TransitionButton.swift; sourceTree = "<group>"; };
+		C8D684CA6CBC4E8B39DDED46756261BB /* TFHpple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		D321DFF5CFD188A39B972DFEC1F71255 /* HTMLForm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLForm.swift; path = Sources/WKZombie/HTMLForm.swift; sourceTree = "<group>"; };
 		D37A9B64114084101F7806DF778AD352 /* Pods-Nitro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nitro-umbrella.h"; sourceTree = "<group>"; };
-		D4C466C122B50AA8BFEC9E7D43ED9AAA /* Proposer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Proposer.framework; path = Proposer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8789E0672BB19011F9A89E382823457 /* Proposer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Proposer.modulemap; sourceTree = "<group>"; };
+		D38BEC316649034F24D9E31B254B00D4 /* TFHppleElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		D9C6AE5E76CFDD3723A3AC195377D56E /* Renderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Renderer.swift; path = Sources/WKZombie/Renderer.swift; sourceTree = "<group>"; };
+		DC8150EBA71E8DC2518B87EFBFB4F5FF /* WKZombie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKZombie-umbrella.h"; sourceTree = "<group>"; };
+		DDF61C9AB895A3E84D97B3B486E8AA77 /* HTMLRedirectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLRedirectable.swift; path = Sources/WKZombie/HTMLRedirectable.swift; sourceTree = "<group>"; };
+		E06A042F2D21D74CFA9434A9835AD3FA /* Proposer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Proposer.modulemap; sourceTree = "<group>"; };
 		E0F01ECBBF9309BEE650EBAEAC9325D9 /* Pods-NitroTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NitroTests-dummy.m"; sourceTree = "<group>"; };
-		E119BE718D951A662ADEB5487F2275D6 /* TransitionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-umbrella.h"; sourceTree = "<group>"; };
-		EAA5B2AFC637041C06662DBE87B5637B /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C22A368FF35D9D13DA5D268675A7E7 /* TFHppleElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		E689AE1C9D28EE3BE8D9827E06DF5A53 /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = Source/SpinerLayer.swift; sourceTree = "<group>"; };
+		E76EFF400D07CE1B813CB0249CDC76AC /* RenderOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RenderOperation.swift; path = Sources/WKZombie/RenderOperation.swift; sourceTree = "<group>"; };
+		ED2C357A4553883F4E13B1D7F83E8BE1 /* CGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtension.swift; path = Source/CGRectExtension.swift; sourceTree = "<group>"; };
 		F4D1A695AD8AA79C75EB85416122514D /* Pods-NitroTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NitroTests.modulemap"; sourceTree = "<group>"; };
 		F4D27C829EBFE22256991C31EE044F85 /* Pods-NitroTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NitroTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F60C2129A0DCF06C96A7A6979DA1BB74 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
-		FB178FC2AD2059D7FFDD290A1F72CB9D /* Pods_NitroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NitroUITests.framework; path = "Pods-NitroUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC2F35990C2B5002274B37DC960C8D12 /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
-		FCF682ACA94BF66221CFCDE2F9E20374 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
-		FDFF6E807BACABF9973B2C3DC5128203 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		F601F596B9AC5D9E17698AC3A760F8E9 /* HTMLImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLImage.swift; path = Sources/WKZombie/HTMLImage.swift; sourceTree = "<group>"; };
+		F66290F824C1E5E46AE164A258CEF36D /* Proposer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Proposer.swift; path = Proposer/Proposer.swift; sourceTree = "<group>"; };
+		FB59D8F8F37AF0B8C022C9F64A9AC84E /* ContentFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentFetcher.swift; path = Sources/WKZombie/ContentFetcher.swift; sourceTree = "<group>"; };
+		FD7A3FC79C35A9A6BED202ED52C41225 /* TransitionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TransitionButton-dummy.m"; sourceTree = "<group>"; };
+		FEF1A76ACA85A7DE62B7F47C9338A73E /* HTMLElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLElement.swift; path = Sources/WKZombie/HTMLElement.swift; sourceTree = "<group>"; };
+		FF8F11E947237FA18ACA7C10314BA670 /* Proposer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Proposer-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0FFECB77BB3220B03E3E4D9179E132E1 /* Frameworks */ = {
+		41EE1459B6CB69F418B9CD5E445F4822 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D0E21137BEAB5C7CAC37AAECDEBE4AA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62E0B9EAD7F8CA02C2F170AC9E85099A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D33E81A39850D1855FCD4CDA27ED4D87 /* Foundation.framework in Frameworks */,
+				4086AC8D4AEDE6EA1E5164CF96015885 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,20 +262,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88F31EB07C6F7A7F188C22362CD9E3D3 /* Frameworks */ = {
+		882C3557C55D854B2CCF4F8303C1BF9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5613908372B99EEBE6BF0B8BDE91E899 /* Foundation.framework in Frameworks */,
-				10FD2425D462E4095EEF04814F3F16F1 /* UIKit.framework in Frameworks */,
+				19A9A3A2ABF4217B8F1BD2125C3EB85F /* Foundation.framework in Frameworks */,
+				C074BF9B88EBE61E0AD88378CAD67701 /* hpple.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C373A5E42FE4922759A9C3ADAC0603EB /* Frameworks */ = {
+		A2613AE788BDA18E6E4B5D1D1702DEF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68F910FBB74A79EA520CDBC3E3B7DC27 /* Foundation.framework in Frameworks */,
+				3BBA3A4044452263383B111696648D75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4BEB7BF009F16E6B40F216EF1F8FDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3338CEA1DCCDBE3695EBC7B899A2ADA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F50FE67DE609B9E2864FFA98D6E963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29C76A61A08F4A7E4A3A886BD194ADF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBE701B599205D9FA8A554B3C40C0C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA96E0556F48D95BFE1FD4030260C4B2 /* Foundation.framework in Frameworks */,
+				1ECED4B252E252679D905439C88AD18A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,13 +325,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+		0E82673047F7D6CC9B5C41DAE1F48FFC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
-				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+				F759FD42D61EEFE9DE8FD8C5E0BFF235 /* hpple */,
+				36DB36EFDCBD227E0446CCD626E6B73B /* Proposer */,
+				7480C3D4827D93A688F956DD0BFDED56 /* SideMenu */,
+				35DBD28FBDA4888CF4C54DB2ACFF954D /* TransitionButton */,
+				481E98433269C69F4F12801CEEC1CEA9 /* WKZombie */,
 			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		20644C4CCD7A865975BFB6018266F587 /* Pods-Nitro */ = {
@@ -236,26 +355,96 @@
 			path = "Target Support Files/Pods-Nitro";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		317C78B93047FC432FC715EDDD73A731 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+				4D0191798234D109E3EEF06CD95AA99C /* Info.plist */,
+				E06A042F2D21D74CFA9434A9835AD3FA /* Proposer.modulemap */,
+				4C112B7A4C89F96149E1E835A9136CDB /* Proposer.xcconfig */,
+				049FE9A8157292EBA36031E5231CD6F6 /* Proposer-dummy.m */,
+				FF8F11E947237FA18ACA7C10314BA670 /* Proposer-prefix.pch */,
+				6072A97952B498E5A5E7C1C2DA3A6963 /* Proposer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Proposer";
+			sourceTree = "<group>";
+		};
+		31D3420699644928F35C8CB1BE5E18FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D2024EE9E08F7C1C4590240B1495F85 /* hpple.framework */,
+				A027AB704A1C0D233D01D7B81301D348 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5188CC6F7748AE18D7FF5D5D28F98616 /* Support Files */ = {
+		35DBD28FBDA4888CF4C54DB2ACFF954D /* TransitionButton */ = {
 			isa = PBXGroup;
 			children = (
-				AAECF8073E6BDAABD7D67651146544F4 /* Info.plist */,
-				19CBC2AC18384D3BB14F61BD7F001189 /* SideMenu.modulemap */,
-				3B045F931C924BE299AA20341BC19107 /* SideMenu.xcconfig */,
-				FDFF6E807BACABF9973B2C3DC5128203 /* SideMenu-dummy.m */,
-				AD919A0C2BB50FDFC8186BC4F9D97C3B /* SideMenu-prefix.pch */,
-				FCF682ACA94BF66221CFCDE2F9E20374 /* SideMenu-umbrella.h */,
+				ED2C357A4553883F4E13B1D7F83E8BE1 /* CGRectExtension.swift */,
+				BBE7CA36D249C1E883B1E27D31724FC0 /* CustomTransitionViewController.swift */,
+				A09173A14EB885A57D3D53A689568FA8 /* FadeTransition.swift */,
+				E689AE1C9D28EE3BE8D9827E06DF5A53 /* SpinerLayer.swift */,
+				0884DD59FD944A5FA79FD22FDDA7925C /* TransitionButton.swift */,
+				EC6D9AB5D54D5C3E708BCFF45DE758FC /* Support Files */,
+			);
+			name = TransitionButton;
+			path = TransitionButton;
+			sourceTree = "<group>";
+		};
+		36DB36EFDCBD227E0446CCD626E6B73B /* Proposer */ = {
+			isa = PBXGroup;
+			children = (
+				F66290F824C1E5E46AE164A258CEF36D /* Proposer.swift */,
+				317C78B93047FC432FC715EDDD73A731 /* Support Files */,
+			);
+			name = Proposer;
+			path = Proposer;
+			sourceTree = "<group>";
+		};
+		481E98433269C69F4F12801CEEC1CEA9 /* WKZombie */ = {
+			isa = PBXGroup;
+			children = (
+				FB59D8F8F37AF0B8C022C9F64A9AC84E /* ContentFetcher.swift */,
+				26A648197B7481CA02E0D88CF9706F0D /* Definitions.swift */,
+				34812EE2241501ED3FC8A3CA6E4B7CA5 /* Error.swift */,
+				AE6BD6AAA8A62EB447CB8CD77BA35D2A /* Functions.swift */,
+				77C373D9D52CF42F85C3D32838D2A4E3 /* HTMLButton.swift */,
+				FEF1A76ACA85A7DE62B7F47C9338A73E /* HTMLElement.swift */,
+				C6689C7E4935DF70830B39396DA1E126 /* HTMLFetchable.swift */,
+				D321DFF5CFD188A39B972DFEC1F71255 /* HTMLForm.swift */,
+				79E7E7D8475A650115428BE9BD72E5DF /* HTMLFrame.swift */,
+				F601F596B9AC5D9E17698AC3A760F8E9 /* HTMLImage.swift */,
+				5E4F10A41CF4B62920D469CC5A2129C7 /* HTMLLink.swift */,
+				B92C74B64965EE9C3A78E955007FD2E8 /* HTMLPage.swift */,
+				DDF61C9AB895A3E84D97B3B486E8AA77 /* HTMLRedirectable.swift */,
+				43403D8878FBE11C87651316A5F7CA08 /* HTMLTable.swift */,
+				0EF594088AE21DBB1624F68347324910 /* JSONPage.swift */,
+				79070DB660F480F9DD09507D15A7D56E /* Logger.swift */,
+				ACC001941E429DF3105A535D1579151E /* Page.swift */,
+				97A75A8D12C7F00AB5F5E70E04CCFDC5 /* Parser.swift */,
+				D9C6AE5E76CFDD3723A3AC195377D56E /* Renderer.swift */,
+				E76EFF400D07CE1B813CB0249CDC76AC /* RenderOperation.swift */,
+				6060B578EEAF860C6FA6664D11899A97 /* Snapshot.swift */,
+				C61F19295EAD95934346EECF22C29652 /* WKZombie.swift */,
+				4A14A1B15C78DCB5CB779A7BD140E51C /* Support Files */,
+			);
+			name = WKZombie;
+			path = WKZombie;
+			sourceTree = "<group>";
+		};
+		4A14A1B15C78DCB5CB779A7BD140E51C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E32582B869E1D074E13F7D7FD35F571 /* Info.plist */,
+				3611C91219974A722273EF2CCC0E5DB6 /* WKZombie.modulemap */,
+				3306204C30D5C00E5AEE7FE523DA16F5 /* WKZombie.xcconfig */,
+				728F0A1213E20738F0931C83F36383BC /* WKZombie-dummy.m */,
+				AF38C86CAFF9A0E0647F6EAEB1862BD0 /* WKZombie-prefix.pch */,
+				DC8150EBA71E8DC2518B87EFBFB4F5FF /* WKZombie-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SideMenu";
+			path = "../Target Support Files/WKZombie";
 			sourceTree = "<group>";
 		};
 		66CAAAD1A75583D366BF4BCC46425B56 /* Pods-NitroUITests */ = {
@@ -276,89 +465,52 @@
 			path = "Target Support Files/Pods-NitroUITests";
 			sourceTree = "<group>";
 		};
-		6AF222F113870209885B1F132D545A60 /* Proposer */ = {
+		7480C3D4827D93A688F956DD0BFDED56 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				3CF2034807D441A1D0B40FFBB0A96BA2 /* Proposer.swift */,
-				D1CB0B8B7E06043FA1BCAB03FC7AE051 /* Support Files */,
+				06B8DD8948A8C5CAE5A62E8B238604C6 /* SideMenuManager.swift */,
+				740A18C14FA5C3792E1471DBF0B75150 /* SideMenuTransition.swift */,
+				740469E71A7E43BB39DD723A31E0FB48 /* UISideMenuNavigationController.swift */,
+				04B7D0886BC58321794FC91F492C09A9 /* UITableViewVibrantCell.swift */,
+				FB047F0B9ED021232BF5274BD3451B84 /* Support Files */,
 			);
-			name = Proposer;
-			path = Proposer;
+			name = SideMenu;
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				86E58CABAB4222BCF478EDE489C5EDBF /* Pods */,
-				95CE57E4114E8A8BEB4D1B2A3C2C9550 /* Products */,
+				31D3420699644928F35C8CB1BE5E18FF /* Frameworks */,
+				0E82673047F7D6CC9B5C41DAE1F48FFC /* Pods */,
+				8483F46EF591502F77DBA5282BBFBC1A /* Products */,
 				022E5EAD6CF1D0724E536B90E86CE935 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		86E58CABAB4222BCF478EDE489C5EDBF /* Pods */ = {
+		8483F46EF591502F77DBA5282BBFBC1A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6AF222F113870209885B1F132D545A60 /* Proposer */,
-				B13053CFF28138106C47BC3FC6E4D164 /* SideMenu */,
-				ABCB8FA34FA063FA4FEFB99288747C4C /* TransitionButton */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		95CE57E4114E8A8BEB4D1B2A3C2C9550 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8603188896BA3E377F341CFA2B0CA422 /* Pods_Nitro.framework */,
-				BEDC2CA987B98B182585497F5E6D5480 /* Pods_NitroTests.framework */,
-				FB178FC2AD2059D7FFDD290A1F72CB9D /* Pods_NitroUITests.framework */,
-				D4C466C122B50AA8BFEC9E7D43ED9AAA /* Proposer.framework */,
-				EAA5B2AFC637041C06662DBE87B5637B /* SideMenu.framework */,
-				88EDD66CFC0D024EDF8754990F45FE52 /* TransitionButton.framework */,
+				56FB3D5CBC7E96640DEDEFC49E28D10B /* hpple.framework */,
+				1A23241F53A29B3AA2A9EB3B3C9D0D70 /* Pods_Nitro.framework */,
+				93CD96C4687471F10436C53AA3A51081 /* Pods_NitroTests.framework */,
+				46218AE1C714FAFA4D1E7D4279A6A88A /* Pods_NitroUITests.framework */,
+				82AD2C8FBD263C385C006608BEE7A00F /* Proposer.framework */,
+				A1FB2BBACE67BE2648103B1C9B90F432 /* SideMenu.framework */,
+				8A9DD68B3A7984693699D1EE6E72A1B8 /* TransitionButton.framework */,
+				3A933C07DF76BC83F15F5FC403CDE7D1 /* WKZombie.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ABCB8FA34FA063FA4FEFB99288747C4C /* TransitionButton */ = {
+		A027AB704A1C0D233D01D7B81301D348 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C41CDCBD3B2394DE6394994FBED83699 /* CGRectExtension.swift */,
-				B58A12C54476B72696A7A26CD9DD2D84 /* CustomTransitionViewController.swift */,
-				10CF766B485ECF7288977ACC8C935F18 /* FadeTransition.swift */,
-				690441D66BACA6BD4F026AD340AB909B /* SpinerLayer.swift */,
-				CAD0F60A33BA0504F598755DC040B8A1 /* TransitionButton.swift */,
-				C2C3EEC19E355F5617CCCB98D55625D6 /* Support Files */,
+				86079DB68378C72B0D1EF9768B8C604D /* Foundation.framework */,
+				017BAABDC48E8A3063E23A7C119D62C1 /* UIKit.framework */,
 			);
-			name = TransitionButton;
-			path = TransitionButton;
-			sourceTree = "<group>";
-		};
-		B13053CFF28138106C47BC3FC6E4D164 /* SideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				F60C2129A0DCF06C96A7A6979DA1BB74 /* SideMenuManager.swift */,
-				FC2F35990C2B5002274B37DC960C8D12 /* SideMenuTransition.swift */,
-				62705866BAC1E9F76156AD173280BEB8 /* UISideMenuNavigationController.swift */,
-				031FC25F938FB234727A33F2094913D0 /* UITableViewVibrantCell.swift */,
-				5188CC6F7748AE18D7FF5D5D28F98616 /* Support Files */,
-			);
-			name = SideMenu;
-			path = SideMenu;
-			sourceTree = "<group>";
-		};
-		C2C3EEC19E355F5617CCCB98D55625D6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B2DEA42D0A9A8F402C2652E6CA9FCF79 /* Info.plist */,
-				7E3661BC2AFB49470547D8268EBB8ABA /* TransitionButton.modulemap */,
-				53B45E546111F6AE849D516B3B86A720 /* TransitionButton.xcconfig */,
-				00F2E6C5FC99BC67CD68EE57454F6CA6 /* TransitionButton-dummy.m */,
-				045D10F6CD7644DBB57491BD69506257 /* TransitionButton-prefix.pch */,
-				E119BE718D951A662ADEB5487F2275D6 /* TransitionButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TransitionButton";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF52767AF9F108AF0643E5BEA5429A23 /* Pods-NitroTests */ = {
@@ -379,23 +531,74 @@
 			path = "Target Support Files/Pods-NitroTests";
 			sourceTree = "<group>";
 		};
-		D1CB0B8B7E06043FA1BCAB03FC7AE051 /* Support Files */ = {
+		EC6D9AB5D54D5C3E708BCFF45DE758FC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				04C6A95987603284850AFF8657FADBEE /* Info.plist */,
-				D8789E0672BB19011F9A89E382823457 /* Proposer.modulemap */,
-				5A64CB0D7CE270735670A42974FD3EDF /* Proposer.xcconfig */,
-				A02D945E2A19B1752E936BF01806416B /* Proposer-dummy.m */,
-				2C2C0C302937C9FD9642317577D92B1E /* Proposer-prefix.pch */,
-				517126CCB86428FB45BFE446DA002800 /* Proposer-umbrella.h */,
+				3F1741F2775323099F02D3D38F3952D4 /* Info.plist */,
+				45C765FE3BEE9A3326353A5FD7B6169B /* TransitionButton.modulemap */,
+				3A25417CE7F075D94ABCBD02C6EE580A /* TransitionButton.xcconfig */,
+				FD7A3FC79C35A9A6BED202ED52C41225 /* TransitionButton-dummy.m */,
+				6E5F5DF3B35FE0626CFC3EEBE0762627 /* TransitionButton-prefix.pch */,
+				0E2A97F878F45FEAE3960FF31D90C96D /* TransitionButton-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Proposer";
+			path = "../Target Support Files/TransitionButton";
+			sourceTree = "<group>";
+		};
+		EEAD035FD7972CBEF89C6C6A90D6285F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5445647A15DAC9F6E83E2AC9A4CFDE0B /* hpple.modulemap */,
+				0F38552003CA663E87A3FD029DA25303 /* hpple.xcconfig */,
+				9D02F888A17659EBF769DA09DE6F8815 /* hpple-dummy.m */,
+				2241EB1166B203D5D05742C39BB316F3 /* hpple-prefix.pch */,
+				96E232AF84B1092E99CC03E3335E3953 /* hpple-umbrella.h */,
+				79E454CD050C230E64C43BA73ACAFB9A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/hpple";
+			sourceTree = "<group>";
+		};
+		F759FD42D61EEFE9DE8FD8C5E0BFF235 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				C8D684CA6CBC4E8B39DDED46756261BB /* TFHpple.h */,
+				89F12AD0B19D66B0804D8CECEC5ABD96 /* TFHpple.m */,
+				D38BEC316649034F24D9E31B254B00D4 /* TFHppleElement.h */,
+				E3C22A368FF35D9D13DA5D268675A7E7 /* TFHppleElement.m */,
+				A51EE610126E92C7DB4F5160DCF64104 /* XPathQuery.h */,
+				0E468A4C97CC73765B6CE01DB722798C /* XPathQuery.m */,
+				EEAD035FD7972CBEF89C6C6A90D6285F /* Support Files */,
+			);
+			name = hpple;
+			path = hpple;
+			sourceTree = "<group>";
+		};
+		FB047F0B9ED021232BF5274BD3451B84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2119161DDF4ECE2A9C1BD5E89B98D44D /* Info.plist */,
+				1FF8CFD785ACBDDF0F5BC61133DADCB3 /* SideMenu.modulemap */,
+				785186FFB6516D0DB627FD16BF6BC741 /* SideMenu.xcconfig */,
+				6DD1A6B2431C4755A05E7C6FD3F0878D /* SideMenu-dummy.m */,
+				11B8EF0825791488D8131E37CF7F46D1 /* SideMenu-prefix.pch */,
+				1776E7A152AF8D6C59E3E9E1682D775B /* SideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		072D1CEB85DB879097CCF0A2AD251B37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F3DD4275CE11A712A13F07739C235A /* WKZombie-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29646E3DD0BB340D24D3A3D93CDE18AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,35 +607,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42E40780D3977A0C02832B3DCFB6C024 /* Headers */ = {
+		4ACA928DCD95F76784D47DC49FBF25EA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F950106E9FB5617533F2534CD110A238 /* TransitionButton-umbrella.h in Headers */,
+				9B19BA12DD1ADA1325442B3DC1BE1D12 /* Proposer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		560EA6831BA3005563A46649DD865DCC /* Headers */ = {
+		7844C65CA728E03BEFEBC478F4ED3F65 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA97ADD3AA20B99F6443B97881AB5AEF /* SideMenu-umbrella.h in Headers */,
+				BD92A6A6DAB7DD5F3612AE493C26FBAE /* Pods-Nitro-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		623577FB9FC1ADC2BB7A79F5A649B462 /* Headers */ = {
+		794EBF7EB4B3B9D3A2C716B84B3916A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9E047F689B7DDE527B842DC3D04A231 /* Proposer-umbrella.h in Headers */,
+				66DD0501E629326C34C6F803E96DA880 /* SideMenu-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E04C8E7972252BEF742ED68BF7B9A638 /* Headers */ = {
+		840186EF62C1992AF693359B05F20C72 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD7F837BFA2115410C6621AD994D2669 /* Pods-Nitro-umbrella.h in Headers */,
+				8747E44A5A202A8450F1A2D9950D493C /* hpple-umbrella.h in Headers */,
+				C4FEE47F93FF120348E166F9A897A352 /* TFHpple.h in Headers */,
+				2D2D2077180EFBA0ED3F09831FB1CA3E /* TFHppleElement.h in Headers */,
+				4EAFD509B930697E9FF6C88F44BD2B91 /* XPathQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4CFC28806531CC7F79ADA23A241F97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0C18F0EBD937BDB5AA342DBA442D9A /* TransitionButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,26 +661,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		01CA32466F20A0654471255470C1B3C2 /* Pods-Nitro */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ABC872433BFB770B04FF00AF603268C3 /* Build configuration list for PBXNativeTarget "Pods-Nitro" */;
-			buildPhases = (
-				06A55A9A9070F979E67604A7B6C4034D /* Sources */,
-				C373A5E42FE4922759A9C3ADAC0603EB /* Frameworks */,
-				E04C8E7972252BEF742ED68BF7B9A638 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9535771CA7B550BCA3010C1DF37878E7 /* PBXTargetDependency */,
-				69A663E7A181AB10AE60B496BCF0EC52 /* PBXTargetDependency */,
-				00A46642D6263E7061886DFF65B32534 /* PBXTargetDependency */,
-			);
-			name = "Pods-Nitro";
-			productName = "Pods-Nitro";
-			productReference = 8603188896BA3E377F341CFA2B0CA422 /* Pods_Nitro.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		10A0C555F6F5C8F11288DA60F57E9370 /* Pods-NitroTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3F242D35E7F13245F9F1761B72D0F13 /* Build configuration list for PBXNativeTarget "Pods-NitroTests" */;
@@ -482,33 +676,34 @@
 			);
 			name = "Pods-NitroTests";
 			productName = "Pods-NitroTests";
-			productReference = BEDC2CA987B98B182585497F5E6D5480 /* Pods_NitroTests.framework */;
+			productReference = 93CD96C4687471F10436C53AA3A51081 /* Pods_NitroTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8CED710AA49DDF5F4ACA39CAF15093AA /* Proposer */ = {
+		20EE5B1F5FF364E2A065653EEF891BF2 /* WKZombie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2842BE6095A824B2EAD7961A7F8AC62 /* Build configuration list for PBXNativeTarget "Proposer" */;
+			buildConfigurationList = FBE23AFC4BDECF8DF4D66122EEAA10AC /* Build configuration list for PBXNativeTarget "WKZombie" */;
 			buildPhases = (
-				731F72DCCA87E9BAAAF6E261AC2C802E /* Sources */,
-				0FFECB77BB3220B03E3E4D9179E132E1 /* Frameworks */,
-				623577FB9FC1ADC2BB7A79F5A649B462 /* Headers */,
+				F6D67D1F68A5EB61AD26A035098E43E5 /* Sources */,
+				882C3557C55D854B2CCF4F8303C1BF9B /* Frameworks */,
+				072D1CEB85DB879097CCF0A2AD251B37 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E45C1D47AB344E7FADF247F6283F3647 /* PBXTargetDependency */,
 			);
-			name = Proposer;
-			productName = Proposer;
-			productReference = D4C466C122B50AA8BFEC9E7D43ED9AAA /* Proposer.framework */;
+			name = WKZombie;
+			productName = WKZombie;
+			productReference = 3A933C07DF76BC83F15F5FC403CDE7D1 /* WKZombie.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		902AD7832CE54EDC1818FD279F2BED9A /* TransitionButton */ = {
+		32C7962D74ED6D556082048393D69224 /* TransitionButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B5571DC7D6562A9A8DEB10EA82BD333 /* Build configuration list for PBXNativeTarget "TransitionButton" */;
+			buildConfigurationList = 29501FA494FB35D1A1613CEA23BA9BDE /* Build configuration list for PBXNativeTarget "TransitionButton" */;
 			buildPhases = (
-				215AC2657B2DB000B1C2CACF6F57055F /* Sources */,
-				88F31EB07C6F7A7F188C22362CD9E3D3 /* Frameworks */,
-				42E40780D3977A0C02832B3DCFB6C024 /* Headers */,
+				9FDE76761804B6DD93C834B4605B0B93 /* Sources */,
+				BFBE701B599205D9FA8A554B3C40C0C0 /* Frameworks */,
+				DF4CFC28806531CC7F79ADA23A241F97 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -516,7 +711,41 @@
 			);
 			name = TransitionButton;
 			productName = TransitionButton;
-			productReference = 88EDD66CFC0D024EDF8754990F45FE52 /* TransitionButton.framework */;
+			productReference = 8A9DD68B3A7984693699D1EE6E72A1B8 /* TransitionButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C7AFCE3258BC1D59D5A375DDB10FABC /* hpple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA06AD957A39AC37B081838B21945E4E /* Build configuration list for PBXNativeTarget "hpple" */;
+			buildPhases = (
+				B21C09B1D5B6DF83FE86EEF396130393 /* Sources */,
+				41EE1459B6CB69F418B9CD5E445F4822 /* Frameworks */,
+				840186EF62C1992AF693359B05F20C72 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hpple;
+			productName = hpple;
+			productReference = 56FB3D5CBC7E96640DEDEFC49E28D10B /* hpple.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A8CD8209CB5D15A929697A67B75D42A /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357A81CCCB332DA701618C49AD02AC8D /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				0E9F6E940889AD921A5C63E174D9B497 /* Sources */,
+				A2613AE788BDA18E6E4B5D1D1702DEF1 /* Frameworks */,
+				794EBF7EB4B3B9D3A2C716B84B3916A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = A1FB2BBACE67BE2648103B1C9B90F432 /* SideMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9EB01B38C904669272298DC5873A4560 /* Pods-NitroUITests */ = {
@@ -534,24 +763,46 @@
 			);
 			name = "Pods-NitroUITests";
 			productName = "Pods-NitroUITests";
-			productReference = FB178FC2AD2059D7FFDD290A1F72CB9D /* Pods_NitroUITests.framework */;
+			productReference = 46218AE1C714FAFA4D1E7D4279A6A88A /* Pods_NitroUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E6DA6E0EDBB06B5E4AA64BD32E5FD08A /* SideMenu */ = {
+		A130EA0D24C8676518F173D584ABF372 /* Pods-Nitro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77495A99A1BB4A8C997DFB2B6D7F2C8A /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildConfigurationList = 05285D66CAB8081994686899875184CA /* Build configuration list for PBXNativeTarget "Pods-Nitro" */;
 			buildPhases = (
-				3C33FE3B17B1F8372DC9CFE53B0E23EA /* Sources */,
-				62E0B9EAD7F8CA02C2F170AC9E85099A /* Frameworks */,
-				560EA6831BA3005563A46649DD865DCC /* Headers */,
+				F7A84B07CBDC538E2F283F12C83893E7 /* Sources */,
+				B0F50FE67DE609B9E2864FFA98D6E963 /* Frameworks */,
+				7844C65CA728E03BEFEBC478F4ED3F65 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B1ABF49DD1AD726C823ED7FE454130 /* PBXTargetDependency */,
+				F8808D6DC10DDAF2FC7A199966179DB9 /* PBXTargetDependency */,
+				3554F6258B5BE4284954E02A0F1986C2 /* PBXTargetDependency */,
+				3C0D2FD75C73E70BF32F9CBEDC4ED706 /* PBXTargetDependency */,
+				7A4B6EC89A7F853924854060588DB4DF /* PBXTargetDependency */,
+			);
+			name = "Pods-Nitro";
+			productName = "Pods-Nitro";
+			productReference = 1A23241F53A29B3AA2A9EB3B3C9D0D70 /* Pods_Nitro.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5602EF1A3F390CBA2874F12ACC7E04D /* Proposer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C55C84BCA7A546CFBB01AEDC210052F /* Build configuration list for PBXNativeTarget "Proposer" */;
+			buildPhases = (
+				5FE6FD2E14AF241301A4D89F38AE64F0 /* Sources */,
+				AD4BEB7BF009F16E6B40F216EF1F8FDE /* Frameworks */,
+				4ACA928DCD95F76784D47DC49FBF25EA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SideMenu;
-			productName = SideMenu;
-			productReference = EAA5B2AFC637041C06662DBE87B5637B /* SideMenu.framework */;
+			name = Proposer;
+			productName = Proposer;
+			productReference = 82AD2C8FBD263C385C006608BEE7A00F /* Proposer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -571,51 +822,32 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 95CE57E4114E8A8BEB4D1B2A3C2C9550 /* Products */;
+			productRefGroup = 8483F46EF591502F77DBA5282BBFBC1A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01CA32466F20A0654471255470C1B3C2 /* Pods-Nitro */,
+				3C7AFCE3258BC1D59D5A375DDB10FABC /* hpple */,
+				A130EA0D24C8676518F173D584ABF372 /* Pods-Nitro */,
 				10A0C555F6F5C8F11288DA60F57E9370 /* Pods-NitroTests */,
 				9EB01B38C904669272298DC5873A4560 /* Pods-NitroUITests */,
-				8CED710AA49DDF5F4ACA39CAF15093AA /* Proposer */,
-				E6DA6E0EDBB06B5E4AA64BD32E5FD08A /* SideMenu */,
-				902AD7832CE54EDC1818FD279F2BED9A /* TransitionButton */,
+				F5602EF1A3F390CBA2874F12ACC7E04D /* Proposer */,
+				6A8CD8209CB5D15A929697A67B75D42A /* SideMenu */,
+				32C7962D74ED6D556082048393D69224 /* TransitionButton */,
+				20EE5B1F5FF364E2A065653EEF891BF2 /* WKZombie */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		06A55A9A9070F979E67604A7B6C4034D /* Sources */ = {
+		0E9F6E940889AD921A5C63E174D9B497 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F5EBBF493C18683CB104BC564A041C /* Pods-Nitro-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		215AC2657B2DB000B1C2CACF6F57055F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23754F5093F377C943581C8EBBA8C30C /* CGRectExtension.swift in Sources */,
-				BB31C863FA47686CFA355FFC1C99EFF0 /* CustomTransitionViewController.swift in Sources */,
-				518D9BA3B9E2D4454799ACFEB21B153B /* FadeTransition.swift in Sources */,
-				DA9D6B06104C1B0A9A4492AE4CA09F75 /* SpinerLayer.swift in Sources */,
-				B19412C5E8A7286A89CF213020DB7D6B /* TransitionButton-dummy.m in Sources */,
-				2577FF104D92EBBE0E72796800BA1027 /* TransitionButton.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C33FE3B17B1F8372DC9CFE53B0E23EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6C1B06DCE356C4D7C249FB6C2769F4F9 /* SideMenu-dummy.m in Sources */,
-				E5F87EA21AB57D4BD9EC8D40479E9C18 /* SideMenuManager.swift in Sources */,
-				AC5CD35FAA0CF95EBFFBD0928B12972C /* SideMenuTransition.swift in Sources */,
-				CE2B04AB7CE0CC32F47EDAA8EDF5CDA5 /* UISideMenuNavigationController.swift in Sources */,
-				65E2C11D575DD864511A58845A94D937 /* UITableViewVibrantCell.swift in Sources */,
+				70B0EB0E34DE1E0B780FF86774E3DBD9 /* SideMenu-dummy.m in Sources */,
+				2C5FD16F031AFABCAC3D589E2FEBE8C0 /* SideMenuManager.swift in Sources */,
+				BFB0C44AD7126511BAE182126CAC7537 /* SideMenuTransition.swift in Sources */,
+				89AF585275D000FE98F9C3EB9C915483 /* UISideMenuNavigationController.swift in Sources */,
+				4E1A8F6E1CC0BBBF0720FA176FF10A9B /* UITableViewVibrantCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,12 +859,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		731F72DCCA87E9BAAAF6E261AC2C802E /* Sources */ = {
+		5FE6FD2E14AF241301A4D89F38AE64F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1CB62B87AFEEEE2B53BB97C193666E9 /* Proposer-dummy.m in Sources */,
-				9A88D3A99049D0F30B67B4DB2F2EED8A /* Proposer.swift in Sources */,
+				588F1E8ED50CF204B25850623CE146EC /* Proposer-dummy.m in Sources */,
+				18D88EEC2A72436494C43C65CE263DA1 /* Proposer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,38 +876,118 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FDE76761804B6DD93C834B4605B0B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2C11DF949E226E762B9BBEC01536E0 /* CGRectExtension.swift in Sources */,
+				DF479582352847EDE1375283CCABCA3E /* CustomTransitionViewController.swift in Sources */,
+				76E491E62BC23BE314E02DCA83953FD0 /* FadeTransition.swift in Sources */,
+				2E35D4F4961BAE58A4BDFA6BA003F98B /* SpinerLayer.swift in Sources */,
+				3A341E75F169C88D2946D3F59314645D /* TransitionButton-dummy.m in Sources */,
+				FA8E951807E8B0B03E2FE4C0364C56AE /* TransitionButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21C09B1D5B6DF83FE86EEF396130393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9D81A94E363A673D2F2D7272F17594 /* hpple-dummy.m in Sources */,
+				F1E5AB656BD0BFD2D6452AD031DEF936 /* TFHpple.m in Sources */,
+				8CDB03EBD614D3DFBC7529B9AD68188C /* TFHppleElement.m in Sources */,
+				E2E5F42A79A70D81F4B9DB211EFE24FB /* XPathQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D67D1F68A5EB61AD26A035098E43E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC24D8382A5661E2FF4C0B7842F9AAD4 /* ContentFetcher.swift in Sources */,
+				BADBC28C1562D46B6057843F187B735D /* Definitions.swift in Sources */,
+				22BAA8E509D6935D4C0BD300FDA76FA6 /* Error.swift in Sources */,
+				623EA9E9EE7A25315E7C010B59C93047 /* Functions.swift in Sources */,
+				4562DD695C7074BD4ACF44314D232816 /* HTMLButton.swift in Sources */,
+				62AEBE6A489E27198D24926AA58D65E2 /* HTMLElement.swift in Sources */,
+				6726F7EF71A2DF3AF611B33F0E5ACE32 /* HTMLFetchable.swift in Sources */,
+				13E62E2D838E1805097A61BB85AFFE30 /* HTMLForm.swift in Sources */,
+				D8867A819704FA650FFE76B4BA1B4531 /* HTMLFrame.swift in Sources */,
+				6B6C52C900DCB01EAA59030D5119EACE /* HTMLImage.swift in Sources */,
+				7BDE7B40F6D53535E96B8A2E6A8AF653 /* HTMLLink.swift in Sources */,
+				311E0B87A923C020977FEC4BE19C16FC /* HTMLPage.swift in Sources */,
+				D2352A942E88BFCCD6DC163F91ED658B /* HTMLRedirectable.swift in Sources */,
+				E22B54CDA97F68EC92B5888C58EFFBBE /* HTMLTable.swift in Sources */,
+				C8D5C831C7513CB1C0C3C7765233DF2A /* JSONPage.swift in Sources */,
+				E90A1AE00AC42B6142E1C8DA8245D1E9 /* Logger.swift in Sources */,
+				273EF73DD3E229B0AC512F5E555119B7 /* Page.swift in Sources */,
+				80E225AC6ACF6A19CD69456C37FA5131 /* Parser.swift in Sources */,
+				B38637EE1A557982F952F878C522BCFC /* Renderer.swift in Sources */,
+				30FCD2CAAAF4DD6CDC807A8FFCDA3A86 /* RenderOperation.swift in Sources */,
+				30B646141C90138E25876C68FBA73E19 /* Snapshot.swift in Sources */,
+				664265DB830A6EC91317C2226FBE96B4 /* WKZombie-dummy.m in Sources */,
+				5F4D7C7D5DCB914A421C1157AA40811C /* WKZombie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A84B07CBDC538E2F283F12C83893E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909DB1305F128114BC4FE4C1E946A7D8 /* Pods-Nitro-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00A46642D6263E7061886DFF65B32534 /* PBXTargetDependency */ = {
+		3554F6258B5BE4284954E02A0F1986C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TransitionButton;
-			target = 902AD7832CE54EDC1818FD279F2BED9A /* TransitionButton */;
-			targetProxy = 8FED6897F8C6FBDB9F300CF75E704474 /* PBXContainerItemProxy */;
+			target = 32C7962D74ED6D556082048393D69224 /* TransitionButton */;
+			targetProxy = 089F431D755303E028BB4879CA8F9710 /* PBXContainerItemProxy */;
+		};
+		3C0D2FD75C73E70BF32F9CBEDC4ED706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WKZombie;
+			target = 20EE5B1F5FF364E2A065653EEF891BF2 /* WKZombie */;
+			targetProxy = C6CD2EE15CE1DF2444F4E4160FB106C3 /* PBXContainerItemProxy */;
 		};
 		3F33E98F0DBA8D1B4657BD128F358455 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Nitro";
-			target = 01CA32466F20A0654471255470C1B3C2 /* Pods-Nitro */;
+			target = A130EA0D24C8676518F173D584ABF372 /* Pods-Nitro */;
 			targetProxy = 9A78AB8398C984CFE7621987D0823EB5 /* PBXContainerItemProxy */;
 		};
-		69A663E7A181AB10AE60B496BCF0EC52 /* PBXTargetDependency */ = {
+		7A4B6EC89A7F853924854060588DB4DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SideMenu;
-			target = E6DA6E0EDBB06B5E4AA64BD32E5FD08A /* SideMenu */;
-			targetProxy = 2C77A475ADF9B6F6F9CFCBB3A8F32F72 /* PBXContainerItemProxy */;
+			name = hpple;
+			target = 3C7AFCE3258BC1D59D5A375DDB10FABC /* hpple */;
+			targetProxy = 2E2FDC20D316E586C0BD6448B54DBEC9 /* PBXContainerItemProxy */;
 		};
-		9535771CA7B550BCA3010C1DF37878E7 /* PBXTargetDependency */ = {
+		A2B1ABF49DD1AD726C823ED7FE454130 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Proposer;
-			target = 8CED710AA49DDF5F4ACA39CAF15093AA /* Proposer */;
-			targetProxy = 832D27BCE580B98D54CD906AEC998F1B /* PBXContainerItemProxy */;
+			target = F5602EF1A3F390CBA2874F12ACC7E04D /* Proposer */;
+			targetProxy = F46F1BC85DB933B33475D0062C5C0567 /* PBXContainerItemProxy */;
 		};
 		DD6953FCB55946186AEAD51147567D68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Nitro";
-			target = 01CA32466F20A0654471255470C1B3C2 /* Pods-Nitro */;
+			target = A130EA0D24C8676518F173D584ABF372 /* Pods-Nitro */;
 			targetProxy = 9B0A1376FD03EFCC0637061725DB9FEB /* PBXContainerItemProxy */;
+		};
+		E45C1D47AB344E7FADF247F6283F3647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = hpple;
+			target = 3C7AFCE3258BC1D59D5A375DDB10FABC /* hpple */;
+			targetProxy = 741323EC78E7C2B348469C50581984CF /* PBXContainerItemProxy */;
+		};
+		F8808D6DC10DDAF2FC7A199966179DB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = 6A8CD8209CB5D15A929697A67B75D42A /* SideMenu */;
+			targetProxy = 6F0923A78F1A92C109016F39AC3E9A46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -738,42 +1050,6 @@
 			};
 			name = Release;
 		};
-		14620939F92C29121B5E70070381BF51 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53B45E546111F6AE849D516B3B86A720 /* TransitionButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TransitionButton/TransitionButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TransitionButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TransitionButton/TransitionButton.modulemap";
-				PRODUCT_MODULE_NAME = TransitionButton;
-				PRODUCT_NAME = TransitionButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		332944436A9AFF3AC3C8D23677FE59EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F44A659F09B88FFCF7190460C1A6E20 /* Pods-NitroTests.debug.xcconfig */;
@@ -812,12 +1088,10 @@
 			};
 			name = Debug;
 		};
-		43FFA21C43DEEFBF9AECF668E0BEF0B9 /* Release */ = {
+		44FD851CC35EB7CF7372FF03523181C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1E546643DDBE92E84ECAAF0211EC8EF /* Pods-Nitro.release.xcconfig */;
+			baseConfigurationReference = 0F38552003CA663E87A3FD029DA25303 /* hpple.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -827,101 +1101,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Nitro/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/hpple/hpple-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/hpple/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Nitro/Pods-Nitro.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4815121CFD3BCAD8650C65945F6BC90F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C96FB809B411B14307A8CE3B6B5BDAC /* Pods-Nitro.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Nitro/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Nitro/Pods-Nitro.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4B9B31BA8CBB399455FAB54D383E7DDB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B045F931C924BE299AA20341BC19107 /* SideMenu.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
-				PRODUCT_MODULE_NAME = SideMenu;
-				PRODUCT_NAME = SideMenu;
+				MODULEMAP_FILE = "Target Support Files/hpple/hpple.modulemap";
+				PRODUCT_MODULE_NAME = hpple;
+				PRODUCT_NAME = hpple;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -930,9 +1124,9 @@
 			};
 			name = Release;
 		};
-		4E873549531F1D870371FE98E2BBA37B /* Release */ = {
+		50AFF883CD7264C3890238845D0376AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53B45E546111F6AE849D516B3B86A720 /* TransitionButton.xcconfig */;
+			baseConfigurationReference = 3A25417CE7F075D94ABCBD02C6EE580A /* TransitionButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -955,6 +1149,44 @@
 				MODULEMAP_FILE = "Target Support Files/TransitionButton/TransitionButton.modulemap";
 				PRODUCT_MODULE_NAME = TransitionButton;
 				PRODUCT_NAME = TransitionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61C8CE48C18576A7FE84314902E7CF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3306204C30D5C00E5AEE7FE523DA16F5 /* WKZombie.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKZombie/WKZombie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKZombie/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WKZombie/WKZombie.modulemap";
+				PRODUCT_MODULE_NAME = WKZombie;
+				PRODUCT_NAME = WKZombie;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1005,6 +1237,116 @@
 			};
 			name = Debug;
 		};
+		649199B730D825454793099825F3448C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785186FFB6516D0DB627FD16BF6BC741 /* SideMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E2C794C9474816642572BEE7635A816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F38552003CA663E87A3FD029DA25303 /* hpple.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/hpple/hpple-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/hpple/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/hpple/hpple.modulemap";
+				PRODUCT_MODULE_NAME = hpple;
+				PRODUCT_NAME = hpple;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74481A065441520794B4FB598611B303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C112B7A4C89F96149E1E835A9136CDB /* Proposer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Proposer/Proposer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Proposer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Proposer/Proposer.modulemap";
+				PRODUCT_MODULE_NAME = Proposer;
+				PRODUCT_NAME = Proposer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		798756F9B5B9C863A460E965729D709B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5884C8E91BF4370E102D2A3B519F1B5 /* Pods-NitroUITests.release.xcconfig */;
@@ -1043,6 +1385,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		87BCC52A1E234B4B1A5F54A6B3C39024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A25417CE7F075D94ABCBD02C6EE580A /* TransitionButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionButton/TransitionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransitionButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TransitionButton/TransitionButton.modulemap";
+				PRODUCT_MODULE_NAME = TransitionButton;
+				PRODUCT_NAME = TransitionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1107,9 +1485,45 @@
 			};
 			name = Debug;
 		};
-		B417CA00535E46758F28F09DE8BC21E9 /* Debug */ = {
+		97CA9521AF7A848C4DDB95CFAFF2BCE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B045F931C924BE299AA20341BC19107 /* SideMenu.xcconfig */;
+			baseConfigurationReference = 4C112B7A4C89F96149E1E835A9136CDB /* Proposer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Proposer/Proposer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Proposer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Proposer/Proposer.modulemap";
+				PRODUCT_MODULE_NAME = Proposer;
+				PRODUCT_NAME = Proposer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6FE9C8D516CC8675C6CAAC0A36D6BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785186FFB6516D0DB627FD16BF6BC741 /* SideMenu.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1138,6 +1552,83 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBCF9185A6EECF4F4C6FED7CB8DD83AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3306204C30D5C00E5AEE7FE523DA16F5 /* WKZombie.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKZombie/WKZombie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKZombie/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WKZombie/WKZombie.modulemap";
+				PRODUCT_MODULE_NAME = WKZombie;
+				PRODUCT_NAME = WKZombie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5CB3B1F94C6EC7A0B3FFE161DDF8A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C96FB809B411B14307A8CE3B6B5BDAC /* Pods-Nitro.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nitro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nitro/Pods-Nitro.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1183,10 +1674,12 @@
 			};
 			name = Release;
 		};
-		F59677B4D7F1CFFE321D10AE16B6F556 /* Release */ = {
+		F8AE182BE988A350889229D69E79F7DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A64CB0D7CE270735670A42974FD3EDF /* Proposer.xcconfig */;
+			baseConfigurationReference = C1E546643DDBE92E84ECAAF0211EC8EF /* Pods-Nitro.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1196,23 +1689,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Proposer/Proposer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Proposer/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nitro/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Proposer/Proposer.modulemap";
-				PRODUCT_MODULE_NAME = Proposer;
-				PRODUCT_NAME = Proposer;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nitro/Pods-Nitro.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1220,45 +1714,27 @@
 			};
 			name = Release;
 		};
-		F6F33018E81750783F9CC11D24C95B12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A64CB0D7CE270735670A42974FD3EDF /* Proposer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Proposer/Proposer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Proposer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Proposer/Proposer.modulemap";
-				PRODUCT_MODULE_NAME = Proposer;
-				PRODUCT_NAME = Proposer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		05285D66CAB8081994686899875184CA /* Build configuration list for PBXNativeTarget "Pods-Nitro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5CB3B1F94C6EC7A0B3FFE161DDF8A8C /* Debug */,
+				F8AE182BE988A350889229D69E79F7DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29501FA494FB35D1A1613CEA23BA9BDE /* Build configuration list for PBXNativeTarget "TransitionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BCC52A1E234B4B1A5F54A6B3C39024 /* Debug */,
+				50AFF883CD7264C3890238845D0376AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1268,38 +1744,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77495A99A1BB4A8C997DFB2B6D7F2C8A /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+		357A81CCCB332DA701618C49AD02AC8D /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B417CA00535E46758F28F09DE8BC21E9 /* Debug */,
-				4B9B31BA8CBB399455FAB54D383E7DDB /* Release */,
+				C6FE9C8D516CC8675C6CAAC0A36D6BAA /* Debug */,
+				649199B730D825454793099825F3448C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B5571DC7D6562A9A8DEB10EA82BD333 /* Build configuration list for PBXNativeTarget "TransitionButton" */ = {
+		4C55C84BCA7A546CFBB01AEDC210052F /* Build configuration list for PBXNativeTarget "Proposer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14620939F92C29121B5E70070381BF51 /* Debug */,
-				4E873549531F1D870371FE98E2BBA37B /* Release */,
+				97CA9521AF7A848C4DDB95CFAFF2BCE1 /* Debug */,
+				74481A065441520794B4FB598611B303 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABC872433BFB770B04FF00AF603268C3 /* Build configuration list for PBXNativeTarget "Pods-Nitro" */ = {
+		CA06AD957A39AC37B081838B21945E4E /* Build configuration list for PBXNativeTarget "hpple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4815121CFD3BCAD8650C65945F6BC90F /* Debug */,
-				43FFA21C43DEEFBF9AECF668E0BEF0B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E2842BE6095A824B2EAD7961A7F8AC62 /* Build configuration list for PBXNativeTarget "Proposer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F6F33018E81750783F9CC11D24C95B12 /* Debug */,
-				F59677B4D7F1CFFE321D10AE16B6F556 /* Release */,
+				6E2C794C9474816642572BEE7635A816 /* Debug */,
+				44FD851CC35EB7CF7372FF03523181C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1309,6 +1776,15 @@
 			buildConfigurations = (
 				332944436A9AFF3AC3C8D23677FE59EA /* Debug */,
 				F56F61ABFD15B8654A1773C1A5EA8EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE23AFC4BDECF8DF4D66122EEAA10AC /* Build configuration list for PBXNativeTarget "WKZombie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCF9185A6EECF4F4C6FED7CB8DD83AD /* Debug */,
+				61C8CE48C18576A7FE84314902E7CF01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

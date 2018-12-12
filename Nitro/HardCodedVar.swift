@@ -39,6 +39,9 @@ class HardCodedVar{
     var TouchIdEnabled = true
     
     
+    //Zustand also 1:Besucher 2:Bediensteter 3:Student
+    var Zustand = 3
+    
     
     
     //____________________________________________________
