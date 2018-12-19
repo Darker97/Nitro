@@ -359,10 +359,6 @@
                                     <segue destination="120-UY-2eS" kind="presentation" identifier="MenuAuf" id="sCX-s9-AHz"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G92-wY-vU1">
-                                <rect key="frame" x="0.0" y="85" width="375" height="582"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
@@ -454,7 +450,7 @@
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pC-xO-xgg">
                                     <rect key="frame" x="2" y="122" width="67" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="🥂Mensa"/>
+                                    <state key="normal" title="🍔Mensa"/>
                                     <connections>
                                         <segue destination="wOS-YU-YFV" kind="show" id="Byt-In-5be"/>
                                     </connections>

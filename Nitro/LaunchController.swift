@@ -21,6 +21,7 @@ class LaunchController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        toDoStuff();
         if (WurdeGeladen){
             self.performSegue(withIdentifier: "MenübildschirmWechsel", sender: nil)
         }
@@ -37,8 +38,14 @@ class LaunchController: UIViewController{
     
     //TODO: Noten laden
     
-    
-    
+    func toDoStuff(){
+        //Lädt die Daten für dei Uni Infos aus der Txt Datei
+        //DatenLader().ladeDatenAusTxt(name: "UniInfos")
+        DatenLader().LadeKartenPunkte()
+        DatenLader().ladeUniInfos()
+        DatenLader().ladeEinstellungen()
+    }
+
     
     //---------------------------------------------------
     //Animation
@@ -50,9 +57,7 @@ class LaunchController: UIViewController{
         
         let appVersion = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String
         VersionSchrift.text = "Version " + appVersion!
-        
-        //Lädt die Daten für dei Uni Infos aus der Txt Datei
-        DatenLader().ladeDatenAusTxt(name: "UniInfos.txt")
+    
         
         //Lädt das Image an eine Stelle außerhalb der View
         logo.center.x  -= view.bounds.width

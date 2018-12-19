@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52BB622AD3CB047CC1F8BD73 /* Pods_Nitro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586AE186A4EC25782704F819 /* Pods_Nitro.framework */; };
+		1877B70441A9CDE3B6A7C5A1 /* Pods_Nitro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586AE186A4EC25782704F819 /* Pods_Nitro.framework */; };
 		58D40D5A72BADC8807743057 /* Pods_NitroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBA589C6E329AD89B57A055 /* Pods_NitroTests.framework */; };
 		835CC02EA152F0C4BEACA34C /* Pods_NitroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E897D7AA7406D6455FAAF3CD /* Pods_NitroUITests.framework */; };
 		AA1B53C12196EEBB00941DF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53C02196EEBB00941DF6 /* AppDelegate.swift */; };
@@ -18,11 +18,11 @@
 		AA1B53D62196EEBB00941DF6 /* NitroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53D52196EEBB00941DF6 /* NitroTests.swift */; };
 		AA1B53E12196EEBB00941DF6 /* NitroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53E02196EEBB00941DF6 /* NitroUITests.swift */; };
 		AA4C4F0921C0FB3C000B5BCC /* Mensa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */; };
+		AA4C4F0B21C11E9B000B5BCC /* Scrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C4F0A21C11E9B000B5BCC /* Scrapper.swift */; };
 		AA5907EE21A30B5200D8493F /* InfoAuflistung.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */; };
 		AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */; };
 		AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */; };
 		AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA5907F421A30F1C00D8493F /* Stickers.xcstickers */; };
-		AA5907F921A3147900D8493F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5907F821A3147900D8493F /* MapKit.framework */; };
 		AA635E3D21AC2610002ED75C /* Einstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635E3C21AC2610002ED75C /* Einstellungen.swift */; };
 		AA635E3F21AC27DC002ED75C /* DatenSpeicher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */; };
 		AA8E661B21C0135900929FE8 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E661A21C0135900929FE8 /* Map.swift */; };
@@ -33,7 +33,6 @@
 		AA8FE06521A352D50066338D /* Sicherheits_Abfrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06421A352D50066338D /* Sicherheits_Abfrage.swift */; };
 		AA8FE06721A352EE0066338D /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06621A352EE0066338D /* LoginScreen.swift */; };
 		AA8FE06921A3649D0066338D /* HardCodedVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06821A3649D0066338D /* HardCodedVar.swift */; };
-		AA8FE06B21A373CB0066338D /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8FE06A21A373CA0066338D /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +72,7 @@
 		AA1B53E02196EEBB00941DF6 /* NitroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NitroUITests.swift; sourceTree = "<group>"; };
 		AA1B53E22196EEBB00941DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensa.swift; sourceTree = "<group>"; };
+		AA4C4F0A21C11E9B000B5BCC /* Scrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrapper.swift; sourceTree = "<group>"; };
 		AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAuflistung.swift; sourceTree = "<group>"; };
 		AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAusgabe.swift; sourceTree = "<group>"; };
 		AA5907F221A30DE200D8493F /* Noten.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noten.xcdatamodel; sourceTree = "<group>"; };
@@ -90,6 +90,8 @@
 		AA8FE06621A352EE0066338D /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		AA8FE06821A3649D0066338D /* HardCodedVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardCodedVar.swift; sourceTree = "<group>"; };
 		AA8FE06A21A373CA0066338D /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		AA9C854521CA59220060C7BF /* KartenPunkte.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = KartenPunkte.txt; path = Nitro/KartenPunkte.txt; sourceTree = SOURCE_ROOT; };
+		AA9C854621CA5B580060C7BF /* Einstellungen.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Einstellungen.txt; sourceTree = "<group>"; };
 		BE2FE831AF19C2CA14299DE2 /* Pods-NitroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NitroUITests/Pods-NitroUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF2FC5083A1C5072C944B4A /* Pods-NitroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NitroTests/Pods-NitroTests.release.xcconfig"; sourceTree = "<group>"; };
 		E897D7AA7406D6455FAAF3CD /* Pods_NitroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NitroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,13 +99,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AA1B53BA2196EEBA00941DF6 /* Frameworks */ = {
+		2A5E0A49635EE09A92C063AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA8FE06B21A373CB0066338D /* LocalAuthentication.framework in Frameworks */,
-				AA5907F921A3147900D8493F /* MapKit.framework in Frameworks */,
-				52BB622AD3CB047CC1F8BD73 /* Pods_Nitro.framework in Frameworks */,
+				1877B70441A9CDE3B6A7C5A1 /* Pods_Nitro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +172,8 @@
 				AA635E3C21AC2610002ED75C /* Einstellungen.swift */,
 				AA8FE06421A352D50066338D /* Sicherheits_Abfrage.swift */,
 				AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */,
+				AA9C854421CA55040060C7BF /* TXT */,
+				AA4C4F0C21C11EB9000B5BCC /* Daten */,
 				AA4C4F0721C0FB15000B5BCC /* Allgemeine Infos */,
 				AA4C4F0521C0FAA1000B5BCC /* Karte */,
 			);
@@ -208,9 +210,6 @@
 		AA4C4F0621C0FAE1000B5BCC /* Allgemein */ = {
 			isa = PBXGroup;
 			children = (
-				AA8FE06821A3649D0066338D /* HardCodedVar.swift */,
-				AA8FE06221A33DE00066338D /* DatenLader.swift */,
-				AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */,
 				AA5907F621A3141800D8493F /* Nitro.entitlements */,
 				AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */,
 				AA5907F421A30F1C00D8493F /* Stickers.xcstickers */,
@@ -226,10 +225,20 @@
 			isa = PBXGroup;
 			children = (
 				AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */,
-				AA8FE06021A33D080066338D /* UniInfos.txt */,
 				AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */,
 			);
 			name = "Allgemeine Infos";
+			sourceTree = "<group>";
+		};
+		AA4C4F0C21C11EB9000B5BCC /* Daten */ = {
+			isa = PBXGroup;
+			children = (
+				AA8FE06821A3649D0066338D /* HardCodedVar.swift */,
+				AA8FE06221A33DE00066338D /* DatenLader.swift */,
+				AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */,
+				AA4C4F0A21C11E9B000B5BCC /* Scrapper.swift */,
+			);
+			name = Daten;
 			sourceTree = "<group>";
 		};
 		AA5907F721A3147900D8493F /* Frameworks */ = {
@@ -244,6 +253,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AA9C854421CA55040060C7BF /* TXT */ = {
+			isa = PBXGroup;
+			children = (
+				AA8FE06021A33D080066338D /* UniInfos.txt */,
+				AA9C854521CA59220060C7BF /* KartenPunkte.txt */,
+				AA9C854621CA5B580060C7BF /* Einstellungen.txt */,
+			);
+			name = TXT;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -253,10 +272,10 @@
 			buildPhases = (
 				762A6DFBDBC7CEA96784E397 /* [CP] Check Pods Manifest.lock */,
 				AA1B53B92196EEBA00941DF6 /* Sources */,
-				AA1B53BA2196EEBA00941DF6 /* Frameworks */,
 				AA1B53BB2196EEBA00941DF6 /* Resources */,
 				008E1FDEECCD73EFCCB63E77 /* [CP] Embed Pods Frameworks */,
 				AA0D97B821BF130900965450 /* ShellScript */,
+				2A5E0A49635EE09A92C063AD /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -423,19 +442,23 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Nitro/Pods-Nitro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
 				"${BUILT_PRODUCTS_DIR}/Proposer/Proposer.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftScanner/SwiftScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
 				"${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework",
-				"${BUILT_PRODUCTS_DIR}/WKZombie/WKZombie.framework",
-				"${BUILT_PRODUCTS_DIR}/hpple/hpple.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Proposer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionButton.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WKZombie.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hpple.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -508,6 +531,7 @@
 				AA8FE06321A33DE00066338D /* DatenLader.swift in Sources */,
 				AA8FE06921A3649D0066338D /* HardCodedVar.swift in Sources */,
 				AA8FE06721A352EE0066338D /* LoginScreen.swift in Sources */,
+				AA4C4F0B21C11E9B000B5BCC /* Scrapper.swift in Sources */,
 				AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */,
 				AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */,
 				AA5907EE21A30B5200D8493F /* InfoAuflistung.swift in Sources */,

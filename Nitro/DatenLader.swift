@@ -7,6 +7,9 @@
 //
 
 import Foundation
+import SwiftScanner
+
+
 class DatenLader{
     
     
@@ -15,68 +18,117 @@ class DatenLader{
     func ladeDatenAusTxt(name: String){
         let file = name //this is the file. we will write to and read from it
         
-        let text = "some other text" //just a text
+        //let path = Bundle.main.path(forResource: file, ofType: "txt")
+        if let filepath = Bundle.main.path(forResource: file, ofType: "txt")
+        {
+            do
+            {
+                let contents = try String(contentsOfFile: filepath)
+                print(contents)
+                
+            }
+            catch
+            {
+                print("Konnte nicht geladen werden.")
+            }
+        }
+        else
+        {
+            print(file + " nicht gefunden.")
+        }
+            
+        //Scanner des Textes!!!
         
-        if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
-            
-            let fileURL = dir.appendingPathComponent(file)
-            print (fileURL)
-            
-            /*
-            //writing
-            do {
-                try text.write(to: fileURL, atomically: false, encoding: .utf8)
+        
+    }
+    
+    //---------------------------------------------
+    //Lade Karten Punkte
+    func LadeKartenPunkte(){
+        let file = "KartenPunkte" //this is the file. we will write to and read from it
+    
+        if let filepath = Bundle.main.path(forResource: file, ofType: "txt")
+        {
+            do
+            {
+                let contents = try String(contentsOfFile: filepath)
+                print(contents)
+                
             }
-            catch {/* error handling here */}
-            */
-            
-            //reading
-            do {
-                let text2 = try String(contentsOf: fileURL, encoding: .utf8)
-                print(text2)
+            catch
+            {
+                print("Konnte nicht geladen werden.")
             }
-            catch {/* error handling here */}
-            
-            //Scanner des Textes!!!
-            
+        }
+        else
+        {
+            print(file + " nicht gefunden.")
         }
     }
+    //----------------------------------------------
+    //Lade UniInfos
+    func ladeUniInfos(){
+        let file = "UniInfos" //this is the file. we will write to and read from it
+        
+        //let path = Bundle.main.path(forResource: file, ofType: "txt")
+        if let filepath = Bundle.main.path(forResource: file, ofType: "txt")
+        {
+            do
+            {
+                let contents = try String(contentsOfFile: filepath)
+                print(contents)
+                
+            }
+            catch
+            {
+                print("Konnte nicht geladen werden.")
+            }
+        }
+        else
+        {
+            print(file + " nicht gefunden.")
+        }
+        
+        //Scanner des Textes!!!
+        
+        
+    }
+    
+    //Laden aller Einstellungen, Variablen werden in der Hardcoded var gespeichert
+    func ladeEinstellungen(){
+        let file = "Einstellungen" //this is the file. we will write to and read from it
+        
+        //let path = Bundle.main.path(forResource: file, ofType: "txt")
+        if let filepath = Bundle.main.path(forResource: file, ofType: "txt")
+        {
+            do
+            {
+                let contents = try String(contentsOfFile: filepath)
+                print(contents)
+                
+            }
+            catch
+            {
+                print("Konnte nicht geladen werden.")
+            }
+        }
+        else
+        {
+            print(file + " nicht gefunden.")
+        }
+        
+        //Scanner des Textes!!!
+        
+        
+    }
+    
+    //---------------------------------------------
     func ladeCoreData(name: String){
         
     }
     
     
-    //Laden aller Einstellungen, Variablen werden in der Hardcoded var gespeichert
-    func ladeEinstellungen(){
-        var arr = HardCodedVar().GibSpeicher()
-        
-        
-        
-    }
-    
-    //------------------------------------------------
-    //Laden aus dem Netz
-    
-    //Laden der Daten der Mensa
-    func MensaData(){
-        //http://www.studentenwerk-giessen.de/Mensen_und_Cafeterien/Speisepl%E4ne/Mensa_Fulda.html
-        
-    }
-    
-    //Laden der RSS FEEDS
-    func RSSLoader(){
-        
-    }
-    
-    //Laden der Hochschulwebsitedaten
-    func DatenDerWebsite(){
-        
-    }
-    
-    
-    
+
     
     //Noten laden
-    
-    
 }

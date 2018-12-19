@@ -1,0 +1,7 @@
+title: "Mensa",                        locationName: "Gebäude 11",     coordinate: latitude: 50.5656, longitude: 9.6869
+title: "Bibliothek",                   locationName: "Gebäude 12",     coordinate: latitude: 50.5652, longitude: 9.6874
+title: "SSC",                            locationName: "Gebäude 10",     coordinate: atitude: 50.5653, longitude: 9.6861
+title: "Halle 8",                        locationName: "Gebäude 52",     coordinate: latitude: 50.5648, longitude: 9.6846
+title: "Gebäude E",                 locationName: "Gebäude 46",     coordinate: latitude: 50.5651, longitude: 9.6856
+title: "Selbstlernzentrum",      locationName: "Gebäude 46",     coordinate: latitude: 50.5644, longitude: 9.6852
+title: "Gebäude C",                 locationName: "Gebäude 43",     coordinate: atitude: 50.5651, longitude: 9.6845
