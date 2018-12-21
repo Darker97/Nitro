@@ -379,7 +379,7 @@
             </objects>
             <point key="canvasLocation" x="1013.6" y="589.65517241379314"/>
         </scene>
-        <!--test-->
+        <!--Weiter Infos-->
         <scene sceneID="5Jx-mQ-qiM">
             <objects>
                 <viewController storyboardIdentifier="InfoAusgabe" id="ZVi-ZW-xL6" customClass="InfoAusgabe" customModule="Nitro" customModuleProvider="target" sceneMemberID="viewController">
@@ -406,9 +406,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ufk-Ah-c1Q"/>
                     </view>
-                    <navigationItem key="navigationItem" title="test" id="PXc-KH-Owh">
+                    <navigationItem key="navigationItem" title="Weiter Infos" id="PXc-KH-Owh">
                         <barButtonItem key="backBarButtonItem" title="Back" id="p1A-O2-zx4"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="text" destination="6GX-bb-pIC" id="zBq-2d-o9U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OHD-Wu-Mtx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -516,29 +519,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="11F-ev-PNz">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="70" id="11F-ev-PNz">
                                 <rect key="frame" x="0.0" y="28" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="11F-ev-PNz" id="0zO-C3-866">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NameDerInfo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMi-5G-bp9">
-                                            <rect key="frame" x="16" y="24" width="245" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Id-MG-cbw">
-                                            <rect key="frame" x="269" y="19" width="90" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Weitere Infos"/>
-                                            <connections>
-                                                <segue destination="ZVi-ZW-xL6" kind="push" id="KLI-L0-LP3"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -555,6 +541,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="ZVi-ZW-xL6" kind="show" identifier="MoreInfos" id="t7i-Tg-kPy"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hcv-aw-Nnw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

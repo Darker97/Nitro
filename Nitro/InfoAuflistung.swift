@@ -10,9 +10,22 @@ import UIKit
 
 class InfoAuflistung: UITableViewController {
 
+    struct Item: Codable{
+        let Name: String
+        let Info: String
+    }
+    
+    var Infos = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        //abrufen der Daten und befüllen des Arrays
+        var args = DatenLader().ladeUniInfos()
+        for i in 0...args.count-1{
+            Infos.append(args[i].Name)
+            main.TextDerInfos.append(args[i].Info)
+        }
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -24,23 +37,40 @@ class InfoAuflistung: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return Infos.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 
-        // Configure the cell...
+        let item = Infos[indexPath.row]
+        let button : UIButton = UIButton(type:UIButton.ButtonType.custom) as UIButton
+        //let button = cell.viewWithTag(indexPath.row) as! UIButton
+        
+    
+        cell.addSubview(button)
+        cell.textLabel?.text = item
+        
+        cell.accessoryType = .detailDisclosureButton
+        
+        button.tag = indexPath.row
 
         return cell
     }
     
+    
+    override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        main.cell = indexPath.row
+         self.performSegue(withIdentifier: "MoreInfos", sender: nil)
+    }
+    
+
 
     
     // Override to support conditional editing of the table view.

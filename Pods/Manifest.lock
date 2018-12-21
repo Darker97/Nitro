@@ -1,32 +1,40 @@
 PODS:
-  - hpple (0.2.0)
+  - Alamofire (4.8.0)
+  - Kanna (4.0.2)
   - Proposer (1.2.1)
   - SideMenu (5.0.3)
+  - SwiftScanner (1.1.0)
+  - SwiftSoup (1.7.4)
   - TransitionButton (0.5.2)
-  - WKZombie (1.1.1):
-    - hpple (= 0.2.0)
 
 DEPENDENCIES:
+  - Alamofire
+  - Kanna
   - Proposer
   - SideMenu
+  - SwiftScanner
+  - SwiftSoup
   - TransitionButton
-  - WKZombie
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - hpple
+    - Alamofire
+    - Kanna
     - Proposer
     - SideMenu
+    - SwiftScanner
+    - SwiftSoup
     - TransitionButton
-    - WKZombie
 
 SPEC CHECKSUMS:
-  hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  Kanna: c60b61d72554bf04ed1ee074f9b379855cab4892
   Proposer: 97409ade1f80d8b19bba20972c03c9253bdd59b1
   SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+  SwiftScanner: f05f9fb8b8aea48c31297f732b74a2959916a2e6
+  SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
   TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
-  WKZombie: 345930c44980d4d3529d5b54b131df0dc04bbb0a
 
-PODFILE CHECKSUM: 6b8a00b0837792ac59058a8a7ab375919567b606
+PODFILE CHECKSUM: 22c95a40d6889a1760230c78ea7ee398da733d8d
 
 COCOAPODS: 1.5.2

@@ -8,16 +8,23 @@
 
 import Foundation
 class HardCodedVar{
-    //Alle hardgecodeten Variablen kommen hierher
     
-
+    init() {}
+    
+    
+    //Alle hardgecodeten Variablen kommen hierher
     
     
     //Alle anderen Variablen die ich übersichtlich speichern will kommen hier her
     //----------------------------------------------------
     //Daten die immer neu geladen werden
     
-    //TODO: Speichern der Mensadaten???
+    //Speichern der Mensadaten
+    var NameDerInfos = [String]()
+    var TextDerInfos = [String]()
+    var cell = 0;
+
+    
     //TODO: Speichern der News???
     
     //----------------------------------------------------
@@ -62,6 +69,8 @@ class HardCodedVar{
             ]
         return erg;
     }
+
     
     
 }
+var main = HardCodedVar()

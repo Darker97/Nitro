@@ -10,9 +10,11 @@ import UIKit
 
 class InfoAusgabe: UIViewController {
 
+    @IBOutlet weak var text: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        text.text = main.TextDerInfos[main.cell]
         // Do any additional setup after loading the view.
     }
     

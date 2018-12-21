@@ -10,6 +10,7 @@
 		1877B70441A9CDE3B6A7C5A1 /* Pods_Nitro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586AE186A4EC25782704F819 /* Pods_Nitro.framework */; };
 		58D40D5A72BADC8807743057 /* Pods_NitroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBA589C6E329AD89B57A055 /* Pods_NitroTests.framework */; };
 		835CC02EA152F0C4BEACA34C /* Pods_NitroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E897D7AA7406D6455FAAF3CD /* Pods_NitroUITests.framework */; };
+		AA08818921CAE75B00145E97 /* Einstellungen.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA9C854621CA5B580060C7BF /* Einstellungen.txt */; };
 		AA1B53C12196EEBB00941DF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53C02196EEBB00941DF6 /* AppDelegate.swift */; };
 		AA1B53C32196EEBB00941DF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53C22196EEBB00941DF6 /* ViewController.swift */; };
 		AA1B53C62196EEBB00941DF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1B53C42196EEBB00941DF6 /* Main.storyboard */; settings = {ASSET_TAGS = (AnmeldungFehleschlagen, ); }; };
@@ -23,6 +24,7 @@
 		AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */; };
 		AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */; };
 		AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA5907F421A30F1C00D8493F /* Stickers.xcstickers */; };
+		AA6326B021CD53BF004321EC /* UniInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = AA6326AF21CD53BF004321EC /* UniInfo.json */; };
 		AA635E3D21AC2610002ED75C /* Einstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635E3C21AC2610002ED75C /* Einstellungen.swift */; };
 		AA635E3F21AC27DC002ED75C /* DatenSpeicher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */; };
 		AA8E661B21C0135900929FE8 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E661A21C0135900929FE8 /* Map.swift */; };
@@ -79,19 +81,19 @@
 		AA5907F421A30F1C00D8493F /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
 		AA5907F621A3141800D8493F /* Nitro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nitro.entitlements; sourceTree = "<group>"; };
 		AA5907F821A3147900D8493F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AA6326AF21CD53BF004321EC /* UniInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UniInfo.json; sourceTree = "<group>"; };
 		AA635E3C21AC2610002ED75C /* Einstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Einstellungen.swift; sourceTree = "<group>"; };
 		AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatenSpeicher.swift; sourceTree = "<group>"; };
 		AA8E661A21C0135900929FE8 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		AA8E662221C036E900929FE8 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 		AA8FE05E21A3310C0066338D /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
-		AA8FE06021A33D080066338D /* UniInfos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UniInfos.txt; sourceTree = "<group>"; };
+		AA8FE06021A33D080066338D /* UniInfos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UniInfos.txt; path = Nitro/UniInfos.txt; sourceTree = SOURCE_ROOT; };
 		AA8FE06221A33DE00066338D /* DatenLader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatenLader.swift; sourceTree = "<group>"; };
 		AA8FE06421A352D50066338D /* Sicherheits_Abfrage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sicherheits_Abfrage.swift; sourceTree = "<group>"; };
 		AA8FE06621A352EE0066338D /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		AA8FE06821A3649D0066338D /* HardCodedVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardCodedVar.swift; sourceTree = "<group>"; };
 		AA8FE06A21A373CA0066338D /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
-		AA9C854521CA59220060C7BF /* KartenPunkte.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = KartenPunkte.txt; path = Nitro/KartenPunkte.txt; sourceTree = SOURCE_ROOT; };
-		AA9C854621CA5B580060C7BF /* Einstellungen.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Einstellungen.txt; sourceTree = "<group>"; };
+		AA9C854621CA5B580060C7BF /* Einstellungen.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Einstellungen.txt; path = Nitro/Einstellungen.txt; sourceTree = SOURCE_ROOT; };
 		BE2FE831AF19C2CA14299DE2 /* Pods-NitroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NitroUITests/Pods-NitroUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF2FC5083A1C5072C944B4A /* Pods-NitroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NitroTests/Pods-NitroTests.release.xcconfig"; sourceTree = "<group>"; };
 		E897D7AA7406D6455FAAF3CD /* Pods_NitroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NitroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -257,7 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				AA8FE06021A33D080066338D /* UniInfos.txt */,
-				AA9C854521CA59220060C7BF /* KartenPunkte.txt */,
+				AA6326AF21CD53BF004321EC /* UniInfo.json */,
 				AA9C854621CA5B580060C7BF /* Einstellungen.txt */,
 			);
 			name = TXT;
@@ -394,7 +396,9 @@
 			files = (
 				AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */,
 				AA1B53CB2196EEBB00941DF6 /* LaunchScreen.storyboard in Resources */,
+				AA08818921CAE75B00145E97 /* Einstellungen.txt in Resources */,
 				AA1B53C82196EEBB00941DF6 /* Assets.xcassets in Resources */,
+				AA6326B021CD53BF004321EC /* UniInfo.json in Resources */,
 				AA8FE06121A33D080066338D /* UniInfos.txt in Resources */,
 				AA1B53C62196EEBB00941DF6 /* Main.storyboard in Resources */,
 			);

@@ -8,7 +8,7 @@
 
 import UIKit
 import MapKit
-
+import SwiftScanner
 
 class Map: UIViewController {
 
@@ -37,26 +37,15 @@ class Map: UIViewController {
         Map.setRegion(Region, animated: true)
         
         //Punkte hinzufügen
-    let Gebäude11 = Places(title: "Mensa", locationName: "Gebäude 11",  coordinate: CLLocationCoordinate2D(latitude: 50.5656, longitude: 9.6869))
-    let Gebäude12 = Places(title: "Bibliothek", locationName: "Gebäude 12",  coordinate: CLLocationCoordinate2D(latitude: 50.5652, longitude: 9.6874))
-    let Gebäude10 = Places(title: "SSC", locationName: "Gebäude 10",  coordinate: CLLocationCoordinate2D(latitude: 50.5653, longitude: 9.6861))
-    let Gebäude52 = Places(title: "Halle 8", locationName: "Gebäude 52",  coordinate: CLLocationCoordinate2D(latitude: 50.5648, longitude: 9.6846))
-    let Gebäude46 = Places(title: "Gebäude E", locationName: "Gebäude 46", coordinate: CLLocationCoordinate2D(latitude: 50.5651, longitude: 9.6856))
-    let Gebäude44 = Places(title: "Selbstlernzentrum", locationName: "Gebäude 46",  coordinate: CLLocationCoordinate2D(latitude: 50.5644, longitude: 9.6852))
-    let Gebäude43 = Places(title: "Gebäude C", locationName: "Gebäude 43",  coordinate: CLLocationCoordinate2D(latitude: 50.5651, longitude: 9.6845))
-   // let Gebäude51 = Places(title: "Gebäude 51", locationName: "Gebäude ",  coordinate: CLLocationCoordinate2D(latitude: 50.5648, longitude: 9.6851))
-        
-        
+        //Alle Punkte haben die Eigenschaften Title, Name und Koordinaten
 
-        Map.addAnnotation(Gebäude11)
-        Map.addAnnotation(Gebäude12)
-        Map.addAnnotation(Gebäude10)
-        Map.addAnnotation(Gebäude52)
-        Map.addAnnotation(Gebäude46)
-        Map.addAnnotation(Gebäude44)
-        Map.addAnnotation(Gebäude43)
-    //    Map.addAnnotation(Gebäude51)
-        
+        Map.addAnnotation(Places(title: "Mensa", locationName: "Gebäude 11",  coordinate: CLLocationCoordinate2D(latitude: 50.5656, longitude: 9.6869)))
+        Map.addAnnotation(Places(title: "Bibliothek", locationName: "Gebäude 12",  coordinate: CLLocationCoordinate2D(latitude: 50.5652, longitude: 9.6874)))
+        Map.addAnnotation(Places(title: "SSC", locationName: "Gebäude 10",  coordinate: CLLocationCoordinate2D(latitude: 50.5653, longitude: 9.6861)))
+        Map.addAnnotation(Places(title: "Halle 8", locationName: "Gebäude 52",  coordinate: CLLocationCoordinate2D(latitude: 50.5648, longitude: 9.6846)))
+        Map.addAnnotation(Places(title: "Gebäude E", locationName: "Gebäude 46", coordinate: CLLocationCoordinate2D(latitude: 50.5651, longitude: 9.6856)))
+        Map.addAnnotation(Places(title: "Selbstlernzentrum", locationName: "Gebäude 46",  coordinate: CLLocationCoordinate2D(latitude: 50.5644, longitude: 9.6852)))
+        Map.addAnnotation(Places(title: "Gebäude C", locationName: "Gebäude 43",  coordinate: CLLocationCoordinate2D(latitude: 50.5651, longitude: 9.6845)))
     }
 //-------------------------------------------------------------------------
 //

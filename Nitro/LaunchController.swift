@@ -41,9 +41,9 @@ class LaunchController: UIViewController{
     func toDoStuff(){
         //Lädt die Daten für dei Uni Infos aus der Txt Datei
         //DatenLader().ladeDatenAusTxt(name: "UniInfos")
-        DatenLader().LadeKartenPunkte()
-        DatenLader().ladeUniInfos()
+        //DatenLader().ladeUniInfos()
         DatenLader().ladeEinstellungen()
+        
     }
 
     
