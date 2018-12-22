@@ -379,7 +379,7 @@
             </objects>
             <point key="canvasLocation" x="1013.6" y="589.65517241379314"/>
         </scene>
-        <!--Weiter Infos-->
+        <!--Weitere Infos-->
         <scene sceneID="5Jx-mQ-qiM">
             <objects>
                 <viewController storyboardIdentifier="InfoAusgabe" id="ZVi-ZW-xL6" customClass="InfoAusgabe" customModule="Nitro" customModuleProvider="target" sceneMemberID="viewController">
@@ -406,7 +406,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ufk-Ah-c1Q"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Weiter Infos" id="PXc-KH-Owh">
+                    <navigationItem key="navigationItem" title="Weitere Infos" id="PXc-KH-Owh">
                         <barButtonItem key="backBarButtonItem" title="Back" id="p1A-O2-zx4"/>
                     </navigationItem>
                     <connections>

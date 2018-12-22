@@ -28,10 +28,10 @@ class Sicherheits_Abfrage: UIViewController, NFCNDEFReaderSessionDelegate {
         super.viewDidLoad()
         
         //Abfrgage ob die einzelnen Optionen aktiv sind
-        if(HardCodedVar().NFCEnabled == false){
+        if(main.NFCEnabled == false){
             start_button.isHidden = true
         }
-        if (HardCodedVar().TouchIdEnabled == false){
+        if (main.TouchIdEnabled == false){
             TouchIDButton.isHidden = true
         }
 
@@ -61,10 +61,10 @@ class Sicherheits_Abfrage: UIViewController, NFCNDEFReaderSessionDelegate {
         }
         print (Ergebnis)
         //Wenn das NFC Signal gleich ist mit der Passfrase wird weitergeleitet
-        if Ergebnis.range(of:HardCodedVar().NFCCoder) != nil{
+        if Ergebnis.range(of:main.NFCCoder) != nil{
             testErfolgreich()
         }
-        //(Ergebnis == HardCodedVar().NFCCoder)
+        //(Ergebnis == main.NFCCoder)
     }
     //------------------------------------------------------------------------
     //Funktion um TouchID als Alternative einzuführen

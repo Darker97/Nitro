@@ -35,6 +35,7 @@
 		AA8FE06521A352D50066338D /* Sicherheits_Abfrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06421A352D50066338D /* Sicherheits_Abfrage.swift */; };
 		AA8FE06721A352EE0066338D /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06621A352EE0066338D /* LoginScreen.swift */; };
 		AA8FE06921A3649D0066338D /* HardCodedVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06821A3649D0066338D /* HardCodedVar.swift */; };
+		AAA0F38121CE8C2C009B5F0C /* Map.json in Resources */ = {isa = PBXBuildFile; fileRef = AAA0F38021CE8C2C009B5F0C /* Map.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		AA8FE06821A3649D0066338D /* HardCodedVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardCodedVar.swift; sourceTree = "<group>"; };
 		AA8FE06A21A373CA0066338D /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		AA9C854621CA5B580060C7BF /* Einstellungen.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Einstellungen.txt; path = Nitro/Einstellungen.txt; sourceTree = SOURCE_ROOT; };
+		AAA0F38021CE8C2C009B5F0C /* Map.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Map.json; sourceTree = "<group>"; };
 		BE2FE831AF19C2CA14299DE2 /* Pods-NitroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NitroUITests/Pods-NitroUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF2FC5083A1C5072C944B4A /* Pods-NitroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NitroTests/Pods-NitroTests.release.xcconfig"; sourceTree = "<group>"; };
 		E897D7AA7406D6455FAAF3CD /* Pods_NitroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NitroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -260,6 +262,7 @@
 			children = (
 				AA8FE06021A33D080066338D /* UniInfos.txt */,
 				AA6326AF21CD53BF004321EC /* UniInfo.json */,
+				AAA0F38021CE8C2C009B5F0C /* Map.json */,
 				AA9C854621CA5B580060C7BF /* Einstellungen.txt */,
 			);
 			name = TXT;
@@ -400,6 +403,7 @@
 				AA1B53C82196EEBB00941DF6 /* Assets.xcassets in Resources */,
 				AA6326B021CD53BF004321EC /* UniInfo.json in Resources */,
 				AA8FE06121A33D080066338D /* UniInfos.txt in Resources */,
+				AAA0F38121CE8C2C009B5F0C /* Map.json in Resources */,
 				AA1B53C62196EEBB00941DF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

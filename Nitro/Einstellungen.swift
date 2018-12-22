@@ -20,7 +20,7 @@ class Einstellungen: UIViewController {
     @IBOutlet weak var Regler: UISegmentedControl!
     
     @IBAction func ReglerChange(_ sender: Any) {
-        HardCodedVar().Zustand = Regler.selectedSegmentIndex
+        main.Zustand = Regler.selectedSegmentIndex
     }
     
     
@@ -30,17 +30,17 @@ class Einstellungen: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func NFCan(_ sender: Any) {
-        HardCodedVar().NFCEnabled = NFCregler.isOn
+        main.NFCEnabled = NFCregler.isOn
     }
     
     @IBAction func Fingerabdruckan(_ sender: Any) {
-        HardCodedVar().TouchIdEnabled=fingerRegler.isOn
+        main.TouchIdEnabled=fingerRegler.isOn
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        NFCregler.isOn = HardCodedVar().NFCEnabled
-        fingerRegler.isOn = HardCodedVar().TouchIdEnabled
-        Regler.selectedSegmentIndex = HardCodedVar().Zustand
+        NFCregler.isOn = main.NFCEnabled
+        fingerRegler.isOn = main.TouchIdEnabled
+        Regler.selectedSegmentIndex = main.Zustand
     }
 
     //------------------------------------------
