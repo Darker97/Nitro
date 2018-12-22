@@ -1,0 +1,14 @@
+[
+    {
+        "Name": "Test1",
+        "Info": "Dies ist eine Test Info"
+    },
+    {
+        "Name": "Test2",
+        "Info": "Dies ist die zweite Test Info"
+    },
+    {
+        "Name": "Test3",
+        "Info": "Dies ist die dritte Test Info"
+    }
+]
