@@ -21,6 +21,8 @@ target 'Nitro' do
   pod 'Alamofire'
   pod 'Kanna'
   pod 'SwiftScanner'
+  pod 'Erik'
+  pod 'FeedKit'
   
   #hatt nicht funktioniert, weitere Tests in Zukunft
   pod 'SwiftSoup'

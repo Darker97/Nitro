@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WebKit
 
 class LaunchController: UIViewController{
     //Lädt die erste Seite
@@ -18,7 +19,9 @@ class LaunchController: UIViewController{
     @IBOutlet weak var VersionSchrift: UILabel!
 
     var WurdeGeladen = false
-
+    
+    @IBOutlet weak var weba: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         toDoStuff();
@@ -43,7 +46,13 @@ class LaunchController: UIViewController{
         //DatenLader().ladeDatenAusTxt(name: "UniInfos")
         //DatenLader().ladeUniInfos()
         DatenLader().ladeEinstellungen()
-
+        
+        
+        Scrapper().RSSLoader()
+        DispatchQueue.main.async {
+            Scrapper().MensaData(Webview: self.weba)
+        }
+        
     }
 
 
@@ -92,6 +101,8 @@ class LaunchController: UIViewController{
         })
 
     }
+    
+    
 
 
     /*

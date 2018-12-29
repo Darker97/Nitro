@@ -144,6 +144,8 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Erik/Erik.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Proposer/Proposer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework"
@@ -153,6 +155,8 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Erik/Erik.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Proposer/Proposer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework"

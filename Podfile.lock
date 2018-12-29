@@ -1,5 +1,11 @@
 PODS:
   - Alamofire (4.8.0)
+  - Erik (4.2.0):
+    - Erik/Core (= 4.2.0)
+    - Kanna
+  - Erik/Core (4.2.0):
+    - Kanna
+  - FeedKit (8.0.0)
   - Kanna (4.0.2)
   - Proposer (1.2.1)
   - SideMenu (5.0.3)
@@ -9,6 +15,8 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - Erik
+  - FeedKit
   - Kanna
   - Proposer
   - SideMenu
@@ -19,6 +27,8 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - Erik
+    - FeedKit
     - Kanna
     - Proposer
     - SideMenu
@@ -28,6 +38,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  Erik: 6d235ccca881877bec9a28b833dfbb86dca91165
+  FeedKit: 4a78f07adf7f0a224b904014678f1de82a7ffc21
   Kanna: c60b61d72554bf04ed1ee074f9b379855cab4892
   Proposer: 97409ade1f80d8b19bba20972c03c9253bdd59b1
   SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
@@ -35,6 +47,6 @@ SPEC CHECKSUMS:
   SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
   TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
 
-PODFILE CHECKSUM: 22c95a40d6889a1760230c78ea7ee398da733d8d
+PODFILE CHECKSUM: cfbdacb2d75d4021c4ea68d25948b3181a44e5d5
 
 COCOAPODS: 1.5.2

@@ -7,76 +7,112 @@
 //
 
 import Foundation
-import SwiftSoup
-import Alamofire
-import Kanna
-import SwiftScanner
+import WebKit
+import UIKit
+import FeedKit
 
 class Scrapper{
  
     //------------------------------------------------
     //Laden aus dem Netz
     
-    //Laden der Daten der Mensa
+    //Laden der html-Seite der Mensa
     //http://www.studentenwerk-giessen.de/Mensen_und_Cafeterien/Speisepl%E4ne/Mensa_Fulda.html
-    func MensaData(){
+    
+    var webView = WKWebView()
+    func MensaData(Webview: WKWebView){
         
         //Laden der Website als HTML Document
-        Alamofire.request("http://www.maxmanager.de/daten-extern/sw-giessen/html/speiseplaene.php?einrichtung=fulda").responseString { response in
-            print("\(response.result.isSuccess)")
-            if let html = response.result.value {
-                self.parseHTML(html: html)
-            }
-        }
-        Alamofire.request("http://www.maxmanager.de/daten-extern/sw-giessen/html/speiseplaene.php?einrichtung=fulda", method: .get).responseString{ response in
-            print("\(response.result.isSuccess)")
-            if let html = response.result.value {
-                    self.parseHTML(html: html)
-        }
-        }}
-    
-    func parseHTML(html: String) -> Void {
+        webView = Webview
+        let b = "http://www.maxmanager.de/daten-extern/sw-giessen/html/speiseplaene.php?einrichtung=fulda&w=dw"
+        let url = NSURL(string: b)
+        let request = NSURLRequest(url: url! as URL)
+        webView.load(request as URLRequest)
         
-        //Umwandeln in Daten
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(4), execute: {
+            self.hintergrunf()
+        })
         
-       // let sc = Scanner.init(string: html)
+        //let doc = WebView.stringByEvaluatingJavaScriptFromString("document.documentElement.outerHTML")
         
-        var Result: Set<String> = []
-        
-        var data = ""
-        //print (html)
-        let sc = StringScanner.init(html)
-        while(!sc.isAtEnd){
-            try! sc.scan(upTo: "<span class=\"artikel\">")
-            try! data = sc.scan(upTo: "<sup style")!
-            print (data)
-            }
-        
-        
-        /*
-        while(sc.isAtEnd == false){
-            let depthString: NSString = NSString()
-            var data: NSString?
-            var dump: NSString?               //Kleine Notlösung, wird nicht weiter beachtet
-            sc.scanUpTo("<span class=\"artikel\">", into: &dump)
-            sc.scanUpTo("<sup style", into: &data)
-            print (data)
-        }
-        
-        */
-        if let doc = try? HTML(html: html, encoding: String.Encoding.utf8) {
-            print(doc.title)
-        
-            for node in doc.css(".artikel") {
-                print("first")
-                print(node.text)
-            }
-        }
     }
+    //Verwerten des Codes
+    func hintergrunf() {
 
-  
+            if (!webView.isLoading){
+                print("loaded")
+                webView.evaluateJavaScript("document.documentElement.outerHTML.toString()") { (result, error) in
+                    if let result = result {
+                        //print(result)
+                        //"herausschneiden" von dem String den wir wollen
+                        var erg: NSString?
+                        let sc = Scanner(string: result as! String)
+                        sc.scanUpTo("<!-- M A I N -->", into: nil)
+                        sc.scanUpTo("<!-- LEGENDE -->", into: &erg)
+                        
+                        self.htmlConverter(html: erg as! String)
+                        
+                    }
+                return
+                }}
+        }
+
+    //Scrapper für html
+    func htmlConverter(html: String){
+        print(html.count)
+        if(html.count == 650){
+            //main.MensaEssen.append("Test")
+            main.MensaEssen.append("Geschlossen")
+            return
+        }
+        
+        //Todo: Anpassen an die Daten der Mensa app
+        let userscanner = Scanner(string: html )
+        var userscanned: NSString?
+        
+        if userscanner.scanUpTo("<td class=\"cell1\"><div>", into:nil){
+            userscanner.scanString("div>", into:nil)
+            if userscanner.scanUpTo("</div></td></tr>", into:&userscanned) {
+                let newResult: String = userscanned as! String
+                print("NewResultValue: \(newResult)")
+            }
+        }
+        //print(erg)
+        
+    }
+    
+    //-----------------------------------------------
     //Laden der RSS FEEDS
     func RSSLoader(){
+        let Fachbereich = URL(string: main.FachbereichLinks[main.FachbereichAuswahl])!
+        let Allgemein = URL(string: main.AktuelleMeldungenLink)!
+        
+        let Parser1 = FeedParser(URL: Fachbereich)
+        let Parser2 = FeedParser(URL: Allgemein)
+        
+        let result = Parser1.parse()
+        let result2 = Parser2.parse()
+        
+        guard let feed = result.rssFeed, result.isSuccess else {
+            print(result.error)
+            return
+        }
+        //print(feed.title)
+        
+        guard let feed2 = result2.rssFeed, result.isSuccess else {
+            print(result.error)
+            return
+        }
+        
+        let item = feed.items?.first
+        print(item!.title!)
+        main.RSSFachTitleSpeicher.append(item!.title!)
+        main.RSSFachDetails.append(item!.description!)
+        
+        let item2 = feed2.items?.first
+        print(item2!.title!)
+        main.RSSAKKTitle.append(item2!.title!)
+        main.RSSAKKDetai.append(item2!.description!)
         
     }
     

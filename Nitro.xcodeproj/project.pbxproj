@@ -18,6 +18,10 @@
 		AA1B53CB2196EEBB00941DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1B53C92196EEBB00941DF6 /* LaunchScreen.storyboard */; };
 		AA1B53D62196EEBB00941DF6 /* NitroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53D52196EEBB00941DF6 /* NitroTests.swift */; };
 		AA1B53E12196EEBB00941DF6 /* NitroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53E02196EEBB00941DF6 /* NitroUITests.swift */; };
+		AA4618D121D2561400084872 /* FachbereichsInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4618D021D2561400084872 /* FachbereichsInfos.swift */; };
+		AA4618D321D2590A00084872 /* AKKInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4618D221D2590A00084872 /* AKKInfos.swift */; };
+		AA4618D521D2596F00084872 /* ShowFachbereichsInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4618D421D2596F00084872 /* ShowFachbereichsInfos.swift */; };
+		AA4618D721D2A97C00084872 /* ShowAKK.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4618D621D2A97C00084872 /* ShowAKK.swift */; };
 		AA4C4F0921C0FB3C000B5BCC /* Mensa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */; };
 		AA4C4F0B21C11E9B000B5BCC /* Scrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C4F0A21C11E9B000B5BCC /* Scrapper.swift */; };
 		AA5907EE21A30B5200D8493F /* InfoAuflistung.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */; };
@@ -36,6 +40,8 @@
 		AA8FE06721A352EE0066338D /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06621A352EE0066338D /* LoginScreen.swift */; };
 		AA8FE06921A3649D0066338D /* HardCodedVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06821A3649D0066338D /* HardCodedVar.swift */; };
 		AAA0F38121CE8C2C009B5F0C /* Map.json in Resources */ = {isa = PBXBuildFile; fileRef = AAA0F38021CE8C2C009B5F0C /* Map.json */; };
+		AAA8F4E821D6C56E004B1DD1 /* RSS Auswahl Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA8F4E721D6C56E004B1DD1 /* RSS Auswahl Controller.swift */; };
+		AAA8F4EA21D6D1B4004B1DD1 /* MensaLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA8F4E921D6D1B4004B1DD1 /* MensaLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +80,10 @@
 		AA1B53DC2196EEBB00941DF6 /* NitroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NitroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1B53E02196EEBB00941DF6 /* NitroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NitroUITests.swift; sourceTree = "<group>"; };
 		AA1B53E22196EEBB00941DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4618D021D2561400084872 /* FachbereichsInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FachbereichsInfos.swift; sourceTree = "<group>"; };
+		AA4618D221D2590A00084872 /* AKKInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKKInfos.swift; sourceTree = "<group>"; };
+		AA4618D421D2596F00084872 /* ShowFachbereichsInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowFachbereichsInfos.swift; sourceTree = "<group>"; };
+		AA4618D621D2A97C00084872 /* ShowAKK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAKK.swift; sourceTree = "<group>"; };
 		AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensa.swift; sourceTree = "<group>"; };
 		AA4C4F0A21C11E9B000B5BCC /* Scrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrapper.swift; sourceTree = "<group>"; };
 		AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAuflistung.swift; sourceTree = "<group>"; };
@@ -96,6 +106,8 @@
 		AA8FE06A21A373CA0066338D /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		AA9C854621CA5B580060C7BF /* Einstellungen.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Einstellungen.txt; path = Nitro/Einstellungen.txt; sourceTree = SOURCE_ROOT; };
 		AAA0F38021CE8C2C009B5F0C /* Map.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Map.json; sourceTree = "<group>"; };
+		AAA8F4E721D6C56E004B1DD1 /* RSS Auswahl Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RSS Auswahl Controller.swift"; sourceTree = "<group>"; };
+		AAA8F4E921D6D1B4004B1DD1 /* MensaLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensaLoader.swift; sourceTree = "<group>"; };
 		BE2FE831AF19C2CA14299DE2 /* Pods-NitroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NitroUITests/Pods-NitroUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF2FC5083A1C5072C944B4A /* Pods-NitroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NitroTests/Pods-NitroTests.release.xcconfig"; sourceTree = "<group>"; };
 		E897D7AA7406D6455FAAF3CD /* Pods_NitroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NitroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,8 +187,6 @@
 				AA8FE06621A352EE0066338D /* LoginScreen.swift */,
 				AA635E3C21AC2610002ED75C /* Einstellungen.swift */,
 				AA8FE06421A352D50066338D /* Sicherheits_Abfrage.swift */,
-				AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */,
-				AA9C854421CA55040060C7BF /* TXT */,
 				AA4C4F0C21C11EB9000B5BCC /* Daten */,
 				AA4C4F0721C0FB15000B5BCC /* Allgemeine Infos */,
 				AA4C4F0521C0FAA1000B5BCC /* Karte */,
@@ -200,6 +210,18 @@
 				AA1B53E22196EEBB00941DF6 /* Info.plist */,
 			);
 			path = NitroUITests;
+			sourceTree = "<group>";
+		};
+		AA4618D821D2A9CF00084872 /* RSS */ = {
+			isa = PBXGroup;
+			children = (
+				AA4618D621D2A97C00084872 /* ShowAKK.swift */,
+				AAA8F4E721D6C56E004B1DD1 /* RSS Auswahl Controller.swift */,
+				AA4618D021D2561400084872 /* FachbereichsInfos.swift */,
+				AA4618D221D2590A00084872 /* AKKInfos.swift */,
+				AA4618D421D2596F00084872 /* ShowFachbereichsInfos.swift */,
+			);
+			name = RSS;
 			sourceTree = "<group>";
 		};
 		AA4C4F0521C0FAA1000B5BCC /* Karte */ = {
@@ -237,6 +259,10 @@
 		AA4C4F0C21C11EB9000B5BCC /* Daten */ = {
 			isa = PBXGroup;
 			children = (
+				AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */,
+				AAA8F4E921D6D1B4004B1DD1 /* MensaLoader.swift */,
+				AA9C854421CA55040060C7BF /* TXT */,
+				AA4618D821D2A9CF00084872 /* RSS */,
 				AA8FE06821A3649D0066338D /* HardCodedVar.swift */,
 				AA8FE06221A33DE00066338D /* DatenLader.swift */,
 				AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */,
@@ -451,6 +477,8 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Nitro/Pods-Nitro-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Erik/Erik.framework",
+				"${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
 				"${BUILT_PRODUCTS_DIR}/Proposer/Proposer.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
@@ -461,6 +489,8 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Erik.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Proposer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
@@ -534,8 +564,12 @@
 				AA8FE06521A352D50066338D /* Sicherheits_Abfrage.swift in Sources */,
 				AA635E3F21AC27DC002ED75C /* DatenSpeicher.swift in Sources */,
 				AA8E661B21C0135900929FE8 /* Map.swift in Sources */,
+				AA4618D721D2A97C00084872 /* ShowAKK.swift in Sources */,
 				AA8E662321C036E900929FE8 /* Places.swift in Sources */,
+				AA4618D321D2590A00084872 /* AKKInfos.swift in Sources */,
+				AA4618D121D2561400084872 /* FachbereichsInfos.swift in Sources */,
 				AA635E3D21AC2610002ED75C /* Einstellungen.swift in Sources */,
+				AA4618D521D2596F00084872 /* ShowFachbereichsInfos.swift in Sources */,
 				AA8FE06321A33DE00066338D /* DatenLader.swift in Sources */,
 				AA8FE06921A3649D0066338D /* HardCodedVar.swift in Sources */,
 				AA8FE06721A352EE0066338D /* LoginScreen.swift in Sources */,
@@ -545,7 +579,9 @@
 				AA5907EE21A30B5200D8493F /* InfoAuflistung.swift in Sources */,
 				AA1B53C32196EEBB00941DF6 /* ViewController.swift in Sources */,
 				AA8FE05F21A3310C0066338D /* LaunchController.swift in Sources */,
+				AAA8F4E821D6C56E004B1DD1 /* RSS Auswahl Controller.swift in Sources */,
 				AA1B53C12196EEBB00941DF6 /* AppDelegate.swift in Sources */,
+				AAA8F4EA21D6D1B4004B1DD1 /* MensaLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,7 +34,14 @@ class HardCodedVar{
     //TODO: Speichern der Noten
 
 
-
+    
+    
+    //----------------------------------------------------
+    //Mensa
+    var MensaEssen = [String]()
+    var MensaPreisStudent = [String]()
+    var MensaPreisGast = [String]()
+    var MensaPreisMitarbeiter = [String]()
     //___________________________________________________
     //Einstellungen
 
@@ -49,8 +56,41 @@ class HardCodedVar{
     //Zustand des Studenten also 1:Besucher 2:Bediensteter 3:Student
     var Zustand = 3
 
+    //RSS:
+    //Fachbereich
+    var FachbereichAuswahl:Int = 0;
+    
+    var Fachbereich = ["Angewandte Informatik",
+                       "Elektrotechnik und Informationstechnik",
+                       "Lebensmitteltechnik",
+                       "Oecotrophologie",
+                       "Pflege und Gesundheit",
+                       "Sozial-& Kulturwissenschaften",
+                       "Sozialwesen",
+                       "Wirtschaft"]
 
+    var FachbereichLinks = ["https://www.hs-fulda.de/rss-ai/",
+                            "https://www.hs-fulda.de/rss-et/",
+                            "https://www.hs-fulda.de/rss-lt/",
+                            "https://www.hs-fulda.de/rss-oe/",
+                            "https://www.hs-fulda.de/rss-pg/",
+                            "https://www.hs-fulda.de/rss-sk/",
+                            "https://www.hs-fulda.de/rss-sw/",
+                            "https://www.hs-fulda.de/rss-w/"]
+    
+    var AktuelleMeldungenLink = "https://www.hs-fulda.de/rss-aktuelle-meldungen/"
+    var Pressemitteilungen = "https://www.hs-fulda.de/rss-pressemitteilungen/"
 
+    //RssFach - Speicher
+    var RSSFachTitleSpeicher = [String]()
+    var RSSFachDetails = [String]()
+    
+    var RSSAKKTitle = [String]()
+    var RSSAKKDetai = [String]()
+    
+    
+    var RSSCell = 0
+    
     //____________________________________________________
     //Funktionen für die Variablen
     var isLockedIn = false;
