@@ -16,9 +16,17 @@ class InfoAuflistung: UITableViewController {
     }
     
     var Infos = [String]()
+    @IBOutlet weak var zurückButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if(main.Online != true){
+            zurückButton.isEnabled == false
+            zurückButton.accessibilityElementsHidden = true
+        }
+        
+        
         
         //abrufen der Daten und befüllen des Arrays
         var args = DatenLader().ladeUniInfos()

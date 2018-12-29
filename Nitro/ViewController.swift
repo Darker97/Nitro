@@ -8,6 +8,7 @@
 
 import UIKit
 import WebKit
+import HealthKit
 
 class ViewController: UIViewController {
 
@@ -33,6 +34,27 @@ class ViewController: UIViewController {
         self.performSegue(withIdentifier: "News", sender: nil)
     }
     
+    //Anzeige des aktuellen Wetters
+    @IBOutlet weak var wetterLabel: UILabel!
+    @IBOutlet weak var WetterAnzeige: UILabel!
+    @IBOutlet weak var temp: UILabel!
+    func wetter(){
+        if (main.Online && main.Weather != ""){
+            wetterLabel.isHidden = false
+            WetterAnzeige.isHidden = false
+            temp.isHidden = false
+            
+            
+            
+            
+            
+        }else{
+            wetterLabel.isHidden = true
+            WetterAnzeige.isHidden = true
+            temp.isHidden = true
+        }
+        
+    }
     
     //-----------------------------------------------
     //Abfrage ob jemmand eingelogt ist. Wenn nicht, werden bestimmte Objekte versteckt.

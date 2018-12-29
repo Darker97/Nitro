@@ -8,6 +8,7 @@ PODS:
   - FeedKit (8.0.0)
   - Kanna (4.0.2)
   - Proposer (1.2.1)
+  - ReachabilitySwift (4.3.0)
   - SideMenu (5.0.3)
   - SwiftScanner (1.1.0)
   - SwiftSoup (1.7.4)
@@ -19,6 +20,7 @@ DEPENDENCIES:
   - FeedKit
   - Kanna
   - Proposer
+  - ReachabilitySwift
   - SideMenu
   - SwiftScanner
   - SwiftSoup
@@ -31,6 +33,7 @@ SPEC REPOS:
     - FeedKit
     - Kanna
     - Proposer
+    - ReachabilitySwift
     - SideMenu
     - SwiftScanner
     - SwiftSoup
@@ -42,11 +45,12 @@ SPEC CHECKSUMS:
   FeedKit: 4a78f07adf7f0a224b904014678f1de82a7ffc21
   Kanna: c60b61d72554bf04ed1ee074f9b379855cab4892
   Proposer: 97409ade1f80d8b19bba20972c03c9253bdd59b1
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
   SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
   SwiftScanner: f05f9fb8b8aea48c31297f732b74a2959916a2e6
   SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
   TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
 
-PODFILE CHECKSUM: cfbdacb2d75d4021c4ea68d25948b3181a44e5d5
+PODFILE CHECKSUM: 1c999ee60326d96ee2c81e4b3468e248474a9e24
 
 COCOAPODS: 1.5.2

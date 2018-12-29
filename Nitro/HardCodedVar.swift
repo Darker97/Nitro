@@ -11,9 +11,13 @@ class HardCodedVar{
 
     init() {}
 
-
-    //Alle hardgecodeten Variablen kommen hierher
-
+    //Haben wir eine Verbindung zum Netz?
+    //Ansonsten müssen wir ja auch nicht versuchen irgendwas zu laden.
+    var Online = true
+    
+    //Wetter Daten
+    var Weather = ""
+    
 
     //Alle anderen Variablen die ich übersichtlich speichern will kommen hier her
     //----------------------------------------------------

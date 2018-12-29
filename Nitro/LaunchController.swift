@@ -24,6 +24,8 @@ class LaunchController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        main.Online = isOnline()
+        
         toDoStuff();
         if (WurdeGeladen){
             self.performSegue(withIdentifier: "MenübildschirmWechsel", sender: nil)
@@ -36,23 +38,32 @@ class LaunchController: UIViewController{
     //---------------------------------------------------
     //Alles was geladen werden muss + alles was geprüft werden muss
 
-    //TODO: Wipe data nach 1 Woche???
-    //TODO: Laden der Mensadaten
-
     //TODO: Noten laden
 
     func toDoStuff(){
         //Lädt die Daten für dei Uni Infos aus der Txt Datei
-        //DatenLader().ladeDatenAusTxt(name: "UniInfos")
-        //DatenLader().ladeUniInfos()
         DatenLader().ladeEinstellungen()
         
-        
-        Scrapper().RSSLoader()
-        DispatchQueue.main.async {
-            Scrapper().MensaData(Webview: self.weba)
+        //Alles was wir Online laden wird auch nur geladen wenn wir Online sind.
+        if(main.Online){
+            Weather().loadWeather()
+            Scrapper().RSSLoader()
+            
+            DispatchQueue.main.async {
+                Scrapper().MensaData(Webview: self.weba)
+            }
+        }
+    }
+    //---------------------------------------------------
+    //Online Checker
+    func isOnline() -> Bool{
+        if Reachability.isConnectedToNetwork() == true {
+            
+            return true
         }
         
+        
+        return false
     }
 
 
@@ -93,11 +104,15 @@ class LaunchController: UIViewController{
         })
 
         //warten 3 Sekunden um dann auf den nächsten Bildschrim zu wechseln.
-
-
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(3), execute: {
             self.WurdeGeladen = true
-            self.performSegue(withIdentifier: "MenübildschirmWechsel", sender: nil)
+            //Wenn wir nicht online sind werden wir gleich zu den Infomrationen weitergeleitet.
+            //Alle anderen Funktionen benötigen eine Verbindung zum Internett und sind daher nicht zu finden.
+            if(main.Online){
+                self.performSegue(withIdentifier: "MenübildschirmWechsel", sender: nil)}
+            else{
+                self.performSegue(withIdentifier: "notOnline", sender: nil)
+            }
         })
 
     }

@@ -31,10 +31,10 @@
 		AA6326B021CD53BF004321EC /* UniInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = AA6326AF21CD53BF004321EC /* UniInfo.json */; };
 		AA635E3D21AC2610002ED75C /* Einstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635E3C21AC2610002ED75C /* Einstellungen.swift */; };
 		AA635E3F21AC27DC002ED75C /* DatenSpeicher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */; };
+		AA7F407821D78E2600F6E3F5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7F407721D78E2600F6E3F5 /* Weather.swift */; };
 		AA8E661B21C0135900929FE8 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E661A21C0135900929FE8 /* Map.swift */; };
 		AA8E662321C036E900929FE8 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E662221C036E900929FE8 /* Places.swift */; };
 		AA8FE05F21A3310C0066338D /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE05E21A3310C0066338D /* LaunchController.swift */; };
-		AA8FE06121A33D080066338D /* UniInfos.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA8FE06021A33D080066338D /* UniInfos.txt */; };
 		AA8FE06321A33DE00066338D /* DatenLader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06221A33DE00066338D /* DatenLader.swift */; };
 		AA8FE06521A352D50066338D /* Sicherheits_Abfrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06421A352D50066338D /* Sicherheits_Abfrage.swift */; };
 		AA8FE06721A352EE0066338D /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8FE06621A352EE0066338D /* LoginScreen.swift */; };
@@ -42,6 +42,7 @@
 		AAA0F38121CE8C2C009B5F0C /* Map.json in Resources */ = {isa = PBXBuildFile; fileRef = AAA0F38021CE8C2C009B5F0C /* Map.json */; };
 		AAA8F4E821D6C56E004B1DD1 /* RSS Auswahl Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA8F4E721D6C56E004B1DD1 /* RSS Auswahl Controller.swift */; };
 		AAA8F4EA21D6D1B4004B1DD1 /* MensaLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA8F4E921D6D1B4004B1DD1 /* MensaLoader.swift */; };
+		AAAB860221D79F1200043A3B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAB860121D79F1200043A3B /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,10 +96,10 @@
 		AA6326AF21CD53BF004321EC /* UniInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UniInfo.json; sourceTree = "<group>"; };
 		AA635E3C21AC2610002ED75C /* Einstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Einstellungen.swift; sourceTree = "<group>"; };
 		AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatenSpeicher.swift; sourceTree = "<group>"; };
+		AA7F407721D78E2600F6E3F5 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		AA8E661A21C0135900929FE8 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		AA8E662221C036E900929FE8 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 		AA8FE05E21A3310C0066338D /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
-		AA8FE06021A33D080066338D /* UniInfos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = UniInfos.txt; path = Nitro/UniInfos.txt; sourceTree = SOURCE_ROOT; };
 		AA8FE06221A33DE00066338D /* DatenLader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatenLader.swift; sourceTree = "<group>"; };
 		AA8FE06421A352D50066338D /* Sicherheits_Abfrage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sicherheits_Abfrage.swift; sourceTree = "<group>"; };
 		AA8FE06621A352EE0066338D /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
@@ -108,6 +109,7 @@
 		AAA0F38021CE8C2C009B5F0C /* Map.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Map.json; sourceTree = "<group>"; };
 		AAA8F4E721D6C56E004B1DD1 /* RSS Auswahl Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RSS Auswahl Controller.swift"; sourceTree = "<group>"; };
 		AAA8F4E921D6D1B4004B1DD1 /* MensaLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensaLoader.swift; sourceTree = "<group>"; };
+		AAAB860121D79F1200043A3B /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		BE2FE831AF19C2CA14299DE2 /* Pods-NitroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NitroUITests/Pods-NitroUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF2FC5083A1C5072C944B4A /* Pods-NitroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NitroTests/Pods-NitroTests.release.xcconfig"; sourceTree = "<group>"; };
 		E897D7AA7406D6455FAAF3CD /* Pods_NitroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NitroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -242,6 +244,7 @@
 				AA1B53C72196EEBB00941DF6 /* Assets.xcassets */,
 				AA1B53C92196EEBB00941DF6 /* LaunchScreen.storyboard */,
 				AA1B53C02196EEBB00941DF6 /* AppDelegate.swift */,
+				AAAB860121D79F1200043A3B /* Reachability.swift */,
 				AA1B53CC2196EEBB00941DF6 /* Info.plist */,
 			);
 			name = Allgemein;
@@ -259,6 +262,7 @@
 		AA4C4F0C21C11EB9000B5BCC /* Daten */ = {
 			isa = PBXGroup;
 			children = (
+				AA7F407721D78E2600F6E3F5 /* Weather.swift */,
 				AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */,
 				AAA8F4E921D6D1B4004B1DD1 /* MensaLoader.swift */,
 				AA9C854421CA55040060C7BF /* TXT */,
@@ -286,7 +290,6 @@
 		AA9C854421CA55040060C7BF /* TXT */ = {
 			isa = PBXGroup;
 			children = (
-				AA8FE06021A33D080066338D /* UniInfos.txt */,
 				AA6326AF21CD53BF004321EC /* UniInfo.json */,
 				AAA0F38021CE8C2C009B5F0C /* Map.json */,
 				AA9C854621CA5B580060C7BF /* Einstellungen.txt */,
@@ -428,7 +431,6 @@
 				AA08818921CAE75B00145E97 /* Einstellungen.txt in Resources */,
 				AA1B53C82196EEBB00941DF6 /* Assets.xcassets in Resources */,
 				AA6326B021CD53BF004321EC /* UniInfo.json in Resources */,
-				AA8FE06121A33D080066338D /* UniInfos.txt in Resources */,
 				AAA0F38121CE8C2C009B5F0C /* Map.json in Resources */,
 				AA1B53C62196EEBB00941DF6 /* Main.storyboard in Resources */,
 			);
@@ -481,6 +483,7 @@
 				"${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
 				"${BUILT_PRODUCTS_DIR}/Proposer/Proposer.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftScanner/SwiftScanner.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
@@ -493,6 +496,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Proposer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftScanner.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
@@ -560,6 +564,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7F407821D78E2600F6E3F5 /* Weather.swift in Sources */,
 				AA4C4F0921C0FB3C000B5BCC /* Mensa.swift in Sources */,
 				AA8FE06521A352D50066338D /* Sicherheits_Abfrage.swift in Sources */,
 				AA635E3F21AC27DC002ED75C /* DatenSpeicher.swift in Sources */,
@@ -573,6 +578,7 @@
 				AA8FE06321A33DE00066338D /* DatenLader.swift in Sources */,
 				AA8FE06921A3649D0066338D /* HardCodedVar.swift in Sources */,
 				AA8FE06721A352EE0066338D /* LoginScreen.swift in Sources */,
+				AAAB860221D79F1200043A3B /* Reachability.swift in Sources */,
 				AA4C4F0B21C11E9B000B5BCC /* Scrapper.swift in Sources */,
 				AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */,
 				AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */,

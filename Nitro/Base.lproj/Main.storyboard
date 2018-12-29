@@ -48,6 +48,7 @@
                         <outlet property="logo" destination="x77-Gb-1fr" id="Aqe-GG-IiV"/>
                         <outlet property="weba" destination="zJn-b0-acM" id="qSN-c1-0nR"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="MenübildschirmWechsel" id="408-NG-v0G"/>
+                        <segue destination="FbA-5f-kQf" kind="show" identifier="notOnline" id="oOx-vI-qJA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ff-af-mwJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -497,10 +498,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="381" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LrX-Nd-Pth">
-                                <rect key="frame" x="312" y="57" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LrX-Nd-Pth">
+                                <rect key="frame" x="314" y="58" width="42" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="ios10-weather-list-icon"/>
                                 <connections>
                                     <segue destination="120-UY-2eS" kind="presentation" identifier="MenuAuf" id="sCX-s9-AHz"/>
                                 </connections>
@@ -534,6 +535,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Das Wetter an der Hochschule:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbC-p7-MOt">
+                                <rect key="frame" x="21" y="58" width="164" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WetterAnzeige" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfG-xI-HyR">
+                                <rect key="frame" x="28" y="80" width="205" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Temperatur:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uO7-Y1-5gk">
+                                <rect key="frame" x="28" y="104" width="59" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Temp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M08-49-IyT">
+                                <rect key="frame" x="95" y="104" width="27" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
@@ -546,7 +575,10 @@
                     <connections>
                         <outlet property="RSSAnzeige" destination="jFU-ur-Yef" id="iub-vE-Kdv"/>
                         <outlet property="RSSDetails" destination="qv9-DC-uTe" id="dPR-SI-tMZ"/>
+                        <outlet property="WetterAnzeige" destination="dfG-xI-HyR" id="7ud-ge-wa1"/>
+                        <outlet property="temp" destination="M08-49-IyT" id="gsp-VL-pQU"/>
                         <outlet property="web" destination="zJn-b0-acM" id="4gV-JF-RqY"/>
+                        <outlet property="wetterLabel" destination="fbC-p7-MOt" id="4TP-si-2Fc"/>
                         <segue destination="ClC-c7-7CJ" kind="show" identifier="News" id="saN-aa-BEx"/>
                     </connections>
                 </viewController>
@@ -601,7 +633,7 @@
         <!--Menü-->
         <scene sceneID="zfo-FQ-Jdc">
             <objects>
-                <tableViewController id="dds-Hc-vLJ" sceneMemberID="viewController">
+                <tableViewController id="dds-Hc-vLJ" customClass="SideMenu" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tuj-av-WRA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -689,7 +721,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o17-TG-5um" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1985" y="590"/>
+            <point key="canvasLocation" x="2015" y="607"/>
         </scene>
         <!--Infos-->
         <scene sceneID="x3I-vb-CeI">
@@ -723,6 +755,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="zurückButton" destination="5ws-Jt-T0I" id="g3p-D0-Rsm"/>
                         <segue destination="ZVi-ZW-xL6" kind="show" identifier="MoreInfos" id="t7i-Tg-kPy"/>
                     </connections>
                 </tableViewController>
@@ -958,8 +991,10 @@
         <image name="Bildschirmfoto 2018-12-28 um 21.24.30" width="369" height="664"/>
         <image name="Github" width="104" height="123"/>
         <image name="hochschule_fulda_logo" width="479" height="91"/>
+        <image name="ios10-weather-list-icon" width="42" height="28"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="oOx-vI-qJA"/>
         <segue reference="saN-aa-BEx"/>
     </inferredMetricsTieBreakers>
 </document>
