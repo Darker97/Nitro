@@ -16,42 +16,35 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "MenuAuf", sender: nil)
     }
     
-    @IBOutlet weak var RSSAnzeige: UILabel!
-    @IBOutlet weak var RSSDetails: UILabel!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        if(main.RSSFachTitleSpeicher.count > 0){
-            RSSAnzeige.text = main.RSSFachTitleSpeicher[0]
-            RSSDetails.text = main.RSSFachDetails[0]}
-        else{
-            RSSAnzeige.isHidden = true
-        }
-        // Do any additional setup after loading the view, typically from a nib.
-        //Scrapper().MensaData()
+        
+        Weather().loadWeather()
+        
+        wetter()
     }
-    @IBAction func ButtonToGo(_ sender: Any) {
-        self.performSegue(withIdentifier: "News", sender: nil)
-    }
+    
+    
     
     //Anzeige des aktuellen Wetters
     @IBOutlet weak var wetterLabel: UILabel!
     @IBOutlet weak var WetterAnzeige: UILabel!
     @IBOutlet weak var temp: UILabel!
+    @IBOutlet weak var TemperaturLabel: UILabel!
     func wetter(){
         if (main.Online && main.Weather != ""){
+            WetterAnzeige.text = main.Weather
+            temp.text = main.temp
+            
+            TemperaturLabel.isHidden = false
             wetterLabel.isHidden = false
             WetterAnzeige.isHidden = false
             temp.isHidden = false
-            
-            
-            
-            
-            
         }else{
             wetterLabel.isHidden = true
             WetterAnzeige.isHidden = true
             temp.isHidden = true
+            TemperaturLabel.isHidden = true
         }
         
     }

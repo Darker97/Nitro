@@ -12,6 +12,7 @@ PODS:
   - SideMenu (5.0.3)
   - SwiftScanner (1.1.0)
   - SwiftSoup (1.7.4)
+  - ThreeLevelAccordian (0.3.0)
   - TransitionButton (0.5.2)
 
 DEPENDENCIES:
@@ -24,6 +25,7 @@ DEPENDENCIES:
   - SideMenu
   - SwiftScanner
   - SwiftSoup
+  - ThreeLevelAccordian
   - TransitionButton
 
 SPEC REPOS:
@@ -37,6 +39,7 @@ SPEC REPOS:
     - SideMenu
     - SwiftScanner
     - SwiftSoup
+    - ThreeLevelAccordian
     - TransitionButton
 
 SPEC CHECKSUMS:
@@ -49,8 +52,9 @@ SPEC CHECKSUMS:
   SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
   SwiftScanner: f05f9fb8b8aea48c31297f732b74a2959916a2e6
   SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
+  ThreeLevelAccordian: 64a3cdb8bc8b2bef72b4f24f71ae3d8d2b9f5803
   TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
 
-PODFILE CHECKSUM: 1c999ee60326d96ee2c81e4b3468e248474a9e24
+PODFILE CHECKSUM: 16326b80f8e3b87c67f191294bc91dad2ffd2714
 
 COCOAPODS: 1.5.2

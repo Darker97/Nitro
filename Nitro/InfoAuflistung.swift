@@ -22,7 +22,7 @@ class InfoAuflistung: UITableViewController {
         super.viewDidLoad()
         
         if(main.Online != true){
-            zurückButton.isEnabled == false
+            zurückButton.isEnabled = false
             zurückButton.accessibilityElementsHidden = true
         }
         

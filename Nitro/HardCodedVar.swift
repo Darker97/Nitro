@@ -17,6 +17,7 @@ class HardCodedVar{
     
     //Wetter Daten
     var Weather = ""
+    var temp = ""
     
 
     //Alle anderen Variablen die ich übersichtlich speichern will kommen hier her

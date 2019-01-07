@@ -84,7 +84,7 @@ class Scrapper{
     //-----------------------------------------------
     //Laden der RSS FEEDS
     func RSSLoader(){
-        let Fachbereich = URL(string: main.FachbereichLinks[main.FachbereichAuswahl])!
+        /*let Fachbereich = URL(string: main.FachbereichLinks[main.FachbereichAuswahl])!
         let Allgemein = URL(string: main.AktuelleMeldungenLink)!
         
         let Parser1 = FeedParser(URL: Fachbereich)
@@ -113,7 +113,7 @@ class Scrapper{
         print(item2!.title!)
         main.RSSAKKTitle.append(item2!.title!)
         main.RSSAKKDetai.append(item2!.description!)
-        
+        */
     }
     
     //Laden der Hochschulwebsitedaten
