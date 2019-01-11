@@ -23,9 +23,7 @@ target 'Nitro' do
   pod 'SwiftScanner'
   pod 'Erik'
   pod 'FeedKit'
-  pod 'ReachabilitySwift'
-  pod "ThreeLevelAccordian"
-  
+  pod 'ReachabilitySwift'  
   #hatt nicht funktioniert, weitere Tests in Zukunft
   pod 'SwiftSoup'
   

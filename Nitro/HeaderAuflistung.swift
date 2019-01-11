@@ -8,12 +8,12 @@
 
 import UIKit
 
-class InfoAuflistung: UITableViewController {
+class InfoAuflistung: UITableViewController{
 
-    struct Item: Codable{
-        let Name: String
-        let Info: String
-    }
+
+    
+    //---------------------------------------------------
+    
     
     var Infos = [String]()
     @IBOutlet weak var zurückButton: UIBarButtonItem!
@@ -26,19 +26,14 @@ class InfoAuflistung: UITableViewController {
             zurückButton.accessibilityElementsHidden = true
         }
         
-        
-        
         //abrufen der Daten und befüllen des Arrays
-        var args = DatenLader().ladeUniInfos()
+        var args = InfosLoader().ladeUniInfos()
+        
+        
         for i in 0...args.count-1{
             Infos.append(args[i].Name)
-            main.TextDerInfos.append(args[i].Info)
         }
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
     }
 
     // MARK: - Table view data source
@@ -74,8 +69,8 @@ class InfoAuflistung: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
-        main.cell = indexPath.row
-         self.performSegue(withIdentifier: "MoreInfos", sender: nil)
+        main.CellEins = indexPath.row
+        self.performSegue(withIdentifier: "MoreInfos", sender: nil)
     }
     
 

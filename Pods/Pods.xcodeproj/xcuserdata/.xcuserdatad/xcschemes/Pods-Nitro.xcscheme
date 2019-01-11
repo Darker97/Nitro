@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0C9CE6E19DDECCF9939CDD939011A0D3"
+               BlueprintIdentifier = "8DC0F66319D8F5079D9A8ED137659C4E"
                BlueprintName = "Pods-Nitro"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "Pods-Nitro.framework">

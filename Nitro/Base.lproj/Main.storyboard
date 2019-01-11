@@ -631,7 +631,38 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OHD-Wu-Mtx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7625" y="2187"/>
+            <point key="canvasLocation" x="8369" y="2186"/>
+        </scene>
+        <!--Kategorien Auflistung-->
+        <scene sceneID="HVJ-kJ-Pyk">
+            <objects>
+                <tableViewController id="xbp-r3-1IE" customClass="KategorienAuflistung" customModule="Nitro" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fSq-6t-5N0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="77" id="CbH-43-pg5">
+                                <rect key="frame" x="0.0" y="28" width="375" height="77"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CbH-43-pg5" id="OUS-gb-2C2">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="76.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xbp-r3-1IE" id="9ut-qw-eBv"/>
+                            <outlet property="delegate" destination="xbp-r3-1IE" id="asU-An-j2B"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <segue destination="ZVi-ZW-xL6" kind="show" identifier="ShowDetail" id="Fc4-oX-i3U"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KIL-2d-dgV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7509.6000000000004" y="2185.4572713643179"/>
         </scene>
         <!--Menü-->
         <scene sceneID="zfo-FQ-Jdc">
@@ -729,7 +760,7 @@
             </objects>
             <point key="canvasLocation" x="2015" y="607"/>
         </scene>
-        <!--Infos-->
+        <!--Infos der HS-->
         <scene sceneID="x3I-vb-CeI">
             <objects>
                 <tableViewController id="EBP-c3-oUU" customClass="InfoAuflistung" customModule="Nitro" customModuleProvider="target" sceneMemberID="viewController">
@@ -752,7 +783,7 @@
                             <outlet property="delegate" destination="EBP-c3-oUU" id="rQ8-cg-lSQ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Infos" id="W6q-tC-YJl">
+                    <navigationItem key="navigationItem" title="Infos der HS" id="W6q-tC-YJl">
                         <barButtonItem key="backBarButtonItem" title="back" id="4wq-Qd-DVO"/>
                         <barButtonItem key="leftBarButtonItem" title="&lt;-zurück" id="5ws-Jt-T0I">
                             <connections>
@@ -762,7 +793,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="zurückButton" destination="5ws-Jt-T0I" id="g3p-D0-Rsm"/>
-                        <segue destination="ZVi-ZW-xL6" kind="show" identifier="MoreInfos" id="t7i-Tg-kPy"/>
+                        <segue destination="xbp-r3-1IE" kind="show" identifier="MoreInfos" id="sS7-bb-RLe"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hcv-aw-Nnw" userLabel="First Responder" sceneMemberID="firstResponder"/>

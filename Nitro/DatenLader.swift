@@ -46,45 +46,7 @@ class DatenLader{
     //----------------------------------------------
     //Lade UniInfos
 
-    //Unsere UNI Informationen werden als JSON übermittelt
-    func ladeUniInfos()-> [Item]{
-        let file = "UniInfo" //this is the file. we will write to and read from it
-
-        if let url = Bundle.main.path(forResource: file, ofType: "json")
-        {
-            do
-            {
-                let contents = try String(contentsOfFile: url)
-                //print(contents)
-                return VerarbeiteUniInfos(Inhalt: contents)
-
-            }
-            catch
-            {
-                print("Konnte nicht geladen werden.")
-            }
-        }
-        else
-        {
-            print(file + " nicht gefunden.")
-        }
-        let w = [Item]()
-        return w
-    }
-
-    //Struktur für die Infos
-    struct Item: Codable{
-        let Name: String
-        let Info: String
-    }
-
-    //Uniinfos werden als JSON-File gespeichert und muss nur noch auseinandergenommen werden
-    func VerarbeiteUniInfos(Inhalt: String)-> [Item]{
-
-        let temp = Inhalt.data(using: .utf8)
-        let Ausgabe = try! JSONDecoder().decode([Item].self, from: temp!)
-        return Ausgabe
-    }
+    //Wurde, aufgrund der Übersicht in die "InfosLoader.swift" ausgelagert
     
     
     

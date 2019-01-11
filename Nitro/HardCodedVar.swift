@@ -19,6 +19,9 @@ class HardCodedVar{
     var Weather = ""
     var temp = ""
     
+    //InfoAusgabe
+    var CellEins = 0
+    var CellZwei = 0
 
     //Alle anderen Variablen die ich übersichtlich speichern will kommen hier her
     //----------------------------------------------------
@@ -28,7 +31,6 @@ class HardCodedVar{
     var NameDerInfos = [String]()
     var TextDerInfos = [String]()
     var cell = 0;
-
 
     //TODO: Speichern der News???
 
@@ -92,8 +94,6 @@ class HardCodedVar{
     
     var RSSAKKTitle = [String]()
     var RSSAKKDetai = [String]()
-    
-    
     var RSSCell = 0
     
     //____________________________________________________

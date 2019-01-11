@@ -43,7 +43,7 @@ class Einstellungen: UIViewController, UIPickerViewDelegate, UIPickerViewDataSou
     
     override func viewWillDisappear(_ animated: Bool) {
         main.Zustand = Regler.selectedSegmentIndex
-        main.FachbereichAuswahl = FachbereichPciker.selectedRow(inComponent: 1)
+        //main.FachbereichAuswahl = FachbereichPciker.selectedRow(inComponent: 1)
     }
     
     //------------------------------------------

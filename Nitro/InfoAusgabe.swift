@@ -11,10 +11,13 @@ import UIKit
 class InfoAusgabe: UIViewController {
 
     @IBOutlet weak var text: UITextView!
+    var Infos = [String]()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        text.text = main.TextDerInfos[main.cell]
+        var args = InfosLoader().ladeUniInfos()
+        text.text = args[main.CellEins].KategorienCell[main.CellZwei].InfoCelle.Text
         // Do any additional setup after loading the view.
     }
     

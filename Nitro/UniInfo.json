@@ -1,18 +1,48 @@
 [
-    {
-        "Name": "Was ist ein „Bachelor“?",
-        "Info": "Der Bachelor ist der erste Regelabschluss eines Hochschulstudiums. Mit diesem erlangt die Studentin oder der Student die Berufsqualifizierung mit den notwendigen wissenschaftlichen Grundlagen, Methoden und berufspraktischen Qualifikationen sowie die Basis für einen optionalen weiterführenden Master-Studiengang. "
-    },
-    {
-        "Name": "Was ist ein „Master“?",
-        "Info": "Der Master-Abschluss ist der zweite berufsqualifizierende Abschluss. Dieser kann erst erworben werden, wenn bereits ein berufsqualifizierender (Bachelor-)Abschluss vorliegt. Grundsätzlich unterscheidet man den konsekutiven Master, d. h. Bachelor und Master bauen inhaltlich aufeinander auf, sowie den nicht-konsekutiven (interdisziplinären) Master, d. h. der Master hat eine andere Studienrichtung als der Bachelor. Es ist also durchaus möglich, einen Bachelor of Science mit einem Master of Arts zu kombinieren. "
-    },
-    {
-        "Name": "Welche Regeln gelten in den Laboren?",
-        "Info": "Zunächst gelten in den Laboren selbstverständlich die gleichen Regeln wie in den übrigen Räumen. Außerdem ist Folgendes wichtig:Nutzung nur im Rahmen von Forschung und LehreBesondere Sauberkeit in den Laboren! Das bedeutet kein Essen, kein Trinken.Keine Software installierenKeine Urheberschutz-verletzenden Aktionen(z.B. Raubkopien von Texten, Musik, Software, ...)Andere nicht stören (z.B. durch Web-Radio)Die genauen Regeln sind in den Laboren jeweils ausgehängt."
-    },
-    {
-        "Name": "Wie lautet meine E-Mail-Account an der HS?",
-        "Info": "Der E-Mail-Account wird zusammen mit dem Zugang zu den Novell-Rechnern beantragt und angelegt.Die Adresse ist i. d. R. wie folgt aufgebaut: Vorname.Nachname@informatik.hs-fulda.de"
-    }     
+  {
+      "Name":"Der Unterricht",
+      "KategorienCell":[
+        {
+            "InfoCelle":
+            {"Name":"",
+                "Text":"Einige Lehrveranstaltungen (z.B. Mathevorkurs, Programmierung 2, Multimedia Grundlungen, etc. ) werden per Videomitschnitt aufgezeichnet. Die Online-Videos findest Du im Offenen Medien Archiv der Hochschule."}
+        ,"Name":"Aufzeichnungen"
+        },{
+            "InfoCelle":
+            {"Name":"dabae",
+                "Text":"text12"}
+        ,"Name":"daba" 
+        }
+      ]
+  },  {
+      "Name":"Das Studium",
+      "KategorienCell":[
+          {
+              "InfoCelle":
+                    {"Name":"test32",
+                        "Text":"text1"}
+            ,"Name":"test22"
+        }
+      ]
+  },  {
+      "Name":"Die Chipkarte",
+      "KategorienCell":[
+          {
+              "InfoCelle":
+                    {"Name":"",
+                        "Text":"Die Chipkarte gilt als Studienausweis des Studenten. Sie ist außerdem als Fahrschein für das gesamte hessische Verbundnetz von NVV und RMV. \nDer Ausweis kann in der Bibliothek als Schlüssel für die Gaderobe wie auch als Bibliotheksausweis genutzt werden. \n In der Mensa und an Kopieren gilt der Ausweis als Zahlungsmittel."}
+              ,"Name":"Was kann die Chipkarte?"
+            },{
+                "InfoCelle":
+                      {"Name":"",
+                          "Text":"Die Gültigeit des Ausweises steht auf der Karte. Ist Sie abgelaufen, so muss sie an den Automaten im SSC aktualisiert werden. Dies funktioniert sobald man sich für das neue Semester zurück gemeldet hat."}
+                ,"Name":"Gültigkeit"
+            },{
+                "InfoCelle":
+                      {"Name":"",
+                          "Text":"Sollte man seine Karte verlieren, so sollte man dies unbedingt im SSC melden. nicht nur kann die alte Karte dort gesperrt werden, es kann auch eine neue Karte ausgestellt werden."}
+                ,"Name":"Verlust der Chipkarte"
+            }
+      ]
+  }
 ]

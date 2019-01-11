@@ -22,13 +22,15 @@
 		AA4618D321D2590A00084872 /* AKKInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4618D221D2590A00084872 /* AKKInfos.swift */; };
 		AA4C4F0921C0FB3C000B5BCC /* Mensa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */; };
 		AA4C4F0B21C11E9B000B5BCC /* Scrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C4F0A21C11E9B000B5BCC /* Scrapper.swift */; };
-		AA5907EE21A30B5200D8493F /* InfoAuflistung.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */; };
+		AA5907EE21A30B5200D8493F /* HeaderAuflistung.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907ED21A30B5200D8493F /* HeaderAuflistung.swift */; };
 		AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */; };
 		AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */; };
 		AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA5907F421A30F1C00D8493F /* Stickers.xcstickers */; };
 		AA6326B021CD53BF004321EC /* UniInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = AA6326AF21CD53BF004321EC /* UniInfo.json */; };
 		AA635E3D21AC2610002ED75C /* Einstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635E3C21AC2610002ED75C /* Einstellungen.swift */; };
 		AA635E3F21AC27DC002ED75C /* DatenSpeicher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */; };
+		AA74A2C721E51BAC000AFA39 /* InfosLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74A2C621E51BAC000AFA39 /* InfosLoader.swift */; };
+		AA74A2C921E51DE3000AFA39 /* KategorienAuflistung.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74A2C821E51DE3000AFA39 /* KategorienAuflistung.swift */; };
 		AA7F407821D78E2600F6E3F5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7F407721D78E2600F6E3F5 /* Weather.swift */; };
 		AA8E661B21C0135900929FE8 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E661A21C0135900929FE8 /* Map.swift */; };
 		AA8E662321C036E900929FE8 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E662221C036E900929FE8 /* Places.swift */; };
@@ -87,7 +89,7 @@
 		AA4618D221D2590A00084872 /* AKKInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKKInfos.swift; sourceTree = "<group>"; };
 		AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensa.swift; sourceTree = "<group>"; };
 		AA4C4F0A21C11E9B000B5BCC /* Scrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrapper.swift; sourceTree = "<group>"; };
-		AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAuflistung.swift; sourceTree = "<group>"; };
+		AA5907ED21A30B5200D8493F /* HeaderAuflistung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderAuflistung.swift; sourceTree = "<group>"; };
 		AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAusgabe.swift; sourceTree = "<group>"; };
 		AA5907F221A30DE200D8493F /* Noten.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noten.xcdatamodel; sourceTree = "<group>"; };
 		AA5907F421A30F1C00D8493F /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
@@ -96,6 +98,8 @@
 		AA6326AF21CD53BF004321EC /* UniInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UniInfo.json; sourceTree = "<group>"; };
 		AA635E3C21AC2610002ED75C /* Einstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Einstellungen.swift; sourceTree = "<group>"; };
 		AA635E3E21AC27DC002ED75C /* DatenSpeicher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatenSpeicher.swift; sourceTree = "<group>"; };
+		AA74A2C621E51BAC000AFA39 /* InfosLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfosLoader.swift; sourceTree = "<group>"; };
+		AA74A2C821E51DE3000AFA39 /* KategorienAuflistung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorienAuflistung.swift; sourceTree = "<group>"; };
 		AA7F407721D78E2600F6E3F5 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		AA8E661A21C0135900929FE8 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		AA8E662221C036E900929FE8 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
@@ -258,8 +262,11 @@
 		AA4C4F0721C0FB15000B5BCC /* Allgemeine Infos */ = {
 			isa = PBXGroup;
 			children = (
-				AA5907ED21A30B5200D8493F /* InfoAuflistung.swift */,
+				AA74A2C621E51BAC000AFA39 /* InfosLoader.swift */,
+				AA5907ED21A30B5200D8493F /* HeaderAuflistung.swift */,
+				AA74A2C821E51DE3000AFA39 /* KategorienAuflistung.swift */,
 				AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */,
+				AA6326AF21CD53BF004321EC /* UniInfo.json */,
 			);
 			name = "Allgemeine Infos";
 			sourceTree = "<group>";
@@ -295,7 +302,6 @@
 		AA9C854421CA55040060C7BF /* TXT */ = {
 			isa = PBXGroup;
 			children = (
-				AA6326AF21CD53BF004321EC /* UniInfo.json */,
 				AAA0F38021CE8C2C009B5F0C /* Map.json */,
 				AA9C854621CA5B580060C7BF /* Einstellungen.txt */,
 			);
@@ -503,7 +509,6 @@
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftScanner/SwiftScanner.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
-				"${BUILT_PRODUCTS_DIR}/ThreeLevelAccordian/ThreeLevelAccordian.framework",
 				"${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -517,7 +522,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftScanner.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ThreeLevelAccordian.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionButton.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,7 +576,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\n";
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -590,8 +595,10 @@
 				AAADD09221DEA2CD0012B649 /* WeatherData.swift in Sources */,
 				AA4618D321D2590A00084872 /* AKKInfos.swift in Sources */,
 				AA4618D121D2561400084872 /* FachbereichsInfos.swift in Sources */,
+				AA74A2C721E51BAC000AFA39 /* InfosLoader.swift in Sources */,
 				AA635E3D21AC2610002ED75C /* Einstellungen.swift in Sources */,
 				AA8FE06321A33DE00066338D /* DatenLader.swift in Sources */,
+				AA74A2C921E51DE3000AFA39 /* KategorienAuflistung.swift in Sources */,
 				AA8FE06921A3649D0066338D /* HardCodedVar.swift in Sources */,
 				AAADD09321DEA2CD0012B649 /* WeatherService.swift in Sources */,
 				AA8FE06721A352EE0066338D /* LoginScreen.swift in Sources */,
@@ -599,7 +606,7 @@
 				AA4C4F0B21C11E9B000B5BCC /* Scrapper.swift in Sources */,
 				AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */,
 				AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */,
-				AA5907EE21A30B5200D8493F /* InfoAuflistung.swift in Sources */,
+				AA5907EE21A30B5200D8493F /* HeaderAuflistung.swift in Sources */,
 				AA1B53C32196EEBB00941DF6 /* ViewController.swift in Sources */,
 				AAADD08921DE913D0012B649 /* FeedParser.swift in Sources */,
 				AA8FE05F21A3310C0066338D /* LaunchController.swift in Sources */,
