@@ -115,7 +115,41 @@ class HardCodedVar{
         return erg;
     }
 
-
+    
+    //---------------------------------------------------
+    struct Einstellungen:Codable{
+        
+        var Zustand: Int
+        var NFCEnabled = true
+        var TouchIdEnabled = true
+        var FachbereichAuswahl: Int
+    }
+    
+    func EinstellungenLaden(){
+        UserDefaults.standard.set(42, forKey: "highscore")
+        
+        main.FachbereichAuswahl = UserDefaults.standard.integer(forKey: "FachbereichAuswahl")
+        main.NFCEnabled = UserDefaults.standard.bool(forKey: "NFCEnabled")
+        main.TouchIdEnabled = UserDefaults.standard.bool(forKey: "TouchIdEnabled")
+        main.Zustand = UserDefaults.standard.integer(forKey: "Zustand")
+    }
+    
+    func EinstellungenSpeichern(){
+        UserDefaults.standard.set(main.FachbereichAuswahl, forKey: "FachbereichAuswahl")
+        UserDefaults.standard.set(main.NFCEnabled, forKey: "NFCEnabled")
+        UserDefaults.standard.set(main.TouchIdEnabled, forKey: "TouchIdEnabled")
+        UserDefaults.standard.set(main.Zustand, forKey: "Zustand")
+    }
+    
+    
+    //---------------------------------------------------
+    func kurzlebig(){
+        
+    }
+    
+    func Langlebig(){
+        
+    }
 
 }
 var main = HardCodedVar()

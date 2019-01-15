@@ -42,7 +42,7 @@ class LaunchController: UIViewController{
 
     func toDoStuff(){
         //Lädt die Daten für dei Uni Infos aus der Txt Datei
-        DatenLader().ladeEinstellungen()
+        HardCodedVar().EinstellungenLaden()
         
         //Alles was wir Online laden wird auch nur geladen wenn wir Online sind.
         if(main.Online){
