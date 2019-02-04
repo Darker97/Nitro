@@ -26,6 +26,8 @@ target 'Nitro' do
   pod 'ReachabilitySwift'  
   #hatt nicht funktioniert, weitere Tests in Zukunft
   pod 'SwiftSoup'
+
+  
   
   target 'NitroTests' do
     inherit! :search_paths

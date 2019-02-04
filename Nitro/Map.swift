@@ -43,11 +43,13 @@ class Map: UIViewController {
         
         Map.setRegion(Region, animated: true)
         
+        Map.showsUserLocation = true
+        
         //Punkte hinzufügen
         //Alle Punkte haben die Eigenschaften Title, Name und Koordinaten
 
         
-        let temp = DatenLader().ladeKartenPunkte()
+        let temp = HardCodedVarFunktionen().ladeKartenPunkte(DateiName: "HochschullMap")
         
         for i in 0...temp.count-1{
             Map.addAnnotation(Places(title: temp[i].Title, locationName: temp[i].locationName,  coordinate: CLLocationCoordinate2D(latitude: temp[i].latitude, longitude: temp[i].longitude)))

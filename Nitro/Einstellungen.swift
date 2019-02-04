@@ -8,8 +8,10 @@
 
 import UIKit
 
+/// Klasse für die Einstellungen
 class Einstellungen: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
+    ///Funktion des Zurück Buttons - Verweist aufs Hauptmenü
     @IBAction func zurück(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }

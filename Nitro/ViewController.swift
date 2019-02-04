@@ -10,12 +10,20 @@ import UIKit
 import WebKit
 import HealthKit
 
+/// Klasse für das aktuelle Hauptmenü
 class ViewController: UIViewController {
-
+    
+    
+    /// Steuerung für die Menüleiste des Hauptmenüs
+    ///
+    /// - Parameter sender: any
     @IBAction func MenuAuf(_ sender: Any) {
         performSegue(withIdentifier: "MenuAuf", sender: nil)
     }
     
+    
+    
+    /// Was wird gemacht wenn die View da ist?
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,11 +34,14 @@ class ViewController: UIViewController {
     
     
     
-    //Anzeige des aktuellen Wetters
+    
     @IBOutlet weak var wetterLabel: UILabel!
     @IBOutlet weak var WetterAnzeige: UILabel!
     @IBOutlet weak var temp: UILabel!
     @IBOutlet weak var TemperaturLabel: UILabel!
+    
+    
+    /// steuert die Wetter Anzeige. Sind die Daten da UND wir sind Online (Schließen damit Fehler aus) werden die Anzeigen freigeschaltet.
     func wetter(){
         if (main.Online && main.Weather != ""){
             WetterAnzeige.text = main.Weather
@@ -47,17 +58,6 @@ class ViewController: UIViewController {
             TemperaturLabel.isHidden = true
         }
         
-    }
-    
-    //-----------------------------------------------
-    //Abfrage ob jemmand eingelogt ist. Wenn nicht, werden bestimmte Objekte versteckt.
-    override func viewWillAppear(_ animated: Bool) {
-        if (HardCodedVar().isLockedIn == false){
-            machSichtbar();
-        }
-    }
-    func machSichtbar(){
-        //Alle Views die nur der User sieht kommen hierher.
     }
 
 }

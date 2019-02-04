@@ -9,13 +9,13 @@
 import Foundation
 class Weather{
     
-    //Wetter Daten aus der OpenWather laden
-    //Nice to have falls wir noch Zeit haben...
+
     var city = "Fulda"
     var country = "DE"
     
+    ///auslesen der Wetter Daten für Fulda aus der Api von Openwather
+    ///Allgemeine Steuerungseinheit
     func loadWeather(){
-       
         try? WeatherService.sharedWeatherService().getCurrentWeather(city + "," + country, completion: { (data) -> () in
             OperationQueue.main.addOperation({ () -> Void in
                 if let weatherData = data {

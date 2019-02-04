@@ -27,12 +27,14 @@ class HardCodedVar{
     //----------------------------------------------------
     //Daten die immer neu geladen werden
 
-    //Speichern der Mensadaten
+    //Daten die geladen werden werden hier zwischen Gespeichert.
+    var Ergebnis = ""
+    
+    //Mensa
+    var MensaResult = "";
     var NameDerInfos = [String]()
     var TextDerInfos = [String]()
     var cell = 0;
-
-    //TODO: Speichern der News???
 
     //----------------------------------------------------
     //Daten die nicht neu geladen werden müssen:
@@ -44,11 +46,10 @@ class HardCodedVar{
     
     
     //----------------------------------------------------
-    //Mensa
-    var MensaEssen = [String]()
-    var MensaPreisStudent = [String]()
-    var MensaPreisGast = [String]()
-    var MensaPreisMitarbeiter = [String]()
+    //Termine
+    var TerminResult = ""
+
+    
     //___________________________________________________
     //Einstellungen
 
@@ -99,57 +100,14 @@ class HardCodedVar{
     //____________________________________________________
     //Funktionen für die Variablen
     var isLockedIn = false;
-
-
-
-    //gibt alle Werte des Zwischenspeichers zurück
-        // -> Alle Werte müssen eingetragen werden.
-    func GibSpeicher()-> [String]{
-        var erg: [String] =
-            [
-                "NFCCoder",
-                "NFCEnabled",
-                "TouchIdEnabled",
-                "isLockedIn"
-            ]
-        return erg;
-    }
-
-    
     //---------------------------------------------------
-    struct Einstellungen:Codable{
-        
-        var Zustand: Int
-        var NFCEnabled = true
-        var TouchIdEnabled = true
-        var FachbereichAuswahl: Int
-    }
     
-    func EinstellungenLaden(){
-        UserDefaults.standard.set(42, forKey: "highscore")
-        
-        main.FachbereichAuswahl = UserDefaults.standard.integer(forKey: "FachbereichAuswahl")
-        main.NFCEnabled = UserDefaults.standard.bool(forKey: "NFCEnabled")
-        main.TouchIdEnabled = UserDefaults.standard.bool(forKey: "TouchIdEnabled")
-        main.Zustand = UserDefaults.standard.integer(forKey: "Zustand")
-    }
+    var ErsteZeit: Int = 0;
+    var ZeitMonat: Int = 0;
+    var ZeitWoche: Int = 0;
+    var ZeitTag : Int = 0;
     
-    func EinstellungenSpeichern(){
-        UserDefaults.standard.set(main.FachbereichAuswahl, forKey: "FachbereichAuswahl")
-        UserDefaults.standard.set(main.NFCEnabled, forKey: "NFCEnabled")
-        UserDefaults.standard.set(main.TouchIdEnabled, forKey: "TouchIdEnabled")
-        UserDefaults.standard.set(main.Zustand, forKey: "Zustand")
-    }
-    
-    
-    //---------------------------------------------------
-    func kurzlebig(){
-        
-    }
-    
-    func Langlebig(){
-        
-    }
-
+    //aktuelle UnixZeit
+    var aktuelleZeit: Int = 0;
 }
 var main = HardCodedVar()

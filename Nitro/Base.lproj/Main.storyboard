@@ -192,42 +192,6 @@
             </objects>
             <point key="canvasLocation" x="3720.8000000000002" y="-182.15892053973016"/>
         </scene>
-        <!--Mensa Loader-->
-        <scene sceneID="UE6-qX-DFY">
-            <objects>
-                <viewController storyboardIdentifier="Loader" id="t6d-6h-Phe" customClass="MensaLoader" customModule="Nitro" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Fzm-Dw-BeB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Kno-DV-Aey">
-                                <rect key="frame" x="177" y="323" width="20" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </activityIndicatorView>
-                            <wkWebView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aAn-4h-j5K">
-                                <rect key="frame" x="67" y="96" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration" allowsAirPlayForMediaPlayback="NO" allowsPictureInPictureMediaPlayback="NO">
-                                    <dataDetectorTypes key="dataDetectorTypes" none="YES"/>
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="EW9-Q1-3Vo"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="F8c-7E-5ut"/>
-                    <connections>
-                        <outlet property="web" destination="aAn-4h-j5K" id="FPT-bN-ZAf"/>
-                        <segue destination="HlZ-6x-Jih" kind="show" identifier="next" id="MSG-YM-JMW"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AaL-VI-Sep" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="9494" y="1394"/>
-        </scene>
         <!--MensaController-->
         <scene sceneID="dME-bi-x6b">
             <objects>
@@ -237,7 +201,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="t6d-6h-Phe" kind="relationship" relationship="rootViewController" id="Ydd-Sl-WIA"/>
+                        <segue destination="HlZ-6x-Jih" kind="relationship" relationship="rootViewController" id="BOM-Sh-I4V"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OQO-lf-3aq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -253,12 +217,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="Rca-ob-nwm">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="rbM-ge-EP7" detailTextLabel="WYo-Eb-Ylo" rowHeight="120" style="IBUITableViewCellStyleSubtitle" id="Rca-ob-nwm">
+                                <rect key="frame" x="0.0" y="28" width="375" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="cell" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rca-ob-nwm" id="07x-wx-Wbb">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rbM-ge-EP7">
+                                            <rect key="frame" x="16" y="40" width="33.5" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WYo-Eb-Ylo">
+                                            <rect key="frame" x="16" y="63.5" width="44" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -274,10 +254,13 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="NavigationBar" destination="DZQ-qc-92C" id="zcc-pu-3D4"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UA3-Bp-eLW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10342" y="1394"/>
+            <point key="canvasLocation" x="9812" y="1393.8530734632684"/>
         </scene>
         <!--KarteController-->
         <scene sceneID="Fcc-92-0L2">
@@ -329,7 +312,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cEe-XR-87u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6676" y="607.64617691154433"/>
+            <point key="canvasLocation" x="6764" y="608"/>
         </scene>
         <!--NewsController-->
         <scene sceneID="1ks-Ts-A4d">
@@ -717,11 +700,19 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhO-Sl-B4a">
-                                    <rect key="frame" x="6" y="198" width="60" height="30"/>
+                                    <rect key="frame" x="0.0" y="198" width="60" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" title="🗞News"/>
                                     <connections>
                                         <segue destination="ClC-c7-7CJ" kind="show" identifier="" id="3ai-E9-plw"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ikf-hQ-Tai">
+                                    <rect key="frame" x="8" y="236" width="76" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="📆Termine"/>
+                                    <connections>
+                                        <segue destination="sNb-md-r7a" kind="show" id="HQ8-tH-Esb"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -759,6 +750,80 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o17-TG-5um" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2015" y="607"/>
+        </scene>
+        <!--Semestertermine-->
+        <scene sceneID="L66-CH-UDN">
+            <objects>
+                <navigationController storyboardIdentifier="Semestertermine" title="Semestertermine" id="sNb-md-r7a" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2Fu-TU-BeM">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="unC-k9-XD6" kind="relationship" relationship="rootViewController" id="EVd-7j-S6r"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cZU-ft-wE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5692" y="1394"/>
+        </scene>
+        <!--Semestertermine-->
+        <scene sceneID="zLI-2s-5ao">
+            <objects>
+                <viewController id="unC-k9-XD6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z30-xT-w2t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZFI-KI-nT3">
+                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Sommersemester 2019
+Bewerbungsfrist Sommersemester 2019	1. Dezember 2018 - 15. Januar 2019
+Rückmeldungsfrist Sommersemester 2019	Erster Tag KW 51 - 31. März 2019
+Beginn Sommersemester 2019	01. April 2019
+Beginn Lehrveranstaltungen 2019	15. April 2019
+Ende Lehrveranstaltungen 2019	19. Juli 2019
+Ende Sommersemester 2019	30. September 2019
+Vorlesungsfreie Zeit zu Ostern	19. April - 22. April 2019
+Wintersemester 2019/2020
+Bewerbungsfrist Wintersemester 2019/2020	2. Mai 2019 - 15. Juli 2019
+Rückmeldefrist Wintersemester 2019/2020	Erster Tag KW 24 - 30. September 2019
+Beginn Wintersemester 2019/2020	1. Oktober 2019
+Beginn Lehrveranstaltungen 2019/2020	14. Oktober 2019
+Ende Lehrveranstaltungen 2019/2020	14. Februar 2020
+Ende Wintersemester 2019/2020	31. März 2020
+Vorlesungsfreie Zeit zu Weihnachten	20. Dezember 2019 - 10. Januar 2020
+Sommersemester 2020
+Bewerbungsfrist Sommersemester 2020	1. Dezember 2019 - 15. Januar 2020
+Rückmeldungsfrist Sommersemester 2020	Erster Tag KW 51 - 31. März 2020
+Beginn Sommersemester 2020	01. April 2020
+Beginn Lehrveranstaltungen 2020	14. April 2020
+Ende Lehrveranstaltungen 2020	17. Juli 2020
+Ende Sommersemester 2020	30. September 2020
+Vorlesungsfreie Zeit zu Ostern	fällt in die vorlesungsfreie Zeit
+Wintersemester 2020/2021
+Bewerbungsfrist Wintersemester 2020/2021	2. Mai 2020 - 15. Juli 2020
+Rückmeldefrist Wintersemester 2020/2021	Erster Tag KW 24 - 30. September 2020
+Beginn Wintersemester 2020/2021	1. Oktober 2020
+Beginn Lehrveranstaltungen 2020/2021	12. Oktober 2020
+Ende Lehrveranstaltungen 2020/2021	12. Februar 2021
+Ende Wintersemester 2020/2021	31. März 2021
+Vorlesungsfreie Zeit zu Weihnachten	18. Dezember 2020 - 08. Januar 2021
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="thu-hq-mW8"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Semestertermine" id="cLz-nE-TUb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sod-ge-9VK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6764" y="1393.8530734632684"/>
         </scene>
         <!--Infos der HS-->
         <scene sceneID="x3I-vb-CeI">
@@ -962,6 +1027,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8L6-Th-NN1"/>
-        <segue reference="saN-aa-BEx"/>
+        <segue reference="3ai-E9-plw"/>
     </inferredMetricsTieBreakers>
 </document>
