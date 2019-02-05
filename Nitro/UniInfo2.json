@@ -1,0 +1,48 @@
+[
+  {
+      "Name":"Der Unterricht",
+      "KategorienCell":[
+        {
+            "InfoCelle":
+            {"Name":"",
+                "Text":"Einige Lehrveranstaltungen (z.B. Mathevorkurs, Programmierung 2, Multimedia Grundlungen, etc. ) werden per Videomitschnitt aufgezeichnet. Die Online-Videos findest Du im Offenen Medien Archiv der Hochschule."}
+        ,"Name":"Aufzeichnungen"
+        },{
+            "InfoCelle":
+            {"Name":"dabae",
+                "Text":"text12"}
+        ,"Name":"daba" 
+        }
+      ]
+  },  {
+      "Name":"Das Studium",
+      "KategorienCell":[
+          {
+              "InfoCelle":
+                    {"Name":"test32",
+                        "Text":"text1"}
+            ,"Name":"test22"
+        }
+      ]
+  },  {
+      "Name":"Die Chipkarte",
+      "KategorienCell":[
+          {
+              "InfoCelle":
+                    {"Name":"",
+                        "Text":"Die Chipkarte gilt als Studienausweis des Studenten. Sie ist außerdem als Fahrschein für das gesamte hessische Verbundnetz von NVV und RMV. \nDer Ausweis kann in der Bibliothek als Schlüssel für die Gaderobe wie auch als Bibliotheksausweis genutzt werden. \n In der Mensa und an Kopieren gilt der Ausweis als Zahlungsmittel."}
+              ,"Name":"Was kann die Chipkarte?"
+            },{
+                "InfoCelle":
+                      {"Name":"",
+                          "Text":"Die Gültigeit des Ausweises steht auf der Karte. Ist Sie abgelaufen, so muss sie an den Automaten im SSC aktualisiert werden. Dies funktioniert sobald man sich für das neue Semester zurück gemeldet hat."}
+                ,"Name":"Gültigkeit"
+            },{
+                "InfoCelle":
+                      {"Name":"",
+                          "Text":"Sollte man seine Karte verlieren, so sollte man dies unbedingt im SSC melden. nicht nur kann die alte Karte dort gesperrt werden, es kann auch eine neue Karte ausgestellt werden."}
+                ,"Name":"Verlust der Chipkarte"
+            }
+      ]
+  }
+]

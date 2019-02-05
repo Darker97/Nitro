@@ -10,6 +10,7 @@
 		1877B70441A9CDE3B6A7C5A1 /* Pods_Nitro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586AE186A4EC25782704F819 /* Pods_Nitro.framework */; };
 		58D40D5A72BADC8807743057 /* Pods_NitroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBA589C6E329AD89B57A055 /* Pods_NitroTests.framework */; };
 		835CC02EA152F0C4BEACA34C /* Pods_NitroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E897D7AA7406D6455FAAF3CD /* Pods_NitroUITests.framework */; };
+		AA044F8A22096F29005773C8 /* UniInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = AA044F8922096F29005773C8 /* UniInfo.json */; };
 		AA08818921CAE75B00145E97 /* Einstellungen.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA9C854621CA5B580060C7BF /* Einstellungen.txt */; };
 		AA1B53C12196EEBB00941DF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53C02196EEBB00941DF6 /* AppDelegate.swift */; };
 		AA1B53C32196EEBB00941DF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53C22196EEBB00941DF6 /* ViewController.swift */; };
@@ -28,7 +29,7 @@
 		AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */; };
 		AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */; };
 		AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA5907F421A30F1C00D8493F /* Stickers.xcstickers */; };
-		AA6326B021CD53BF004321EC /* UniInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = AA6326AF21CD53BF004321EC /* UniInfo.json */; };
+		AA6326B021CD53BF004321EC /* UniInfo2.json in Resources */ = {isa = PBXBuildFile; fileRef = AA6326AF21CD53BF004321EC /* UniInfo2.json */; };
 		AA635E3D21AC2610002ED75C /* Einstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635E3C21AC2610002ED75C /* Einstellungen.swift */; };
 		AA6677E422008CF000E6476A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5907F821A3147900D8493F /* MapKit.framework */; };
 		AA7285962207028B00886149 /* HardCodedVar-Funktionen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7285952207028B00886149 /* HardCodedVar-Funktionen.swift */; };
@@ -72,6 +73,7 @@
 		586AE186A4EC25782704F819 /* Pods_Nitro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nitro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8984F822381722AB744FDDDD /* Pods-Nitro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nitro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nitro/Pods-Nitro.release.xcconfig"; sourceTree = "<group>"; };
 		9A712DD296FDE2799BB21737 /* Pods-Nitro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nitro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nitro/Pods-Nitro.debug.xcconfig"; sourceTree = "<group>"; };
+		AA044F8922096F29005773C8 /* UniInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UniInfo.json; sourceTree = "<group>"; };
 		AA1B53BD2196EEBB00941DF6 /* Nitro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nitro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1B53C02196EEBB00941DF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA1B53C22196EEBB00941DF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +99,7 @@
 		AA5907F421A30F1C00D8493F /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
 		AA5907F621A3141800D8493F /* Nitro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nitro.entitlements; sourceTree = "<group>"; };
 		AA5907F821A3147900D8493F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		AA6326AF21CD53BF004321EC /* UniInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UniInfo.json; sourceTree = "<group>"; };
+		AA6326AF21CD53BF004321EC /* UniInfo2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UniInfo2.json; sourceTree = "<group>"; };
 		AA635E3C21AC2610002ED75C /* Einstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Einstellungen.swift; sourceTree = "<group>"; };
 		AA7285952207028B00886149 /* HardCodedVar-Funktionen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HardCodedVar-Funktionen.swift"; sourceTree = "<group>"; };
 		AA74A2C621E51BAC000AFA39 /* InfosLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfosLoader.swift; sourceTree = "<group>"; };
@@ -266,7 +268,8 @@
 				AA5907ED21A30B5200D8493F /* HeaderAuflistung.swift */,
 				AA74A2C821E51DE3000AFA39 /* KategorienAuflistung.swift */,
 				AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */,
-				AA6326AF21CD53BF004321EC /* UniInfo.json */,
+				AA6326AF21CD53BF004321EC /* UniInfo2.json */,
+				AA044F8922096F29005773C8 /* UniInfo.json */,
 			);
 			name = "Allgemeine Infos";
 			sourceTree = "<group>";
@@ -451,7 +454,8 @@
 				AA1B53CB2196EEBB00941DF6 /* LaunchScreen.storyboard in Resources */,
 				AA08818921CAE75B00145E97 /* Einstellungen.txt in Resources */,
 				AA1B53C82196EEBB00941DF6 /* Assets.xcassets in Resources */,
-				AA6326B021CD53BF004321EC /* UniInfo.json in Resources */,
+				AA6326B021CD53BF004321EC /* UniInfo2.json in Resources */,
+				AA044F8A22096F29005773C8 /* UniInfo.json in Resources */,
 				AA575DFF21F7A36B00F954F6 /* MensaData.js in Resources */,
 				AAA0F38121CE8C2C009B5F0C /* HochschullMap.json in Resources */,
 				AA1B53C62196EEBB00941DF6 /* Main.storyboard in Resources */,

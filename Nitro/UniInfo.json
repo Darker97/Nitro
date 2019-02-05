@@ -1,48 +1,39 @@
 [
-  {
-      "Name":"Der Unterricht",
-      "KategorienCell":[
-        {
-            "InfoCelle":
-            {"Name":"",
-                "Text":"Einige Lehrveranstaltungen (z.B. Mathevorkurs, Programmierung 2, Multimedia Grundlungen, etc. ) werden per Videomitschnitt aufgezeichnet. Die Online-Videos findest Du im Offenen Medien Archiv der Hochschule."}
-        ,"Name":"Aufzeichnungen"
-        },{
-            "InfoCelle":
-            {"Name":"dabae",
-                "Text":"text12"}
-        ,"Name":"daba" 
-        }
-      ]
-  },  {
-      "Name":"Das Studium",
-      "KategorienCell":[
-          {
-              "InfoCelle":
-                    {"Name":"test32",
-                        "Text":"text1"}
-            ,"Name":"test22"
-        }
-      ]
-  },  {
-      "Name":"Die Chipkarte",
-      "KategorienCell":[
-          {
-              "InfoCelle":
-                    {"Name":"",
-                        "Text":"Die Chipkarte gilt als Studienausweis des Studenten. Sie ist außerdem als Fahrschein für das gesamte hessische Verbundnetz von NVV und RMV. \nDer Ausweis kann in der Bibliothek als Schlüssel für die Gaderobe wie auch als Bibliotheksausweis genutzt werden. \n In der Mensa und an Kopieren gilt der Ausweis als Zahlungsmittel."}
-              ,"Name":"Was kann die Chipkarte?"
-            },{
-                "InfoCelle":
-                      {"Name":"",
-                          "Text":"Die Gültigeit des Ausweises steht auf der Karte. Ist Sie abgelaufen, so muss sie an den Automaten im SSC aktualisiert werden. Dies funktioniert sobald man sich für das neue Semester zurück gemeldet hat."}
-                ,"Name":"Gültigkeit"
-            },{
-                "InfoCelle":
-                      {"Name":"",
-                          "Text":"Sollte man seine Karte verlieren, so sollte man dies unbedingt im SSC melden. nicht nur kann die alte Karte dort gesperrt werden, es kann auch eine neue Karte ausgestellt werden."}
-                ,"Name":"Verlust der Chipkarte"
+    {
+        "Name": "Hunger?",
+        "KategorienCell": [
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "wechselndes Mittagsangebot, Auswahl an Snacks und Getränken (heißen und kalten) \n Bezahlen mit der Chipkarte \n Öffnungszeiten: \n Mo - Fr 7:30 - 21:00 Mittagessen gibt es von 11:15 bis 14:00, danach ein eingeschränktes Angbebot bis 16:00 und von 16:00 bis 18:30 das Abendangebot.  \n Sa 10:00 - 17:30 Mittagessen gibt es von 11:30 - 13:30. \n während den vorlesungsfreien Zeiten gelten andere Öffnungszeiten "
+                },
+                "Name": "Mensa"
+            },
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "Mo: Pasta-Gerichte sowie Döner \n Di: Burger \n Wokgerichte \n Hot Dog-Spezialitäten \n Fish & Chips sowie Döner \n außerdem täglich einen veganen Salat \n Öffnungszeiten: \n Mo-Fr 11:15 - 14:00"
+                },
+                "Name": "Food Truck"
+            },
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "täglich wechselndes Mittagessen (immer eine vegane und eine vegetarische Variante) den aktuellen Speiseplan findet man auf der Website oder bei SocialMedia, FairTrade Kaffee und andere leckere Getränke \n An dem ein oder anderem Abend bietet das Cafe Chaos Unterhaltung an, schaut euch bei SozialMedia um. \n Öffnungszeiten: \n Mo, Di, Do 7:45 - 15:00 \n Mi, Fr 7:45 - 14:00"
+                },
+                "Name": "Cafe Chaos"
             }
-      ]
-  }
+        ]
+    },
+    {
+        "Name": "Erstitipps",
+        "KategorienCell": [
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "Mensa: allerdings nicht zu den Essenzeiten \n Cafe Chaos: gemütliche Atmospähre \n BiB: hier kann man Einzelarbeitsplätze, Gruppenarbeitsräume und PCs nutzen, eine Online-Reservierung ist sinnvoll \n SLZ: hier gibt es Einzelplätze und Gruppentische, außerdem kann man sich von einem Team vor Ort beraten lassen. Du musst ein Aufsatz schreiben? Dann schau doch mal bei der Schreibwerkstatt vorbei. "
+                },
+                "Name": "Orte zum Lernen"
+            }
+        ]}
 ]
