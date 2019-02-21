@@ -1,80 +1,69 @@
 //
 //  Einstellungen.swift
-//  Nitro
+//  
 //
-//  Created by Christian Baltzer on 26.11.18.
-//  Copyright © 2018 Christian Baltzer. All rights reserved.
+//  Created by Christian Baltzer on 21.02.19.
 //
 
-import UIKit
+import Foundation
+import QuickTableViewController
 
-/// Klasse für die Einstellungen
-class Einstellungen: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+final class Einstellungen: QuickTableViewController {
     
-    ///Funktion des Zurück Buttons - Verweist aufs Hauptmenü
-    @IBAction func zurück(_ sender: Any) {
+    @IBAction func zurückButton(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
     
-    @IBOutlet weak var NFCregler: UISwitch!
-    
-    @IBOutlet weak var fingerRegler: UISwitch!
-    
-    @IBOutlet weak var Regler: UISegmentedControl!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Fachbereich()
-        // Do any additional setup after loading the view.
-    }
-    @IBAction func NFCan(_ sender: Any) {
-        main.NFCEnabled = NFCregler.isOn
-    }
-    
-    @IBAction func Fingerabdruckan(_ sender: Any) {
-        main.TouchIdEnabled = fingerRegler.isOn
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        NFCregler.isOn = main.NFCEnabled
-        fingerRegler.isOn = main.TouchIdEnabled
-        Regler.selectedSegmentIndex = main.Zustand
-        Fachbereich()
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        main.Zustand = Regler.selectedSegmentIndex
-        //main.FachbereichAuswahl = FachbereichPciker.selectedRow(inComponent: 1)
-    }
-    
-    //------------------------------------------
-    //Auswahl des Fachbereiches:
-    @IBOutlet weak var FachbereichPciker: UIPickerView!
-    func Fachbereich(){
         
-        self.FachbereichPciker.dataSource = self
-        self.FachbereichPciker.delegate = self
+        tableContents = [
+            Section(title: "Switch", rows: [
+                SwitchRow(title: "NFC", switchValue: main.NFCEnabled, action: { _ in
+                    main.NFCEnabled = !main.NFCEnabled
+                }),
+                SwitchRow(title: "Fingerabdruck", switchValue: main.TouchIdEnabled, action: { _ in
+                    main.TouchIdEnabled = !main.TouchIdEnabled
+                })
+                ]),
+            
+            RadioSection(title: "Fachbereich", options: [
+                OptionRow(title: "Angewandte Informatik", isSelected: (main.FachbereichAuswahl==0), action: didToggleSelection()),
+                OptionRow(title: "Elektrotechnik und Informationstechnik", isSelected: (main.FachbereichAuswahl==1), action: didToggleSelection()),
+                OptionRow(title: "Lebensmitteltechnik", isSelected: (main.FachbereichAuswahl==2), action: didToggleSelection()),
+                OptionRow(title: "Oecotrophologie", isSelected: (main.FachbereichAuswahl==3), action: didToggleSelection()),
+                OptionRow(title: "Pflege und Gesundheit", isSelected: (main.FachbereichAuswahl==4), action: didToggleSelection()),
+                OptionRow(title: "Sozial-& Kulturwissenschaft", isSelected: (main.FachbereichAuswahl==5), action: didToggleSelection()),
+                OptionRow(title: "Sozialwesen", isSelected: (main.FachbereichAuswahl==6), action: didToggleSelection()),
+                OptionRow(title: "Wirtschaft", isSelected: (main.FachbereichAuswahl==7), action: didToggleSelection())
+                ])
+        ]
     }
     
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
+    // MARK: - Actions
+    
+    private func showAlert(_ sender: Row) {
+
     }
     
-    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
-        // Column count: use one column.
-        return 1
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        
-        // Row count: rows equals array length.
-        return main.Fachbereich.count
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        
-        // Return a string from the array for this row.
-        return main.Fachbereich[row]
-    }
+    ///Aktion der Fachbereichsauswahl
+    private func didToggleSelection() -> (Row) -> Void {
+        return { [weak self] row in
+            //Neusetzten des Auswahl Integers
+            switch (row.title){
+                case "Angewandte Informatik": main.FachbereichAuswahl = 0
+                case "Elektrotechnik und Informationstechnik": main.FachbereichAuswahl = 1
+                case "Lebensmitteltechnik": main.FachbereichAuswahl = 2
+                case "Oecotrophologie": main.FachbereichAuswahl = 3
+                case "Pflege und Gesundheit": main.FachbereichAuswahl = 4
+                case "Sozial-& Kulturwissenschaft": main.FachbereichAuswahl = 5
+                case "Sozialwesen": main.FachbereichAuswahl = 6
+                case "Wirtschaft": main.FachbereichAuswahl = 7
+            default:
+                main.FachbereichAuswahl = 0
+            }
+        }
+}
 }

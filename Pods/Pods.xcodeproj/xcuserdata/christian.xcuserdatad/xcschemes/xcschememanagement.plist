@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>DGElasticPullToRefresh.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>EasySocial.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -94,20 +99,25 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
-		<key>ReachabilitySwift.xcscheme_^#shared#^_</key>
+		<key>QuickTableViewController.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
-		<key>SideMenu.xcscheme_^#shared#^_</key>
+		<key>ReachabilitySwift.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
-		<key>SwiftScanner.xcscheme_^#shared#^_</key>
+		<key>SideMenu.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>12</integer>
+		</dict>
+		<key>SwiftScanner.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
 		</dict>
 		<key>SwiftSoup.xcscheme_^#shared#^_</key>
 		<dict>
@@ -127,7 +137,7 @@
 		<key>TransitionButton.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>14</integer>
 		</dict>
 		<key>Validator.xcscheme_^#shared#^_</key>
 		<dict>

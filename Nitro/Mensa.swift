@@ -9,6 +9,7 @@
 import UIKit
 import SwiftSoup
 
+
 class Mensa: UITableViewController {
     
     var Title = "Test"
@@ -34,6 +35,8 @@ class Mensa: UITableViewController {
 
         tableView.separatorStyle = UITableViewCell.SeparatorStyle.singleLine
         tableView.reloadData()
+        
+        
     }
 
     // MARK: - Table view data source
@@ -73,28 +76,36 @@ class Mensa: UITableViewController {
         return cell!
     }
  
+    //------------------------------------------------------
+    
     
     func Html_auswerten(){
         var Result = main.MensaResult
         do{
             let doc: Document = try SwiftSoup.parse(Result)
-        
-            //Title "class = aw-menu-title"             .aw-menu-title
-            //Name "class = aw-meal-description"
-            //Details "title="Preis für Studierende""
             
-            //Title der Seite Ausschneiden
-            try Title = doc.select(".aw-menu-title").text()
-            var temp = Title.components(separatedBy: " ")
-            Title = String(temp[0] + " " + temp[1] + " " + temp[2])
+            //Title der Seite
+            try Title = "Essen von Heute"
             
-            
-            var Elements = try doc.select(".aw-meal-description")
+            var Elements = try doc.select(".artikel")
             var srcsStringArray: String = try Elements.html()
             var temp2 = srcsStringArray.components(separatedBy: "\n")
+            //print(temp2)
+            for j in 0..<temp2.count{
+                var temp3 = temp2[j]
+                
+                if(temp3.contains("<")){
+                let i = temp3.index(of: "<")!
+                    temp2[j] = String(temp3[temp3.startIndex..<i])
+                }
+                else{
+                    temp2[j] = temp3
+                }
+            }
+            
             Name = temp2
             
-            Elements = try doc.select(".aw-meal-price")
+            Elements = try doc.select(".descr")
             srcsStringArray = try Elements.html()
             temp2 = srcsStringArray.components(separatedBy: "\n")
             
@@ -105,10 +116,10 @@ class Mensa: UITableViewController {
             var a: [String]
             
             for i in 0...15{
-                a = temp2[i].components(separatedBy: "&")
+                a = temp2[i].components(separatedBy: "<")
                
                 if(a[0] != ""){
-                    Details.append(a[0] + " €")
+                    Details.append(a[0])
                 }else{
                     Details.append("")
                 }

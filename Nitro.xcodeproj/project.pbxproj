@@ -30,7 +30,6 @@
 		AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */; };
 		AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA5907F421A30F1C00D8493F /* Stickers.xcstickers */; };
 		AA6326B021CD53BF004321EC /* UniInfo2.json in Resources */ = {isa = PBXBuildFile; fileRef = AA6326AF21CD53BF004321EC /* UniInfo2.json */; };
-		AA635E3D21AC2610002ED75C /* Einstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA635E3C21AC2610002ED75C /* Einstellungen.swift */; };
 		AA6677E422008CF000E6476A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5907F821A3147900D8493F /* MapKit.framework */; };
 		AA7285962207028B00886149 /* HardCodedVar-Funktionen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7285952207028B00886149 /* HardCodedVar-Funktionen.swift */; };
 		AA74A2C721E51BAC000AFA39 /* InfosLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74A2C621E51BAC000AFA39 /* InfosLoader.swift */; };
@@ -48,6 +47,10 @@
 		AAADD08721DE90880012B649 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAADD08621DE90880012B649 /* NewsTableViewCell.swift */; };
 		AAADD08921DE913D0012B649 /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAADD08821DE913D0012B649 /* FeedParser.swift */; };
 		AAADD09321DEA2CD0012B649 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAADD09121DEA2CD0012B649 /* WeatherService.swift */; };
+		AAB14D9E221F042000AE453B /* Termine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB14D9D221F042000AE453B /* Termine.swift */; };
+		AAB14DA0221F142600AE453B /* Einstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB14D9F221F142300AE453B /* Einstellungen.swift */; };
+		AAB14DA2221F162F00AE453B /* TermineExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB14DA1221F162F00AE453B /* TermineExport.swift */; };
+		AAB14DA4221F16D900AE453B /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB14DA3221F16D900AE453B /* CoreNFC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,7 +103,6 @@
 		AA5907F621A3141800D8493F /* Nitro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nitro.entitlements; sourceTree = "<group>"; };
 		AA5907F821A3147900D8493F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AA6326AF21CD53BF004321EC /* UniInfo2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UniInfo2.json; sourceTree = "<group>"; };
-		AA635E3C21AC2610002ED75C /* Einstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Einstellungen.swift; sourceTree = "<group>"; };
 		AA7285952207028B00886149 /* HardCodedVar-Funktionen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HardCodedVar-Funktionen.swift"; sourceTree = "<group>"; };
 		AA74A2C621E51BAC000AFA39 /* InfosLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfosLoader.swift; sourceTree = "<group>"; };
 		AA74A2C821E51DE3000AFA39 /* KategorienAuflistung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorienAuflistung.swift; sourceTree = "<group>"; };
@@ -120,6 +122,10 @@
 		AAADD08821DE913D0012B649 /* FeedParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedParser.swift; sourceTree = "<group>"; };
 		AAADD08C21DEA1180012B649 /* WeatherKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherKit.h; sourceTree = "<group>"; };
 		AAADD09121DEA2CD0012B649 /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherService.swift; path = "../../../Downloads/Swift-30-Projects-master-2/Project 25 - WeatherExtension/WeatherDemo/WeatherService.swift"; sourceTree = "<group>"; };
+		AAB14D9D221F042000AE453B /* Termine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Termine.swift; sourceTree = "<group>"; };
+		AAB14D9F221F142300AE453B /* Einstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Einstellungen.swift; path = /Users/christian/projekts/Nitro/Nitro/Einstellungen.swift; sourceTree = "<absolute>"; };
+		AAB14DA1221F162F00AE453B /* TermineExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermineExport.swift; sourceTree = "<group>"; };
+		AAB14DA3221F16D900AE453B /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
 		BE2FE831AF19C2CA14299DE2 /* Pods-NitroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NitroUITests/Pods-NitroUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF2FC5083A1C5072C944B4A /* Pods-NitroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NitroTests/Pods-NitroTests.release.xcconfig"; sourceTree = "<group>"; };
 		E897D7AA7406D6455FAAF3CD /* Pods_NitroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NitroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB14DA4221F16D900AE453B /* CoreNFC.framework in Frameworks */,
 				AA6677E422008CF000E6476A /* MapKit.framework in Frameworks */,
 				1877B70441A9CDE3B6A7C5A1 /* Pods_Nitro.framework in Frameworks */,
 			);
@@ -198,7 +205,7 @@
 				AA1B53C42196EEBB00941DF6 /* Main.storyboard */,
 				AA8FE05E21A3310C0066338D /* LaunchController.swift */,
 				AA8FE06621A352EE0066338D /* LoginScreen.swift */,
-				AA635E3C21AC2610002ED75C /* Einstellungen.swift */,
+				AAB14D9F221F142300AE453B /* Einstellungen.swift */,
 				AA8FE06421A352D50066338D /* Sicherheits_Abfrage.swift */,
 				AA4C4F0C21C11EB9000B5BCC /* Daten */,
 				AA4C4F0721C0FB15000B5BCC /* Allgemeine Infos */,
@@ -266,6 +273,8 @@
 			children = (
 				AA74A2C621E51BAC000AFA39 /* InfosLoader.swift */,
 				AA5907ED21A30B5200D8493F /* HeaderAuflistung.swift */,
+				AAB14D9D221F042000AE453B /* Termine.swift */,
+				AAB14DA1221F162F00AE453B /* TermineExport.swift */,
 				AA74A2C821E51DE3000AFA39 /* KategorienAuflistung.swift */,
 				AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */,
 				AA6326AF21CD53BF004321EC /* UniInfo2.json */,
@@ -292,6 +301,7 @@
 		AA5907F721A3147900D8493F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AAB14DA3221F16D900AE453B /* CoreNFC.framework */,
 				AA8FE06A21A373CA0066338D /* LocalAuthentication.framework */,
 				AA5907F821A3147900D8493F /* MapKit.framework */,
 				586AE186A4EC25782704F819 /* Pods_Nitro.framework */,
@@ -509,6 +519,7 @@
 				"${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
 				"${BUILT_PRODUCTS_DIR}/Proposer/Proposer.framework",
+				"${BUILT_PRODUCTS_DIR}/QuickTableViewController/QuickTableViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftScanner/SwiftScanner.framework",
@@ -522,6 +533,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Proposer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QuickTableViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftScanner.framework",
@@ -595,11 +607,11 @@
 				AA8FE06521A352D50066338D /* Sicherheits_Abfrage.swift in Sources */,
 				AA8E661B21C0135900929FE8 /* Map.swift in Sources */,
 				AA8E662321C036E900929FE8 /* Places.swift in Sources */,
+				AAB14D9E221F042000AE453B /* Termine.swift in Sources */,
 				AA4618D321D2590A00084872 /* AKKInfos.swift in Sources */,
 				AA4618D121D2561400084872 /* FachbereichsInfos.swift in Sources */,
 				AA7285962207028B00886149 /* HardCodedVar-Funktionen.swift in Sources */,
 				AA74A2C721E51BAC000AFA39 /* InfosLoader.swift in Sources */,
-				AA635E3D21AC2610002ED75C /* Einstellungen.swift in Sources */,
 				AA74A2C921E51DE3000AFA39 /* KategorienAuflistung.swift in Sources */,
 				AA8FE06921A3649D0066338D /* HardCodedVar.swift in Sources */,
 				AAADD09321DEA2CD0012B649 /* WeatherService.swift in Sources */,
@@ -610,9 +622,11 @@
 				AA575DFD21F79E6900F954F6 /* WeatherData.swift in Sources */,
 				AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */,
 				AA5907EE21A30B5200D8493F /* HeaderAuflistung.swift in Sources */,
+				AAB14DA2221F162F00AE453B /* TermineExport.swift in Sources */,
 				AA1B53C32196EEBB00941DF6 /* ViewController.swift in Sources */,
 				AAADD08921DE913D0012B649 /* FeedParser.swift in Sources */,
 				AA8FE05F21A3310C0066338D /* LaunchController.swift in Sources */,
+				AAB14DA0221F142600AE453B /* Einstellungen.swift in Sources */,
 				AAA8F4E821D6C56E004B1DD1 /* RSS Auswahl Controller.swift in Sources */,
 				AAADD08721DE90880012B649 /* NewsTableViewCell.swift in Sources */,
 				AA1B53C12196EEBB00941DF6 /* AppDelegate.swift in Sources */,

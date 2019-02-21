@@ -13,15 +13,12 @@ import FeedKit
 
 import SwiftSoup
 import JavaScriptCore
+import Alamofire
 
 class Scrapper{
  
     //------------------------------------------------
     //Laden aus dem Netz
-    
-    //Laden der html-Seite der Mensa
-    //"http://www.maxmanager.de/daten-extern/sw-giessen/html/speiseplaene.php?einrichtung=fulda&w=dw"
-    
     
     func SideScrapper(webView: WKWebView, Url: String){
         let url = NSURL(string: Url)
@@ -45,39 +42,55 @@ class Scrapper{
         })
     }
 
-    //Laden der Mensadaten
-    func GetAnfrage(Adresse: String) -> String{
+    //Laden der Noten
+    func GetNoten() {
+        var login = ""
+        var pass = ""
         
-        var request = URLRequest(url: URL(string: Adresse)!)
-        request.httpMethod = "GET"
-        let session = URLSession.shared
         
-        var Data = ""
+        let Adresse = "https://horstl.hs-fulda.de/qisserver/rds?state=user&type=1&category=auth.login"
+        let parameters: [String: String] = [
+            "asdf": login,
+            "submit": "",
+            "fdsa ": pass
+        ]
         
-            session.dataTask(with: request) {data, response, err in
-            //print(String(data: data!, encoding: .utf8)!)
-            main.MensaResult = String(data:data!, encoding: .utf8)!
-            }.resume()
+        
+        Alamofire.request(Adresse, method: .post, parameters: parameters).responseJSON {  response in
+            
+            //print(String(data: response.data!, encoding: .utf8)!)
+        }
 
-        print (Data)
-        return Data
     }
     
-    //Laden der Mensadaten
-    func GetAnfrageMensa(Adresse: String) -> String{
+    ///Laden der Mensadaten von den Server Adressen vom Studienwerk
+    func GetAnfrageMensa(){
+        let date = Date()
+        let calendar = Calendar.current
+        let components = calendar.dateComponents([.year, .month, .day], from: date)
         
-        var request = URLRequest(url: URL(string: Adresse)!)
-        request.httpMethod = "GET"
-        let session = URLSession.shared
+        let year =  components.year
+        let month = components.month
+        let day = components.day
         
-        var Data = ""
+        let Datum: String
         
-        session.dataTask(with: request) {data, response, err in
-            //print(String(data: data!, encoding: .utf8)!)
-            main.MensaResult = String(data:data!, encoding: .utf8)!
-            }.resume()
+        if ((month as! Int) < 10){
+            Datum = "\(year as! Int)" + "-" + "0" + "\(month as! Int)" + "-" + "\(day as! Int)"
+        }else{
+            Datum = "\(year as! Int)" + "-" + "\(month as! Int)" + "-" + "\(day as! Int)"
+        }
+        let parameters: [String: String] = [
+            "func": "make_spl",
+            "locId": "fulda",
+            "lang": "de",
+            "date": Datum
+        ]
         
-        print (Data)
-        return Data
+        var Adresse = "http://www.maxmanager.de/daten-extern/sw-giessen/html/speiseplan-render.php"
+        Alamofire.request(Adresse, method: .post, parameters: parameters).response { response in
+            //print(String(data: response.data!, encoding: .utf8)!)
+            main.MensaResult = String(data:response.data!, encoding: .utf8)!
+        }
     }
 }

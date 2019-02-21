@@ -84,16 +84,14 @@ class LaunchController: UIViewController{
     
     /// Daten die wir immer laden
     func immer(){
-        DispatchQueue.main.async {
-            //Noten
-        }
+        Scrapper().GetNoten()
     }
     
     
     /// Daten die wir täglich laden
     func Täglich(){
         //Termine & Essen
-        main.MensaResult = Scrapper().GetAnfrageMensa(Adresse: "https://www.imensa.de/fulda/mensa-hochschule-fulda/index.html")
+        Scrapper().GetAnfrageMensa()
         //Wetter
         Weather().loadWeather()
         
