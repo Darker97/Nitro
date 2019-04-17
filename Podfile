@@ -26,9 +26,7 @@ target 'Nitro' do
   pod 'ReachabilitySwift'  
   #hatt nicht funktioniert, weitere Tests in Zukunft
   pod 'SwiftSoup'
-  pod 'QuickTableViewController'
-
-  
+  pod 'QuickTableViewController'  
   
   target 'NitroTests' do
     inherit! :search_paths

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-struct UniInfo: Codable{
+struct UniInfo: Codable {
     let name: String
     let Info: String
 }

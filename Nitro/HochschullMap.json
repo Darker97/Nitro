@@ -1,5 +1,4 @@
-[
-    {
+[{
         "Title": "Mensa",
         "locationName": "Gebäude 11",
         "latitude": 50.5656,
@@ -10,27 +9,27 @@
         "locationName": "Gebäude 12",
         "latitude": 50.5652,
         "longitude": 9.6874,
-    },    {
+    }, {
         "Title": "SSC",
         "locationName": "Gebäude 10",
         "latitude": 50.5653,
         "longitude": 9.6861,
-    },    {
+    }, {
         "Title": "Halle 8",
         "locationName": "Gebäude 52",
         "latitude": 50.5648,
         "longitude": 9.6846,
-    },    {
+    }, {
         "Title": "Gebäude E",
         "locationName": "Gebäude 46",
         "latitude": 50.5651,
         "longitude": 9.6856,
-    },    {
+    }, {
         "Title": "Selbstlernzentrum",
         "locationName": "",
         "latitude": 50.5644,
         "longitude": 9.6852,
-    },    {
+    }, {
         "Title": "Gebäude C",
         "locationName": "Gebäude 43",
         "latitude": 50.5651,

@@ -9,14 +9,11 @@
 import UIKit
 
 class LoginScreen: UIViewController {
-    
-    //Bau einer Login Screen abfrage für das Passwort
-    //Zum Testen melden wir uns auf der Website an
-    
+    // Bau einer Login Screen abfrage für das Passwort
+    // Zum Testen melden wir uns auf der Website an
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        
     }
 }

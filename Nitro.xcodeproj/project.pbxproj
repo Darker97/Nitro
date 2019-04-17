@@ -11,7 +11,6 @@
 		58D40D5A72BADC8807743057 /* Pods_NitroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DBA589C6E329AD89B57A055 /* Pods_NitroTests.framework */; };
 		835CC02EA152F0C4BEACA34C /* Pods_NitroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E897D7AA7406D6455FAAF3CD /* Pods_NitroUITests.framework */; };
 		AA044F8A22096F29005773C8 /* UniInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = AA044F8922096F29005773C8 /* UniInfo.json */; };
-		AA08818921CAE75B00145E97 /* Einstellungen.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA9C854621CA5B580060C7BF /* Einstellungen.txt */; };
 		AA1B53C12196EEBB00941DF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53C02196EEBB00941DF6 /* AppDelegate.swift */; };
 		AA1B53C32196EEBB00941DF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53C22196EEBB00941DF6 /* ViewController.swift */; };
 		AA1B53C62196EEBB00941DF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1B53C42196EEBB00941DF6 /* Main.storyboard */; settings = {ASSET_TAGS = (AnmeldungFehleschlagen, ); }; };
@@ -24,7 +23,6 @@
 		AA4C4F0921C0FB3C000B5BCC /* Mensa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */; };
 		AA4C4F0B21C11E9B000B5BCC /* Scrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C4F0A21C11E9B000B5BCC /* Scrapper.swift */; };
 		AA575DFD21F79E6900F954F6 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA575DFC21F79E6900F954F6 /* WeatherData.swift */; };
-		AA575DFF21F7A36B00F954F6 /* MensaData.js in Resources */ = {isa = PBXBuildFile; fileRef = AA575DFE21F7A36B00F954F6 /* MensaData.js */; };
 		AA5907EE21A30B5200D8493F /* HeaderAuflistung.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907ED21A30B5200D8493F /* HeaderAuflistung.swift */; };
 		AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */; };
 		AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */; };
@@ -34,6 +32,7 @@
 		AA7285962207028B00886149 /* HardCodedVar-Funktionen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7285952207028B00886149 /* HardCodedVar-Funktionen.swift */; };
 		AA74A2C721E51BAC000AFA39 /* InfosLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74A2C621E51BAC000AFA39 /* InfosLoader.swift */; };
 		AA74A2C921E51DE3000AFA39 /* KategorienAuflistung.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74A2C821E51DE3000AFA39 /* KategorienAuflistung.swift */; };
+		AA78FC462221FDB60082F91C /* TermineExportMenü.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78FC452221FDB60082F91C /* TermineExportMenü.swift */; };
 		AA7F407821D78E2600F6E3F5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7F407721D78E2600F6E3F5 /* Weather.swift */; };
 		AA8E661B21C0135900929FE8 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E661A21C0135900929FE8 /* Map.swift */; };
 		AA8E662321C036E900929FE8 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E662221C036E900929FE8 /* Places.swift */; };
@@ -49,8 +48,8 @@
 		AAADD09321DEA2CD0012B649 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAADD09121DEA2CD0012B649 /* WeatherService.swift */; };
 		AAB14D9E221F042000AE453B /* Termine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB14D9D221F042000AE453B /* Termine.swift */; };
 		AAB14DA0221F142600AE453B /* Einstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB14D9F221F142300AE453B /* Einstellungen.swift */; };
-		AAB14DA2221F162F00AE453B /* TermineExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB14DA1221F162F00AE453B /* TermineExport.swift */; };
 		AAB14DA4221F16D900AE453B /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB14DA3221F16D900AE453B /* CoreNFC.framework */; };
+		AACDEDC7225A198800F84FA6 /* BusplanAnzeige.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDEDC6225A198800F84FA6 /* BusplanAnzeige.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,7 +94,6 @@
 		AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensa.swift; sourceTree = "<group>"; };
 		AA4C4F0A21C11E9B000B5BCC /* Scrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrapper.swift; sourceTree = "<group>"; };
 		AA575DFC21F79E6900F954F6 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
-		AA575DFE21F7A36B00F954F6 /* MensaData.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MensaData.js; sourceTree = "<group>"; };
 		AA5907ED21A30B5200D8493F /* HeaderAuflistung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderAuflistung.swift; sourceTree = "<group>"; };
 		AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAusgabe.swift; sourceTree = "<group>"; };
 		AA5907F221A30DE200D8493F /* Noten.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noten.xcdatamodel; sourceTree = "<group>"; };
@@ -106,6 +104,7 @@
 		AA7285952207028B00886149 /* HardCodedVar-Funktionen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HardCodedVar-Funktionen.swift"; sourceTree = "<group>"; };
 		AA74A2C621E51BAC000AFA39 /* InfosLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfosLoader.swift; sourceTree = "<group>"; };
 		AA74A2C821E51DE3000AFA39 /* KategorienAuflistung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorienAuflistung.swift; sourceTree = "<group>"; };
+		AA78FC452221FDB60082F91C /* TermineExportMenü.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TermineExportMenü.swift"; sourceTree = "<group>"; };
 		AA7F407721D78E2600F6E3F5 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		AA8E661A21C0135900929FE8 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		AA8E662221C036E900929FE8 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
@@ -114,7 +113,6 @@
 		AA8FE06621A352EE0066338D /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		AA8FE06821A3649D0066338D /* HardCodedVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardCodedVar.swift; sourceTree = "<group>"; };
 		AA8FE06A21A373CA0066338D /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
-		AA9C854621CA5B580060C7BF /* Einstellungen.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Einstellungen.txt; path = Nitro/Einstellungen.txt; sourceTree = SOURCE_ROOT; };
 		AAA0F38021CE8C2C009B5F0C /* HochschullMap.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HochschullMap.json; sourceTree = "<group>"; };
 		AAA8F4E721D6C56E004B1DD1 /* RSS Auswahl Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RSS Auswahl Controller.swift"; sourceTree = "<group>"; };
 		AAAB860121D79F1200043A3B /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
@@ -124,8 +122,8 @@
 		AAADD09121DEA2CD0012B649 /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherService.swift; path = "../../../Downloads/Swift-30-Projects-master-2/Project 25 - WeatherExtension/WeatherDemo/WeatherService.swift"; sourceTree = "<group>"; };
 		AAB14D9D221F042000AE453B /* Termine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Termine.swift; sourceTree = "<group>"; };
 		AAB14D9F221F142300AE453B /* Einstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Einstellungen.swift; path = /Users/christian/projekts/Nitro/Nitro/Einstellungen.swift; sourceTree = "<absolute>"; };
-		AAB14DA1221F162F00AE453B /* TermineExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermineExport.swift; sourceTree = "<group>"; };
 		AAB14DA3221F16D900AE453B /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
+		AACDEDC6225A198800F84FA6 /* BusplanAnzeige.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusplanAnzeige.swift; sourceTree = "<group>"; };
 		BE2FE831AF19C2CA14299DE2 /* Pods-NitroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NitroUITests/Pods-NitroUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF2FC5083A1C5072C944B4A /* Pods-NitroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NitroTests/Pods-NitroTests.release.xcconfig"; sourceTree = "<group>"; };
 		E897D7AA7406D6455FAAF3CD /* Pods_NitroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NitroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -274,7 +272,7 @@
 				AA74A2C621E51BAC000AFA39 /* InfosLoader.swift */,
 				AA5907ED21A30B5200D8493F /* HeaderAuflistung.swift */,
 				AAB14D9D221F042000AE453B /* Termine.swift */,
-				AAB14DA1221F162F00AE453B /* TermineExport.swift */,
+				AA78FC452221FDB60082F91C /* TermineExportMenü.swift */,
 				AA74A2C821E51DE3000AFA39 /* KategorienAuflistung.swift */,
 				AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */,
 				AA6326AF21CD53BF004321EC /* UniInfo2.json */,
@@ -293,7 +291,7 @@
 				AA8FE06821A3649D0066338D /* HardCodedVar.swift */,
 				AA7285952207028B00886149 /* HardCodedVar-Funktionen.swift */,
 				AA4C4F0A21C11E9B000B5BCC /* Scrapper.swift */,
-				AA575DFE21F7A36B00F954F6 /* MensaData.js */,
+				AACDEDC6225A198800F84FA6 /* BusplanAnzeige.swift */,
 			);
 			name = Daten;
 			sourceTree = "<group>";
@@ -315,7 +313,6 @@
 			isa = PBXGroup;
 			children = (
 				AAA0F38021CE8C2C009B5F0C /* HochschullMap.json */,
-				AA9C854621CA5B580060C7BF /* Einstellungen.txt */,
 			);
 			name = TXT;
 			sourceTree = "<group>";
@@ -462,11 +459,9 @@
 			files = (
 				AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */,
 				AA1B53CB2196EEBB00941DF6 /* LaunchScreen.storyboard in Resources */,
-				AA08818921CAE75B00145E97 /* Einstellungen.txt in Resources */,
 				AA1B53C82196EEBB00941DF6 /* Assets.xcassets in Resources */,
 				AA6326B021CD53BF004321EC /* UniInfo2.json in Resources */,
 				AA044F8A22096F29005773C8 /* UniInfo.json in Resources */,
-				AA575DFF21F7A36B00F954F6 /* MensaData.js in Resources */,
 				AAA0F38121CE8C2C009B5F0C /* HochschullMap.json in Resources */,
 				AA1B53C62196EEBB00941DF6 /* Main.storyboard in Resources */,
 			);
@@ -622,9 +617,10 @@
 				AA575DFD21F79E6900F954F6 /* WeatherData.swift in Sources */,
 				AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */,
 				AA5907EE21A30B5200D8493F /* HeaderAuflistung.swift in Sources */,
-				AAB14DA2221F162F00AE453B /* TermineExport.swift in Sources */,
+				AA78FC462221FDB60082F91C /* TermineExportMenü.swift in Sources */,
 				AA1B53C32196EEBB00941DF6 /* ViewController.swift in Sources */,
 				AAADD08921DE913D0012B649 /* FeedParser.swift in Sources */,
+				AACDEDC7225A198800F84FA6 /* BusplanAnzeige.swift in Sources */,
 				AA8FE05F21A3310C0066338D /* LaunchController.swift in Sources */,
 				AAB14DA0221F142600AE453B /* Einstellungen.swift in Sources */,
 				AAA8F4E821D6C56E004B1DD1 /* RSS Auswahl Controller.swift in Sources */,

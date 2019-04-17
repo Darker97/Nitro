@@ -7,67 +7,62 @@
 //
 
 import Foundation
-class HardCodedVar{
-
+class HardCodedVar {
     init() {}
 
-    //Haben wir eine Verbindung zum Netz?
-    //Ansonsten müssen wir ja auch nicht versuchen irgendwas zu laden.
+    // Haben wir eine Verbindung zum Netz?
+    // Ansonsten müssen wir ja auch nicht versuchen irgendwas zu laden.
     var Online = true
-    
-    //Wetter Daten
+
+    // Wetter Daten
     var Weather = ""
     var temp = ""
-    
-    //InfoAusgabe
+
+    // InfoAusgabe
     var CellEins = 0
     var CellZwei = 0
 
-    //Alle anderen Variablen die ich übersichtlich speichern will kommen hier her
-    //----------------------------------------------------
-    //Daten die immer neu geladen werden
+    // Alle anderen Variablen die ich übersichtlich speichern will kommen hier her
+    // ----------------------------------------------------
 
-    //Daten die geladen werden werden hier zwischen Gespeichert.
+    // Daten die geladen werden werden hier zwischen Gespeichert.
     var Ergebnis = ""
-    
-    //Mensa
-    var MensaResult = "";
+
+    // Mensa
+    var MensaResult = ""
     var NameDerInfos = [String]()
     var TextDerInfos = [String]()
-    var cell = 0;
+    var cell = 0
 
-    //----------------------------------------------------
-    //Daten die nicht neu geladen werden müssen:
+    // ----------------------------------------------------
+    // TODO: Speichern der Noten
 
-    //TODO: Speichern der RSS Feeds
-    //TODO: Speichern der Noten
+    // ----------------------------------------------------
+    // Alle Daten zur API der RMV
+    var API_RMV_ID = ""
+    var API_RMV_Ergebnis = ""
 
-
-    
-    
-    //----------------------------------------------------
-    //Termine
+    // ----------------------------------------------------
+    // Termine
     var TerminResult = ""
 
-    
-    //___________________________________________________
-    //Einstellungen
+    // ___________________________________________________
+    // Einstellungen
 
-    //Abfrage für NFC
+    // Abfrage für NFC
     var NFCCoder = "Christian"
     var NFCEnabled = true
 
-    //Abfrage für den Touch- und FaceId
+    // Abfrage für den Touch- und FaceId
     var TouchIdEnabled = true
 
-
-    //Zustand des Studenten also 1:Besucher 2:Bediensteter 3:Student
+    // Zustand des Studenten also 1:Besucher 2:Bediensteter 3:Student
     var Zustand = 3
 
-    //RSS:
-    //Fachbereich
-    var FachbereichAuswahl:Int = 0;
-    
+    // RSS:
+    // Fachbereich
+    var FachbereichAuswahl: Int = 0
+
     var Fachbereich = ["Angewandte Informatik",
                        "Elektrotechnik und Informationstechnik",
                        "Lebensmitteltechnik",
@@ -85,29 +80,30 @@ class HardCodedVar{
                             "https://www.hs-fulda.de/rss-sk/",
                             "https://www.hs-fulda.de/rss-sw/",
                             "https://www.hs-fulda.de/rss-w/"]
-    
+
     var AktuelleMeldungenLink = "https://www.hs-fulda.de/rss-aktuelle-meldungen/"
     var Pressemitteilungen = "https://www.hs-fulda.de/rss-pressemitteilungen/"
 
-    //RssFach - Speicher
+    // RssFach - Speicher
     var RSSFachTitleSpeicher = [String]()
     var RSSFachDetails = [String]()
-    
+
     var RSSAKKTitle = [String]()
     var RSSAKKDetai = [String]()
     var RSSCell = 0
-    
-    //____________________________________________________
-    //Funktionen für die Variablen
-    var isLockedIn = false;
-    //---------------------------------------------------
-    
-    var ErsteZeit: Int = 0;
-    var ZeitMonat: Int = 0;
-    var ZeitWoche: Int = 0;
-    var ZeitTag : Int = 0;
-    
-    //aktuelle UnixZeit
-    var aktuelleZeit: Int = 0;
+
+    // ____________________________________________________
+    // Funktionen für die Variablen
+    var isLockedIn = false
+    // ---------------------------------------------------
+
+    var ErsteZeit: Int = 0
+    var ZeitMonat: Int = 0
+    var ZeitWoche: Int = 0
+    var ZeitTag: Int = 0
+
+    // aktuelle UnixZeit
+    var aktuelleZeit: Int = 0
 }
+
 var main = HardCodedVar()

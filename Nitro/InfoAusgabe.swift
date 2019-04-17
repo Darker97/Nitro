@@ -9,27 +9,23 @@
 import UIKit
 
 class InfoAusgabe: UIViewController {
-
-    @IBOutlet weak var text: UITextView!
+    @IBOutlet var text: UITextView!
     var Infos = [String]()
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         var args = InfosLoader().ladeUniInfos()
         text.text = args[main.CellEins].KategorienCell[main.CellZwei].InfoCelle.Text
         // Do any additional setup after loading the view.
     }
-    
 
     /*
-    // MARK: - Navigation
+     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
 }
