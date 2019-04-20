@@ -13,6 +13,10 @@ import CoreLocation
 
 class AR_Universitaet: UIViewController {
     
+    @IBAction func zurück(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     @IBOutlet weak var AR_Anzeige: ARSCNView!
     var sceneLocationView = SceneLocationView()
     

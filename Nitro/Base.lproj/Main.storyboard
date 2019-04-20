@@ -248,6 +248,7 @@
         <scene sceneID="Fcc-92-0L2">
             <objects>
                 <navigationController title="KarteController" navigationBarHidden="YES" toolbarHidden="NO" id="slS-PG-ewr" userLabel="KarteController" sceneMemberID="viewController">
+                    <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="I97-94-lre">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -319,6 +320,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="wiq-Wi-2oF"/>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem title="&lt;- zurück" id="KnF-Bg-Jgf">
+                            <connections>
+                                <action selector="zurück:" destination="tXS-LN-pKm" id="Ixy-Rv-73z"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="9mf-C3-6yv"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="AR_Anzeige" destination="FvR-dQ-5cp" id="wF6-Bz-kL4"/>
                     </connections>
