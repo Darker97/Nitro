@@ -9,13 +9,25 @@
 import SwiftSoup
 import UIKit
 
+class MensaCell: UITableViewCell{
+    @IBOutlet weak var NAME: UILabel!
+    @IBOutlet weak var Details: UILabel!
+    @IBOutlet weak var Preis: UILabel!
+}
+
 class Mensa: UITableViewController {
     var Title = "Test"
     var Name: [String] = []
     var Details: [String] = []
+    var Preis: [String] = []
 
     @IBOutlet var NavigationBar: UINavigationItem!
-
+    @IBAction func RefreshMensa(_ sender: UIRefreshControl) {
+        Scrapper().GetAnfrageMensa()
+        Html_auswerten()
+        tableView.reloadData()
+    }
+    
     @IBAction func zurück(_: Any) {
         dismiss(animated: true, completion: nil)
     }
@@ -59,13 +71,12 @@ class Mensa: UITableViewController {
 
         let cellIdentifier = "cell"
 
-        var cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier) as? UITableViewCell
-        if cell == nil {
-            cell = UITableViewCell(style: UITableViewCell.CellStyle.value1, reuseIdentifier: cellIdentifier)
-        }
+        var cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier) as? MensaCell
 
-        cell!.textLabel?.text = Name[indexPath.row]
-
+        cell!.NAME.text = Name[indexPath.row]
+        cell!.Details.text = Details[indexPath.row]
+        cell!.Preis.text = Preis[indexPath.row]
+        
         cell!.textLabel?.numberOfLines = 0
         cell!.textLabel?.lineBreakMode = .byWordWrapping
 
@@ -78,6 +89,14 @@ class Mensa: UITableViewController {
 
     func Html_auswerten() {
         var Result = main.MensaResult
+        
+        if (Result.count < 600){
+            Title = "geschlossen"
+            Name.append("Geschlossen")
+            Preis.append("")
+            Details.append("")
+            return
+        }
         do {
             let doc: Document = try SwiftSoup.parse(Result)
 
@@ -120,12 +139,21 @@ class Mensa: UITableViewController {
                     Details.append("")
                 }
             }
-
-            // print(Details)
+            
+            Elements = try doc.select("")
+            srcsStringArray = try Elements.html()
+            temp2 = srcsStringArray.components(separatedBy: "\n")
+            
+            for parts in 0..<temp2.count{
+                Preis.append(temp2[parts])
+            }
+            
         } catch {
             Title = "geschlossen"
             Name.append("Geschlossen")
+            Preis.append("")
             Details.append("")
         }
     }
+    
 }

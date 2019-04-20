@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>For the Map</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Für die Sicherheit</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Benötigt für die Kamera</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -46,7 +52,7 @@
 		<true/>
 	</dict>
 	<key>NSCalendarsUsageDescription</key>
-	<string>not using</string>
+	<string>Zum Export der Termine</string>
 	<key>NSContactsUsageDescription</key>
 	<string>not using</string>
 	<key>NSMicrophoneUsageDescription</key>

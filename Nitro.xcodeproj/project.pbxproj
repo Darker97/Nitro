@@ -49,6 +49,8 @@
 		AAB14D9E221F042000AE453B /* Termine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB14D9D221F042000AE453B /* Termine.swift */; };
 		AAB14DA0221F142600AE453B /* Einstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB14D9F221F142300AE453B /* Einstellungen.swift */; };
 		AAB14DA4221F16D900AE453B /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB14DA3221F16D900AE453B /* CoreNFC.framework */; };
+		AACA3D962269ACA0000AF4DB /* BUSPLAN_STRUCT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA3D952269ACA0000AF4DB /* BUSPLAN_STRUCT.swift */; };
+		AACA3D9B226A2034000AF4DB /* AR_Universitaet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA3D9A226A2034000AF4DB /* AR_Universitaet.swift */; };
 		AACDEDC7225A198800F84FA6 /* BusplanAnzeige.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDEDC6225A198800F84FA6 /* BusplanAnzeige.swift */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +125,8 @@
 		AAB14D9D221F042000AE453B /* Termine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Termine.swift; sourceTree = "<group>"; };
 		AAB14D9F221F142300AE453B /* Einstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Einstellungen.swift; path = /Users/christian/projekts/Nitro/Nitro/Einstellungen.swift; sourceTree = "<absolute>"; };
 		AAB14DA3221F16D900AE453B /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
+		AACA3D952269ACA0000AF4DB /* BUSPLAN_STRUCT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BUSPLAN_STRUCT.swift; sourceTree = "<group>"; };
+		AACA3D9A226A2034000AF4DB /* AR_Universitaet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Universitaet.swift; sourceTree = "<group>"; };
 		AACDEDC6225A198800F84FA6 /* BusplanAnzeige.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusplanAnzeige.swift; sourceTree = "<group>"; };
 		BE2FE831AF19C2CA14299DE2 /* Pods-NitroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NitroUITests/Pods-NitroUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF2FC5083A1C5072C944B4A /* Pods-NitroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NitroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NitroTests/Pods-NitroTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -246,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				AA8E661A21C0135900929FE8 /* Map.swift */,
+				AACA3D9A226A2034000AF4DB /* AR_Universitaet.swift */,
 				AA8E662221C036E900929FE8 /* Places.swift */,
 			);
 			name = Karte;
@@ -291,7 +296,7 @@
 				AA8FE06821A3649D0066338D /* HardCodedVar.swift */,
 				AA7285952207028B00886149 /* HardCodedVar-Funktionen.swift */,
 				AA4C4F0A21C11E9B000B5BCC /* Scrapper.swift */,
-				AACDEDC6225A198800F84FA6 /* BusplanAnzeige.swift */,
+				AACA3D99226A1FE6000AF4DB /* BUS_API */,
 			);
 			name = Daten;
 			sourceTree = "<group>";
@@ -326,6 +331,15 @@
 				AAADD08C21DEA1180012B649 /* WeatherKit.h */,
 			);
 			name = Wetter;
+			sourceTree = "<group>";
+		};
+		AACA3D99226A1FE6000AF4DB /* BUS_API */ = {
+			isa = PBXGroup;
+			children = (
+				AACA3D952269ACA0000AF4DB /* BUSPLAN_STRUCT.swift */,
+				AACDEDC6225A198800F84FA6 /* BusplanAnzeige.swift */,
+			);
+			path = BUS_API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,6 +523,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Nitro/Pods-Nitro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Erik/Erik.framework",
 				"${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework",
@@ -523,6 +538,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Erik.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedKit.framework",
@@ -597,6 +613,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AACA3D9B226A2034000AF4DB /* AR_Universitaet.swift in Sources */,
 				AA7F407821D78E2600F6E3F5 /* Weather.swift in Sources */,
 				AA4C4F0921C0FB3C000B5BCC /* Mensa.swift in Sources */,
 				AA8FE06521A352D50066338D /* Sicherheits_Abfrage.swift in Sources */,
@@ -617,6 +634,7 @@
 				AA575DFD21F79E6900F954F6 /* WeatherData.swift in Sources */,
 				AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */,
 				AA5907EE21A30B5200D8493F /* HeaderAuflistung.swift in Sources */,
+				AACA3D962269ACA0000AF4DB /* BUSPLAN_STRUCT.swift in Sources */,
 				AA78FC462221FDB60082F91C /* TermineExportMenü.swift in Sources */,
 				AA1B53C32196EEBB00941DF6 /* ViewController.swift in Sources */,
 				AAADD08921DE913D0012B649 /* FeedParser.swift in Sources */,

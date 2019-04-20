@@ -11,19 +11,15 @@ target 'Nitro' do
 
   pod 'TransitionButton'
   pod 'Proposer'
-  #pod 'WKZombie'
-  #pod 'FoldingCell'
-  #pod 'HTYTextField'
-  #pod 'EasySocial'
-  #pod 'BulletinBoard'
-  #pod "ILLoginKit"
+  
   pod 'SideMenu'
   pod 'Alamofire'
   pod 'Kanna'
   pod 'SwiftScanner'
   pod 'Erik'
   pod 'FeedKit'
-  pod 'ReachabilitySwift'  
+  pod 'ReachabilitySwift'
+  pod 'ARCL'
   #hatt nicht funktioniert, weitere Tests in Zukunft
   pod 'SwiftSoup'
   pod 'QuickTableViewController'  

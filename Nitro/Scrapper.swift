@@ -9,7 +9,7 @@
 import FeedKit
 import Foundation
 import UIKit
-import WebKitÍ
+import WebKit
 
 import Alamofire
 import JavaScriptCore
@@ -85,8 +85,10 @@ class Scrapper {
 
         let Adresse = "https://www.rmv.de/auskunft/bin/jp/stboard.exe/dn?L=vs_anzeigetafel&cfgfile=FuldaHochs_3020168_52987922&dataOnly=true&start=1&maxJourneys=5&wb=COOL&time=" + aktuelleZeit
         Alamofire.request(Adresse, method: .get).response { response in
-            // print(String(data: response.data!, encoding: .utf8)!)
-            main.API_RMV_Ergebnis = String(data: response.data!, encoding: .utf8)!
+            //print(String(data: response.data!, encoding: .utf8)!)
+            main.API_RMV_Ergebnis = response.data
+            //main.API_RMV_Ergebnis = response.data!
+            
         }
     }
 }

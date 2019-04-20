@@ -40,7 +40,12 @@ class HardCodedVar {
     // ----------------------------------------------------
     // Alle Daten zur API der RMV
     var API_RMV_ID = ""
-    var API_RMV_Ergebnis = ""
+    var API_RMV_Ergebnis: Data? = nil
+    
+    var API_RMV_Name_ARRAY: [String] = []
+    var API_RMV_Nummer_ARRAY: [String] = []
+    var API_RMV_Richtung_ARRAY: [String] = []
+    var API_RMV_Zeit_ARRAY: [String] = []
 
     // ----------------------------------------------------
     // Termine

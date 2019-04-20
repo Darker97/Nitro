@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.8.0)
+  - ARCL (1.0.4)
   - Erik (4.2.0):
     - Erik/Core (= 4.2.0)
     - Kanna
@@ -17,6 +18,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - ARCL
   - Erik
   - FeedKit
   - Kanna
@@ -31,6 +33,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - ARCL
     - Erik
     - FeedKit
     - Kanna
@@ -44,6 +47,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  ARCL: 5fd2b0d7aabf91f15dbc0e8c510b25516b8a755a
   Erik: 6d235ccca881877bec9a28b833dfbb86dca91165
   FeedKit: 4a78f07adf7f0a224b904014678f1de82a7ffc21
   Kanna: c60b61d72554bf04ed1ee074f9b379855cab4892
@@ -55,6 +59,6 @@ SPEC CHECKSUMS:
   SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
   TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
 
-PODFILE CHECKSUM: 10128789287e2aa55ae82869d807f4846e0b8b0e
+PODFILE CHECKSUM: 336982dbe153bcbad94804d5c5a311a15156ff6b
 
 COCOAPODS: 1.5.2
