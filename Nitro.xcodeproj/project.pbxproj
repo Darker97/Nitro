@@ -49,6 +49,7 @@
 		AAB14DA0221F142600AE453B /* Einstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB14D9F221F142300AE453B /* Einstellungen.swift */; };
 		AAB14DA4221F16D900AE453B /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB14DA3221F16D900AE453B /* CoreNFC.framework */; };
 		AAB8B015226CDEF5008DE64A /* Officielle Karte.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8B014226CDEF5008DE64A /* Officielle Karte.swift */; };
+		AAB8B017226D12EF008DE64A /* Impressum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8B016226D12EF008DE64A /* Impressum.swift */; };
 		AACA3D962269ACA0000AF4DB /* BUSPLAN_STRUCT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA3D952269ACA0000AF4DB /* BUSPLAN_STRUCT.swift */; };
 		AACA3D9B226A2034000AF4DB /* AR_Universitaet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA3D9A226A2034000AF4DB /* AR_Universitaet.swift */; };
 		AACDEDC7225A198800F84FA6 /* BusplanAnzeige.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACDEDC6225A198800F84FA6 /* BusplanAnzeige.swift */; };
@@ -125,6 +126,7 @@
 		AAB14D9F221F142300AE453B /* Einstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Einstellungen.swift; path = /Users/christian/projekts/Nitro/Nitro/Einstellungen.swift; sourceTree = "<absolute>"; };
 		AAB14DA3221F16D900AE453B /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
 		AAB8B014226CDEF5008DE64A /* Officielle Karte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Officielle Karte.swift"; sourceTree = "<group>"; };
+		AAB8B016226D12EF008DE64A /* Impressum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Impressum.swift; sourceTree = "<group>"; };
 		AACA3D952269ACA0000AF4DB /* BUSPLAN_STRUCT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BUSPLAN_STRUCT.swift; sourceTree = "<group>"; };
 		AACA3D9A226A2034000AF4DB /* AR_Universitaet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Universitaet.swift; sourceTree = "<group>"; };
 		AACDEDC6225A198800F84FA6 /* BusplanAnzeige.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusplanAnzeige.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 				AA4C4F0621C0FAE1000B5BCC /* Allgemein */,
 				AA1B53C22196EEBB00941DF6 /* ViewController.swift */,
 				AA1B53C42196EEBB00941DF6 /* Main.storyboard */,
+				AAB8B016226D12EF008DE64A /* Impressum.swift */,
 				AA8FE05E21A3310C0066338D /* LaunchController.swift */,
 				AA8FE06621A352EE0066338D /* LoginScreen.swift */,
 				AAB14D9F221F142300AE453B /* Einstellungen.swift */,
@@ -628,6 +631,7 @@
 				AA8FE06921A3649D0066338D /* HardCodedVar.swift in Sources */,
 				AAADD09321DEA2CD0012B649 /* WeatherService.swift in Sources */,
 				AA8FE06721A352EE0066338D /* LoginScreen.swift in Sources */,
+				AAB8B017226D12EF008DE64A /* Impressum.swift in Sources */,
 				AAAB860221D79F1200043A3B /* Reachability.swift in Sources */,
 				AA4C4F0B21C11E9B000B5BCC /* Scrapper.swift in Sources */,
 				AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */,

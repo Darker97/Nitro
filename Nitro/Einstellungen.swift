@@ -12,7 +12,10 @@ final class Einstellungen: QuickTableViewController {
     @IBAction func zurückButton(_: Any) {
         dismiss(animated: true, completion: nil)
     }
-
+    @IBAction func Impressum(_ sender: Any) {
+            performSegue(withIdentifier: "IMPRESSUM_WECHSEL", sender: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,6 +28,7 @@ final class Einstellungen: QuickTableViewController {
                     main.TouchIdEnabled = !main.TouchIdEnabled
                 }),
             ]),*/
+        
 
             RadioSection(title: "Fachbereich", options: [
                 OptionRow(title: "Angewandte Informatik", isSelected: main.FachbereichAuswahl == 0, action: didToggleSelection()),

@@ -110,11 +110,66 @@
                                 <action selector="zurückButton:" destination="CGc-f5-Pwk" id="7bG-Sk-9OR"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Impressum" id="0Bq-lW-BhB">
+                            <connections>
+                                <action selector="Impressum:" destination="CGc-f5-Pwk" id="FD9-ng-Nkt"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="x5r-pR-GjQ" kind="show" identifier="IMPRESSUM_WECHSEL" id="c7g-Il-6pp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xaf-dE-W6z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3682" y="-180"/>
+            <point key="canvasLocation" x="3728" y="-180"/>
+        </scene>
+        <!--Impressum-->
+        <scene sceneID="r4z-Uh-HBr">
+            <objects>
+                <viewController id="x5r-pR-GjQ" customClass="Impressum" customModule="Nitro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k02-lU-Bsk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="90" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRe-S1-24u">
+                                <rect key="frame" x="20" y="100" width="359" height="697"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Diese App ist nicht offiziell.
+
+Sollten dir inhaltliche Fehler oder Bugs auffallen, so würde ich mich sehr über Feedback freuen. 🙂
+
+Falls ihr Wissen wollt wie die App funktioniert oder eigene Ideen habt:
+Den gesamten Code zur App findet ihr auf Github.
+
+Always happy Coding
+Christian Baltzer
+
+
+
+Copyright (C) &lt;2019&gt;  &lt;Christian Baltzer&gt;
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="LhX-z1-l3h"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ucS-OA-XQl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4457.971014492754" y="-180.13392857142856"/>
         </scene>
         <!--MensaController-->
         <scene sceneID="dME-bi-x6b">
