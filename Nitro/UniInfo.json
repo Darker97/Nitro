@@ -24,57 +24,10 @@
                 "Name": "Cafe Chaos"
             }
         ]
-    },{
-        "Name": "Erstietipps", 
+    },
+    {
+        "Name": "Erstietipps",
         "KategorienCell": [
-            {
-                "InfoCelle": {
-                    "Name": "",
-                    "Text": "Man sollte sich frühzeitig informieren und beim Anmelden schnell sein"
-                },
-                "Name": "Hochschulsport"
-            },{
-                "InfoCelle": {
-                    "Name": "",
-                    "Text": "Mensa: allerdings nicht zu den Essenzeiten \n \nCafe Chaos: gemütliche Atmospähre \n \nBiB: hier kann man Einzelarbeitsplätze, Gruppenarbeitsräume und PCs nutzen, eine Online-Reservierung ist sinnvoll \n \nSLZ: hier gibt es Einzelplätze und Gruppentische, außerdem kann man sich von einem Team vor Ort beraten lassen. Du musst ein Aufsatz schreiben? Dann schau doch mal bei der Schreibwerkstatt vorbei. "
-                },
-                "Name": "Orte zum Lernen"
-            },
-            {
-                "InfoCelle": {
-                    "Name": "",
-                    "Text": "Der Fachbereich Wirtschaft bietet Ihnen umfassende Unterstützung bei der Planung eines Auslandsaufenthalts, sei es in Form eines Auslandsstudiums, oder in Form eines Auslandspraktikums."
-                },
-                "Name": "Auslandssemester"
-            },
-            {
-                "InfoCelle": {
-                    "Name": "",
-                    "Text": "gtregthgte"
-                },
-                "Name": "Chipkarte initialisieren"
-            },
-            {
-                "InfoCelle": {
-                    "Name": "",
-                    "Text": "Neue Tans kann man sich auch im SSC besorgen."
-                },
-                "Name": "Neue Tans"
-            },
-            {
-                "InfoCelle": {
-                    "Name": "",
-                    "Text": "gtregthgte"
-                },
-                "Name": "Asta"
-            },
-            {
-                "InfoCelle": {
-                    "Name": "",
-                    "Text": "1.  Rufen Sie die Seite https://webmail.hs-fulda.de auf. \n2.  Tragen Sie Ihre fd-Nummer und das Anfangspasswort ein. \n3.  Klicken Sie auf „Anmelden“. Sie sind nun in Ihrem E-Mailpostfach der Hochschule Fulda eingeloggt. \n4.  Klicken Sie auf das „Zahnrad“ in der oberen rechten Ecke des Bildschirms (neben „Abmelden“). Es wird Ihnen jetzt das aktuelle Datum, „Optionen“, „Hilfe“ und „Info“ angezeigt. \n5.  Klicken Sie auf „Optionen“. Es öffnet sich ein neues Fenster. \n6.  Wählen Sie in diesem neuen Fenster den Reiter „Passwort“ aus. \n7.  Wenn Sie jetzt das alte Passwort (Anfangspasswort), Ihr neues Passwort (Ihr persönliches Passwort) und die Bestätigung (Wiederholung Ihres persönlichen Passwortes) eingeben und auf „Speichern“ klicken, haben Sie Ihr Anfangspasswort erfolgreich auf Ihr persönliches Passwort geändert."
-                },
-                "Name": "Zugangsdaten"
-            },
             {
                 "InfoCelle": {
                     "Name": "",
@@ -85,60 +38,130 @@
             {
                 "InfoCelle": {
                     "Name": "",
-                    "Text": "gtregthgte"
+                    "Text": "Mensa: allerdings nicht zu den Essenzeiten \n \nCafe Chaos: gemütliche Atmospähre \n \nBiB: hier kann man Einzelarbeitsplätze, Gruppenarbeitsräume und PCs nutzen, eine Online-Reservierung ist sinnvoll \n \nSLZ: hier gibt es Einzelplätze und Gruppentische, außerdem kann man sich von einem Team vor Ort beraten lassen. Du musst ein Aufsatz schreiben? Dann schau doch mal bei der Schreibwerkstatt vorbei. "
                 },
-                "Name": "VPN"
+                "Name": "Orte zum Lernen"
             },
             {
                 "InfoCelle": {
                     "Name": "",
-                    "Text": "gtregthgte"
+                    "Text": "Anleitung zum Ändern des Anfangspasswortes:\n\n1.  Rufen Sie die Seite https://webmail.hs-fulda.de auf.\n2.  Tragen Sie Ihre fd-Nummer und das Anfangspasswort ein.\n3.  Klicken Sie auf „Anmelden“. Sie sind nun in Ihrem E-Mailpostfach der Hochschule Fulda eingeloggt.\n4.  Klicken Sie auf das „Zahnrad“ in der oberen rechten Ecke des Bildschirms (neben „Abmelden“). Es wird Ihnen jetzt das aktuelle Datum, „Optionen“, „Hilfe“ und „Info“ angezeigt.\n5.  Klicken Sie auf „Optionen“. Es öffnet sich ein neues Fenster.\n6.  Wählen Sie in diesem neuen Fenster den Reiter „Passwort“ aus.\n7.  Wenn Sie jetzt das alte Passwort (Anfangspasswort), Ihr neues Passwort (Ihr persönliches Passwort) und die Bestätigung (Wiederholung Ihres persönlichen Passwortes) eingeben und auf „Speichern“ klicken, haben Sie Ihr Anfangspasswort erfolgreich auf Ihr persönliches Passwort geändert.\n\nIhre Ansprechpartner:\n\nWenn Sie Fragen zum oder Probleme beim Einloggen haben, wenden Sie sich per E-Mail an: support@rz.hs-fulda.de oder per Telefon an: 0661 9640-305.\n\nBei Problemen mit horstl (außer beim Einloggen), wenden Sie sich per E-Mail an horstl@hs-fulda.de.\n\nBei Problemen mit den elektronischen Lernplattformen (wie „moodle“ oder „system2teach“) wenden Sie sich an die zuständige Person in Ihrem Fachbereich."
                 },
-                "Name": "NextCloud"
-            },
-            {
-                "InfoCelle": {
-                    "Name": "",
-                    "Text": "gtregthgte"
-                },
-                "Name": "Wie ist meine Email"
+                "Name": "Zugangsdaten der Hochschule Fulda"
             }
         ]
-    },{
-        "Name": "Prüfungen & Organisation",
-        "KategorienCell": [
-            {
-                "InfoCelle": {
-                    "Name": "",
-                    "Text": "An- und Abmelden von Prüfungen könnt ihr im Horstl vornehmen, sowie einsehen von Noten und Mitteilungen."
-                },
-                "Name": "Horstl"
-            },
-            {
-                "InfoCelle": {
-                    "Name": "",
-                    "Text": "Studienbescheinigungen könnt ihr euch direkt online runterladen und ausdrucken."
-                },
-                "Name": "Studienbescheinigung"
-            },
-            {
-                "InfoCelle": {
-                    "Name": "",
-                    "Text": "Bezahlung  der Studiengebühren, also eure Zahlungsdaten, gebt ihr auch über Horstl ein."
-                },
-                "Name": "Studiengebühren"
-            }
-            ]
-        },
+    },
     {
-        "Name": "TANs",
+        "Name": "Studieren",
         "KategorienCell": [
             {
                 "InfoCelle": {
                     "Name": "",
-                    "Text": "Im Horstl bekommt ihr unter Prüfungsmanagement zwei TANs , diese braucht ihr, um weitere TANs zu generieren. \n Die TANs braucht ihr zum An- und Abmelden von Prüfungen"
+                    "Text": "Die Bearbeitung der Bachelorarbeit beginnt in der Regel direkt im Anschluss an das Praxisprojekt und umfasst einen Zeitraum von 12 Wochen. Die Betreuung übernimmt in der Regel der Professor, der auch das Praxisprojekt betreut hat. Die Abstimmung über das Thema sollte im Laufe von 4 Wochen vor Beginn der Bearbeitung erfolgen. Das Thema der Bachelorarbeit kann auf Erfahrungen aus dem Praxisprojekt aufbauen. Die Ergebnisse der Bachelorarbeit präsentiert der Studierende in einem Kolloquium."
                 },
-                "Name": "TANs generieren"
+                "Name": "Bachelorarbeit"
+            },
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "Die Bearbeitung der Masterorarbeit beginnt in der Regel direkt im Anschluss an das Masterprojekt und umfasst einen Zeitraum von 6 Monaten. Die Abstimmung über das Thema sollte im Laufe von 4 Wochen vor Beginn der Bearbeitung erfolgen. Das Thema der Masterarbeit kann auf Erfahrungen aus dem Masterprojekt aufbauen. Die Ergebnisse der Masterarbeit präsentiert der Studierende in einem Kolloquium."
+                },
+                "Name": "Masterarbeit"
+            },
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "Bachelorstudiengänge Angewandte Informatik, Digitale Medien und Wirtschaftsinformatik:\nDie Zulassung zur Bachelorarbeit erfordert den erfolgreichen Abschluss der Module des  1. bis 4. Semesters sowie des Praxisprojektes oder aber den Nachweis von mindestens 135 ECTS, darunter den erfolgreichen Abschluss aller Module des 1. und 2. Semesters und des Praxisprojektes. \n\nBachelorstudiengang Gesundheitstechnik: \nDie Zulassung zur Bachelorarbeit erfordert den erfolgreichen Abschluss der Module des 1. bis 5. Semesters sowie des Praxisprojektes oder aber den Nachweis von mindestens 165 ECTS, darunter den erfolgreichen Abschluss aller Module des 1. bis 3. Semesters und des Praxisprojektes. \n\nMasterstudiengang Angewandte Informatik, Global Software Development:\nDie Zulassung zur Masterarbeit kann erfolgen, wenn bis auf höchstens ein fehlendes Modul alle Module aus den Semestern 1 bis 3 erfolgreich bzw. 1 bis 2 (GSD) abgeschlossen wurden."
+                },
+                "Name": "Zulassungsbedingungen"
+            },
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "Alle Informationen über ihre Prüfungsordnung finden Sie auf der Website der HS"
+                },
+                "Name": "Prüfungsordnungen"
             }
-    ]}
+        ]
+    },
+    {
+        "Name": "Chipkarte",
+        "KategorienCell": [
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "Um Ihre Chipkarte (Studierendenausweis) erstellen zu können, müssen Sie  über unsere Fotoplattform ein Foto von Ihnen hochladen.\n\nAlle weiteren Informationen erhalten Sie auf der Seite der Fotoplattform und bei Abholung Ihrer Chipkarte (Studierendenausweis)."
+                },
+                "Name": "Wie erhalte ich meine Chipkarte?"
+            },
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "Sie behalten Ihre Chipkarte für die Dauer Ihres Studiums  an der Hochschule. Die Chipkarte ist immer ein Semester gültig (siehe Aufdruck). Nachdem Sie sich für das kommende Semester zurückgemeldet haben, müssen Sie an den Validierungsautomaten im SSC das Gültigkeitsdatum aktualisieren."
+                },
+                "Name": "Wie lange ist meine Chipkarte gültig?"
+            },
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "Die Chipkarte der Hochschule Fulda bietet folgende Funktionen:\n\nStudienausweis\nDie Chipkarte enthält Ihr Bild und ein Gültigkeitsdatum und dient damit als Studienausweis.\n\nSemesterticket\nIhr neuer Studienausweis ist in der Regel auch Ihr Semesterticket. Nur mit dem Aufdruck der Logos von NVV, RMV sowie dem Wortlaut „AStA Semesterticket gesamtes Verbundnetz – VRN Übergang“, der bei der Validierung aufgedruckt wird, ist Ihr Ausweis auch ein gültiger Fahrausweis.\n\nBibliotheksausweis\nAuf der Rückseite der Chipkarte ist Ihre Bibliotheks-Benutzernummer in Klarschrift und als Barcode aufgedruckt.\n\nElektronischer Schlüssel für Garderobenschränke\nMit der Chipkarte können Sie die elektronischen Schließfächer an der Hochschule Fulda nutzen. Bitte beachten Sie, dass die Schließfächer Tagesschließfächer sind und nicht außerhalb der Öffnungszeiten belegt bleiben dürfen.\n\nGeldbörse mit Zahlfunktion in der Mensa\nIn der Mensa befinden sich 2 Geldbörsenaufwertungsgeräte für die Geldbörse auf der Chipkarte. An diesen Automaten können Sie mit Bargeld Guthaben auf Ihre Chipkarte laden. Vor der ersten Aufwertung müssen Sie einmalig die Geldbörse initialisieren. Das dafür notwendige Gerät befindet sich ebenfalls in der Mensa.\n\nMit der Chipkarten-Geldbörse können Sie in der Mensa alles bezahlen, vom Mittagessen bis zu Kaffee und Snacks. Beim Mittagessen wird an der Kasse automatisch Ihr Status als Studentin / Student erkannt und es wird nur der studentische Essenspreis von der Geldbörse abgebucht. Bargeldzahlung ist nicht möglich.\n\n                            Behandeln Sie Ihre Chipkarte stets wie Bargeld!\n\nAn der Kasse in der Cafeteria können Sie sich Ihr Restguthaben auszahlen lassen.\n\nAusweis für Kopieren, Drucken und Scannen\nDie Chipkarte können Sie auch für Kopien, Ausdrucke und Scans verwenden. Die Drucker/Kopierer finden Sie in der Bibliothek, im Selbstlernzentrum und in den Rechnerpools in den Gebäuden 40 (A) Raum 006 und 20 (N) Raum 019.\n\nGuthaben für das Drucken/Kopieren/Scannen können Sie aufladen \n•    Im Copyshop der Firma Weinrich (Gebäude 40 (A))\n•    Über das Aufladeterminal im Gebäude 46 (E)\nFür alle Fragen im Zusammenhang mit dem Kopieren/Drucken und Scanfunktionen steht die Firma Weinrich zur Verfügung.\n\nIm Copyshop der Firma Weinrich können Sie sich evtl. vorhandenes Guthaben auszahlen lassen. Bei Verlust der Chipkarte bleibt Ihnen Ihr Guthaben erhalten."
+                },
+                "Name": "Was kann die Chipkarte"
+            }
+        ]
+    },
+    {
+        "Name": "Gremien",
+        "KategorienCell": [
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "Was sind Gremien?\n\nAn deutschen Hochschulen existiert das Prinzip der Studentischen Selbstverwaltung. Schon zu Beginn des 19. Jahrhunderts wurde das Prinzip einer einheitlichen Organisation aller Studierender durch die Urburschenschaft formuliert. Bereits um die Jahrhundertwende gründeten sich erste Allgemeine Studierendenausschüsse, die nichtmehr nur die Mitglieder von Studentenverbindungen sondern die Interessen aller Studierender zu vertreten versuchten.\n\nSeit 1976 findet sich im Hochschulrahmengesetz die Kann-Bestimmung einer verfassten Studierendenschaft, die eine studentische Verwaltung, wie sie heute (ausser in Unions-geführten Bundesländern) angewendet wird. Eine gesetzlich feste Verankerung der verfassten Studierendenschaft wurde trotz des Versuches bisher nicht erreicht.\n\nDie Organisation der studentischen Selbstverwaltung könnt Ihr dem Diagramm unten entnehmen.\nDarüber hinaus gibt es Gremien, in denen gewählte Vertreter aus Professorenkollegium, Fachschaft, Studierendenschaft, Präsidum und dem Kreis der wissenschaftlichen oder administrativ-technischen Mitarbeitenden zusammenkommen."
+                },
+                "Name": "Gremie"
+            },
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "Der Allgemeine Studierendenausschuss (AStA) ist das exekutive Organ der Studierendenschaft. Studierendenschaft ist ein Begriff für die Gesamtheit aller eingeschriebenen Studierenden einer Hochschule.\nNach § 78 des Hessischen Hochschulgesetzes muss das Studierendenparlament (StuPa) ein Organ schaffen, welches die Studierendenschaft nach Außen vertritt und Rechtsgeschäfte für Sie eingeht. Weiterhin obliegt dem StuPa eine Kontrollpflicht gegenüber seinem exekutiven Organ, dem AStA.\n\nDer AStA besteht aus Referaten, welche durch Studierende besetzt werden.\nDas Studierendenparlament wählt Referentinnen und Referenten, die die Referate ausüben. Dabei können neue Referate erschaffen, zuvor Vorhandene neu oder mehrfach besetzt oder auch vorübergehend zusammengelegt werden. (z.B. hat das Finanzreferat häufig zwei ReferentInnen, Hochschulpolitik hatte schon mal Drei).\n\nReferate stellen Themen- oder Aufgabenbereiche dar, die durch ReferentInnen selbstständig und unabhängig abgedeckt werden. Über diese Schwerpunkte hinaus, engagieren sich alle im Team des AStA für gemeinsame Großprojekte, wie die Hochschultage, die wichtigste und größte öffentliche Veranstaltung an der Hochschule Fulda. Es handelt sich hierbei um ein mehrtägiges, alljährlich im Mai stattfindendes, Kulturfestival, mit Live-Musik, Familientag, Workshops, Vorträgen und vielem mehr.\nDarüber hinaus bieten sich weitere Möglichkeit zum Feiern, bei den Halle 8 Parties oder Barabenden im Café Chaos, welches als studentisches Projekt seinen Anfang nahm und mittlerweile einen festen Platz im Alltag der Hochschule und im Herzen vieler Studierender eingenommen hat.\nDas Chaos untersteht dem Vorstand des AStA, hat eine Geschäftsführerin, Kulturtutorin (nicht zu verwechseln mit dem Referat für Kultur), sowie diverse Angestellte. Es gibt regelmäßig warmes Mittagessen und als zusätzlichen Stützpfeiler einen Catering-Service.\n\nDer AStA übersteht auch den Fachschaftsräten (FSR) der 8 Fachbereiche der Hochschule Fulda, kontrolliert diese und tätigt für sie Geldgeschäfte, da ein FSR alleine nur begrenzt über studentische Gelder bestimmen kann.\n\nIn der Fachschaftskonferenz koordinieren die FSR ihre Arbeit sowohl untereinander, als auch mit dem AStA.\n\nLetzlich hilft der AStA in allen Lebenslagen. Unter Services findest du weitere Informationen dazu, um was sich der AStA alles kümmert und darüber hinaus, kannst du mit allen Fragen und Anliegen zu uns kommen. Beachte dabei bitte die Öffnungszeiten."
+                },
+                "Name": "Allgemeiner Studierendenausschuss (AStA)"
+            },
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "\nEin Fachschaftsrat (FSR) besteht aus für je ein Jahr gewählten VertreterInnen der Fachschaft.\nDer Begriff Fachschschaft beschreibt alle Studierenden, die an einem Fachbereich eingeschrieben sind. (So wie Studierendenschaft das Kollektiv aller Studierenden aller Fachbereiche beschreibt.)\n\nEs gibt 8 Fachbereiche und dementsprechend 8 FSR (korrekter plural von FSR, nicht FSRs).\nAlle 8 FSR treffen sich regelmäßig mit dem AStA in der Fachschaftskonferenz (FSK).\n\nWeiterhin gibt es 8 Fachbereichsräte (FBR), in denen gewählte VertererInnen aus der Fachschaft, dem Kreis der Mitarbeiterschaft und des Professoriums des jeweiligen Fachbereichs, zusammenkommen.\n\nEin FSR vertritt die Interessen seiner Fachschaft. Alle Studierenden der Fachschaft haben aktives und passives Walhrecht, d.h. sie dürfen wählen oder sich aufstellen lassen, um gewählt zu werden. Es handelt sich traditionellerweise um eine Listenwahl.\n\nBei Problemen oder Fragen, die sich auf deinen Studiengang beziehen, wende dich an deine/n StudiengangskoordinatorIn (Mitarbeiter der Hochschule, gibt es in den meisten Fachbereichen, aber nicht allen), oder eben an deinen FSR.\nIn FSR sind engagierte Studierende, die dir gerne helfen, bezüglich Prüfungsordnung, Kommunikation mit Lehrenden, allgemeinen und spezielleren Informationen zum Studienablauf, Dos and Dont’s, und vielem mehr.\n\nFür gewöhnlich haben alle FSR einen Stand bei den Hochschultagen, organisieren Parties in der Halle 8 oder im Café Chaos. Weitere Veranstaltungen, die dein FSR dir bieten kann, umfassen: Infostände, Vorträge, Diskussionsrunden, Glühweinstände, LAN-Parties, Bar-Abende, Spiele-Abende, Erstemestereinführung, Stadtrallye, Campusführung, Mentoring-Programm, Onlineforen und sehr wahrscheinlich noch mehr! Denn: Jeder FSR macht seine Sache ein wenig anders.\n\nFinde heraus, was dein FSR für dich macht, oder was andere FSR so zu bieten haben."
+                },
+                "Name": "Fachschaftsrat (FSR)\n"
+            },
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "\nDas StuPa besteht aus bis zu 19 Studierenden verschiedener Fachbereiche. Die genaue Anzahl hängt vom Ausgang der Hochschulwahlen ab, die jährlich im Dezember stattfinden. Das StuPa ist die legislative Gewalt in der studentischen Selbstverwaltung und somit das Gegenstück zur Exekutive, dem AStA.\nDas Präsidium des StuPa besteht aus einem/einer PräsidentIn und zwei VizepräsidentInnen. Diese Drei sind verantwortlich für die Durchführung der Arbeit des StuPa und leiten die StuPa-Sitzungen."
+                },
+                "Name": "\nStudierendenparlament (StuPa)"
+            },
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "\nSatzung der Studierendenschaft der Hochschule Fulda\nvom 24.01.2018 [Auszug]\n\nE. Rechnungsprüfungsausschuss\n\n§ 15 Zusammensetzung und Aufgaben\n\n(1) Das StuPa wählt einen Rechnungsprüfungsausschuss. Ihm obliegt die\nÜberwachung der Buch- und Kassenführung sowie die Bearbeitung der an ihn\nüberwiesenen Vorlagen. Der RPA prüft die Rechnung der Studierendenschaft vor\nder Beschlussfassung des StuPa über die Entlastung des AStA.\n\n(2) Der RPA besteht aus drei Mitgliedern des StuPa, die mit der Mehrheit der\nanwesenden Mitgliedern des StuPa gewählt werden. Die Mitglieder des RPA dürfen\nnicht Mitglieder des AStA des zu prüfenden Jahres sein. Der\nRechnungsprüfungsausschuss ist beschlussfähig, wenn alle Mitglieder anwesend\nsind.\n\n(3) Ein schriftlicher Bericht über die Rechnungsprüfung ist anzufertigen und dem StuPa\nauf der entlastenden Sitzung sowie dem AStA zur Kenntnisnahme vorzulegen.\nJedes Ausschussmitglied ist berechtigt dem StuPa einen Minderheitenbericht\nvorzulegen.\n\n(4) Das Präsidium des StuPa ist berechtigt, eine Kassenprüfung anzuordnen.\nÜber die Kassenprüfung ist vom RPA ein Prüfungsbericht\nanzufertigen.\n\n(5) Das Finanzreferat und dessen Stellvertretung sind verpflichtet, zur Prüfung\nanwesend zu sein. Sie haben die Fragen des Rechnungsprüfungsausschusses\ngewissenhaft und ehrlich zu beantworten.\n\n(6) Stellen die Prüfenden Mängel fest, so können sie deren Beseitigung vom\nFinanzreferenten innerhalb von 4 Wochen verlangen. Danach ist eine erneute\nPrüfung durchzuführen. Bei erheblichen Mängeln, die zur Verweigerung des\nPrüfungsberichtes führen, ist das StuPa unverzüglich in Kenntnis zu setzen; das\nStuPa ist verpflichtet, die geeigneten Maßnahmen zu treffen.\n(7) Die Rechnungsprüfung ist mindestens einmal jährlich durchzuführen mit dem Zweck\n1. die Kassenist- und Kassensollbestände festzustellen;\n2. die Buchhaltung zu kontrollieren;\n3. die Belegerfassung zu kontrollieren;\n4. das Vorhandenseins von Schecks, Kontokundenkarten etc. zu kontrollieren;\n5. die Einhaltung der gesetzlichen Bestimmungen und der Finanzordnung zu\nprüfen.\n\n(8) Der Prüfungsbericht\nist dem AStA und StuPa unverzüglich zur Kenntnis zu geben\nund darüber hinaus öffentlich innerhalb der Studierendenschaft bekannt zu\nmachen.\n\n(9) Jedes Mitglied der Studierendenschaft hat das Recht, Einsicht in den\nPrüfungsbericht zu nehmen."
+                },
+                "Name": "\nRechnungsprüfungsausschuss (RPA)"
+            },
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "\nDer Ältestenrat schlichtet zwischen AStA und StuPa und entscheidet letzlich in strittigen Fällen über zuvor getroffene Beschlüsse.\n\nDrei studentische VertrerInnen werden vom Studierendenparlament für eine Amtszeit von einem Jahr gewählt.\nEinzige Voraussetzung für die Mitgliedschaft im Ältestenrat ist, in keinem anderen Gremium der studentischen Selbstverwaltung Mitglied zu sein.\n\nDie Studierendenschaft oder ein Gremium kann den Ältestenrat offizell einberufen, ansonsten kann der Ältestenrat in seiner Funktion als Kontrollorgan von sich aus nicht agieren."
+                },
+                "Name": "\nÄltestenrat"
+            },
+            {
+                "InfoCelle": {
+                    "Name": "",
+                    "Text": "\nEin Fachbereichsrat (FBR) besteht aus für je ein Jahr gewählten studentischen VertreterInnen der Fachschaft und für je zwei Jahre gewählten VertreterInnen aus dem Kreis der Mitarbeiterschaft und des Professoriums des jeweiligen Fachbereichs.\nDer Begriff Fachschschaft beschreibt alle Studierenden, die an einem Fachbereich eingeschrieben sind. (So wie Studierendenschaft das Kollektiv aller Studierenden aller Fachbereiche beschreibt.)\n\nEs gibt 8 Fachbereiche und dementsprechend 8 FBR (korrekter plural von FBR, nicht FBRs)."
+                },
+                "Name": "\nFachbereichsrat (FBR)"
+            }
+        ]
+    }
 ]
