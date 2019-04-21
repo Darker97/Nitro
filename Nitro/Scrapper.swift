@@ -42,7 +42,9 @@ class Scrapper {
     }
 
     // Laden der Noten
-    func GetNoten() {}
+    func GetNoten() {
+        //TODO
+    }
 
     /// Laden der Mensadaten von den Server Adressen vom Studienwerk
     func GetAnfrageMensa() {

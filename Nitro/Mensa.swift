@@ -23,9 +23,14 @@ class Mensa: UITableViewController {
 
     @IBOutlet var NavigationBar: UINavigationItem!
     @IBAction func RefreshMensa(_ sender: UIRefreshControl) {
+        Name = []
+        Details = []
+        Preis = []
+        
         Scrapper().GetAnfrageMensa()
         Html_auswerten()
         tableView.reloadData()
+        sender.endRefreshing()
     }
     
     @IBAction func zurück(_: Any) {

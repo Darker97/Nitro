@@ -55,7 +55,7 @@ class HardCodedVar {
     // Einstellungen
 
     // Abfrage für NFC
-    var NFCCoder = "Christian"
+    var NFCCoder = ""
     var NFCEnabled = true
 
     // Abfrage für den Touch- und FaceId

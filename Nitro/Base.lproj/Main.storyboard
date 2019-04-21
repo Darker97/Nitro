@@ -116,37 +116,6 @@
             </objects>
             <point key="canvasLocation" x="3682" y="-180"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Qun-CJ-x8s">
-            <objects>
-                <viewController id="cxe-3T-o6C" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="s7N-HW-7no">
-                        <rect key="frame" x="0.0" y="0.0" width="374" height="360"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="😄" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7LF-Lv-gig">
-                                <rect key="frame" x="163" y="154" width="49" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Erfolgreich Exportiert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4G-k0-dvS">
-                                <rect key="frame" x="83" y="118" width="208" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="6Tf-Vc-MDt"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4ZW-jF-ACe" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="8043" y="1410"/>
-        </scene>
         <!--MensaController-->
         <scene sceneID="dME-bi-x6b">
             <objects>
@@ -262,7 +231,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W6b-6s-8be" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5692" y="608"/>
+            <point key="canvasLocation" x="5713" y="655"/>
         </scene>
         <!--Karte-->
         <scene sceneID="Z1b-Wn-U0w">
@@ -291,6 +260,11 @@
                                 <segue destination="tXS-LN-pKm" kind="show" id="ikU-32-iju"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem title="Officielle Karte" id="6OE-YK-kSm">
+                            <connections>
+                                <segue destination="XX4-rf-ywR" kind="show" id="5aO-Ve-UgZ"/>
+                            </connections>
+                        </barButtonItem>
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="FUx-Bq-DvM">
                         <barButtonItem key="backBarButtonItem" title="&lt;- zurück" id="rpf-xO-zm6"/>
@@ -302,7 +276,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cEe-XR-87u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6763.7681159420299" y="607.36607142857144"/>
+            <point key="canvasLocation" x="6764" y="655"/>
         </scene>
         <!--Universitaet-->
         <scene sceneID="Teo-Vs-RJR">
@@ -335,7 +309,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="43o-MO-YrA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7539.130434782609" y="606.69642857142856"/>
+            <point key="canvasLocation" x="7509" y="655"/>
+        </scene>
+        <!--Officielle Karte-->
+        <scene sceneID="vcB-8T-XuO">
+            <objects>
+                <viewController id="XX4-rf-ywR" customClass="Officielle_Karte" customModule="Nitro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1G8-a6-KBT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Campusplan" highlightedImage="Campusplan" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zu7-7l-OIr">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Af3-W3-G1x"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="&lt;- zurück" id="CPe-Bo-hOr" userLabel="&lt;-- Zurück">
+                            <connections>
+                                <action selector="zurück:" destination="XX4-rf-ywR" id="YJe-mE-Idk"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Yc-a6-jhK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8215.9420289855079" y="654.91071428571422"/>
         </scene>
         <!--NewsController-->
         <scene sceneID="1ks-Ts-A4d">
@@ -417,7 +423,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kqm-8Y-M8S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8430" y="125"/>
+            <point key="canvasLocation" x="8429" y="23"/>
         </scene>
         <!--Fachbereich-->
         <scene sceneID="yq7-LE-wB4">
@@ -588,7 +594,6 @@
                             <outletCollection property="gestureRecognizers" destination="fOy-IY-9eq" appends="YES" id="Boi-oj-sux"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="Cx4-YE-qBx"/>
                     <connections>
                         <outlet property="TemperaturLabel" destination="uO7-Y1-5gk" id="Isd-5L-Xxg"/>
                         <outlet property="WetterAnzeige" destination="dfG-xI-HyR" id="7ud-ge-wa1"/>
@@ -768,8 +773,8 @@
                             <rect key="frame" x="0.0" y="0.0" width="414" height="602"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rc3-UM-Mzl">
-                                    <rect key="frame" x="343" y="8" width="63" height="30"/>
+                                <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rc3-UM-Mzl">
+                                    <rect key="frame" x="235" y="564" width="63" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                                     <state key="normal" title="🧾Noten"/>
                                     <connections>
@@ -777,48 +782,54 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwJ-N6-HJY">
-                                    <rect key="frame" x="293" y="46" width="113" height="30"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                    <rect key="frame" x="8" y="50" width="173" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                     <state key="normal" title="⚙️Einstellungen"/>
                                     <connections>
                                         <segue destination="vaG-nQ-vL3" kind="show" id="KKO-ga-8rS"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adh-zq-C5u">
-                                    <rect key="frame" x="347" y="75" width="55" height="30"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                    <rect key="frame" x="8" y="100" width="81" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                     <state key="normal" title="💭Infos"/>
                                     <connections>
                                         <segue destination="FbA-5f-kQf" kind="show" id="8L6-Th-NN1"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pC-xO-xgg">
-                                    <rect key="frame" x="347" y="113" width="67" height="30"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                    <rect key="frame" x="8" y="150" width="101" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                     <state key="normal" title="🍔Mensa"/>
                                     <connections>
                                         <segue destination="wOS-YU-YFV" kind="show" id="Byt-In-5be"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYW-z6-LWW">
-                                    <rect key="frame" x="347" y="151" width="58" height="30"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                    <rect key="frame" x="8" y="200" width="86" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                     <state key="normal" title="🗺Karte"/>
                                     <connections>
                                         <segue destination="slS-PG-ewr" kind="show" id="eux-Eb-EwY"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhO-Sl-B4a">
-                                    <rect key="frame" x="342" y="189" width="60" height="30"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                    <rect key="frame" x="8" y="250" width="90" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                     <state key="normal" title="🗞News"/>
                                     <connections>
                                         <segue destination="ClC-c7-7CJ" kind="show" identifier="" id="3ai-E9-plw"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ikf-hQ-Tai">
-                                    <rect key="frame" x="326" y="227" width="76" height="30"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                    <rect key="frame" x="8" y="0.0" width="114" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                     <state key="normal" title="📆Termine"/>
                                     <connections>
                                         <segue destination="sNb-md-r7a" kind="show" id="HQ8-tH-Esb"/>
@@ -1603,20 +1614,10 @@
                     <view key="view" contentMode="scaleToFill" id="sFx-ic-A60">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <containerView hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2m1-79-T9H">
-                                <rect key="frame" x="20" y="290" width="374" height="360"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <connections>
-                                    <segue destination="cxe-3T-o6C" kind="embed" id="oJ8-Ju-ytQ"/>
-                                </connections>
-                            </containerView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="4vy-PK-ZyG"/>
                     </view>
                     <connections>
-                        <outlet property="finishedView" destination="2m1-79-T9H" id="0IP-FD-kU1"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="Termine_Export_finished" id="LDf-an-5e6"/>
                     </connections>
                 </viewController>
@@ -1817,38 +1818,18 @@
             </objects>
             <point key="canvasLocation" x="5714" y="2186"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="l1Q-TU-6zD">
-            <objects>
-                <viewController id="QbH-Q4-uNW" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tzc-4y-byr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ERFOLGREICH EXPORTIERT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6X2-Yw-rTJ">
-                                <rect key="frame" x="55" y="158" width="265" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QLp-nv-MbY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
     </scenes>
     <resources>
         <image name="Bildschirmfoto 2018-12-28 um 21.24.30" width="369" height="664"/>
+        <image name="Campusplan" width="770" height="1089"/>
         <image name="Github" width="104" height="123"/>
         <image name="Kalender" width="100" height="100"/>
         <image name="hochschule_fulda_logo" width="479" height="91"/>
         <image name="ios10-weather-list-icon" width="42" height="28"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="oOx-vI-qJA"/>
+        <segue reference="sCX-s9-AHz"/>
+        <segue reference="8L6-Th-NN1"/>
         <segue reference="LDf-an-5e6"/>
         <segue reference="saN-aa-BEx"/>
     </inferredMetricsTieBreakers>

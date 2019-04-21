@@ -27,12 +27,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        Erklärung()
+        
         //Weather().loadWeather()
         
         wetter()
     }
     
-    
+    func Erklärung(){
+        if UserDefaults.standard.object(forKey: "FachbereichAuswahl") as? HardCodedVar == nil {
+            let alert = UIAlertController(title: "Achtung", message: "Der Programmierer dieser APP übernimmt keine Haftung für die bereitgestellten Informationen.", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true)
+        }
+    }
     
     
     @IBOutlet weak var wetterLabel: UILabel!

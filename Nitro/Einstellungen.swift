@@ -17,14 +17,14 @@ final class Einstellungen: QuickTableViewController {
         super.viewDidLoad()
 
         tableContents = [
-            Section(title: "Switch", rows: [
+            /*Section(title: "Switch", rows: [
                 SwitchRow(title: "NFC", switchValue: main.NFCEnabled, action: { _ in
                     main.NFCEnabled = !main.NFCEnabled
                 }),
                 SwitchRow(title: "Fingerabdruck", switchValue: main.TouchIdEnabled, action: { _ in
                     main.TouchIdEnabled = !main.TouchIdEnabled
                 }),
-            ]),
+            ]),*/
 
             RadioSection(title: "Fachbereich", options: [
                 OptionRow(title: "Angewandte Informatik", isSelected: main.FachbereichAuswahl == 0, action: didToggleSelection()),

@@ -11,13 +11,19 @@ import Foundation
 class HardCodedVarFunktionen {
     /// Speichern aller Daten die in HardCodedVar gespeichert werden
     func Speichern() {
-        UserDefaults.standard.set(main, forKey: "HauptSpeicher")
+        //UserDefaults.standard.set(main, forKey: "HauptSpeicher")
+        UserDefaults.standard.set(main.MensaResult, forKey: "MensaResult")
+        UserDefaults.standard.set(main.FachbereichAuswahl, forKey: "FachbereichAuswahl")
+        UserDefaults.standard.set(main.ZeitTag, forKey: "ZeitTag")
     }
 
     /// Laden aller Daten die in HardcodedVar gespeichert werden
     func laden() {
-        if UserDefaults.standard.object(forKey: "HauptSpeicher") as? HardCodedVar != nil {
-            main = UserDefaults.standard.object(forKey: "HauptSpeicher") as! HardCodedVar
+        if UserDefaults.standard.object(forKey: "FachbereichAuswahl") as? HardCodedVar != nil {
+            //main = UserDefaults.standard.object(forKey: "HauptSpeicher") as! HardCodedVar
+            main.MensaResult = UserDefaults.standard.object(forKey: "MensaResult") as! String
+            main.FachbereichAuswahl = UserDefaults.standard.object(forKey: "FachbereichAuswahl") as! Int
+            main.ZeitTag = UserDefaults.standard.object(forKey: "ZeitTag") as! Int
         }
     }
 

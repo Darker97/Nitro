@@ -1,38 +1,133 @@
 [{
+        "Title": "Gebäude F",
+        "locationName": "Gebäude 42",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Gebäude C",
+        "locationName": "Gebäude 43",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Gebäude D",
+        "locationName": "Gebäude 45 - Sporthalle",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Gebäude E",
+        "locationName": "Gebäude 46",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Gebäude G",
+        "locationName": "Gebäude 51",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Halle 8",
+        "locationName": "Gebäude 52",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Gebäude A",
+        "locationName": "Gebäude 40",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Gebäude K",
+        "locationName": "Gebäude 33",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Gebäude L",
+        "locationName": "Gebäude 31",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
         "Title": "Mensa",
         "locationName": "Gebäude 11",
         "latitude": 50.5656,
-        "longitude": 9.6869,
+        "longitude": 9.6869
     },
     {
         "Title": "Bibliothek",
         "locationName": "Gebäude 12",
-        "latitude": 50.5652,
-        "longitude": 9.6874,
-    }, {
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
         "Title": "SSC",
         "locationName": "Gebäude 10",
-        "latitude": 50.5653,
-        "longitude": 9.6861,
-    }, {
-        "Title": "Halle 8",
-        "locationName": "Gebäude 52",
-        "latitude": 50.5648,
-        "longitude": 9.6846,
-    }, {
-        "Title": "Gebäude E",
-        "locationName": "Gebäude 46",
-        "latitude": 50.5651,
-        "longitude": 9.6856,
-    }, {
-        "Title": "Selbstlernzentrum",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Gebäude M",
+        "locationName": "Gebäude 30",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Gebäude N",
+        "locationName": "Gebäude 29",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Gebäude O",
+        "locationName": "Gebäude 21",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Gebäude P",
+        "locationName": "Gebäude 22",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Seminarräume",
+        "locationName": " Gebäude 23",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Cafe Chaos",
+        "locationName": " Studenten Cafe",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Gebäude J",
+        "locationName": "Gebäude 50",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "ASTA",
         "locationName": "",
-        "latitude": 50.5644,
-        "longitude": 9.6852,
-    }, {
-        "Title": "Gebäude C",
-        "locationName": "Gebäude 43",
-        "latitude": 50.5651,
-        "longitude": 9.6845,
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Gebäude B",
+        "locationName": "Gebäude 41",
+        "latitude": 50.5656,
+        "longitude": 9.6869
+    },
+    {
+        "Title": "Selbstlernzentrum",
+        "locationName": "Gebäude 44",
+        "latitude": 50.5656,
+        "longitude": 9.6869
     }
 ]

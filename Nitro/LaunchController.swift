@@ -78,16 +78,16 @@ class LaunchController: UIViewController {
 
     /// Daten die wir immer laden
     func immer() {
-        Scrapper().GetNoten()
+        //Scrapper().GetNoten()
         Scrapper().getBus()
+        // Wetter
+        Weather().loadWeather()
     }
 
     /// Daten die wir täglich laden
     func Täglich() {
         // Termine & Essen
         Scrapper().GetAnfrageMensa()
-        // Wetter
-        Weather().loadWeather()
     }
 
     /// Daten die wir Wöchentlich laden
