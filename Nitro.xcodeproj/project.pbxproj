@@ -25,7 +25,6 @@
 		AA575DFD21F79E6900F954F6 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA575DFC21F79E6900F954F6 /* WeatherData.swift */; };
 		AA5907EE21A30B5200D8493F /* HeaderAuflistung.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907ED21A30B5200D8493F /* HeaderAuflistung.swift */; };
 		AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */; };
-		AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */; };
 		AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA5907F421A30F1C00D8493F /* Stickers.xcstickers */; };
 		AA6326B021CD53BF004321EC /* UniInfo2.json in Resources */ = {isa = PBXBuildFile; fileRef = AA6326AF21CD53BF004321EC /* UniInfo2.json */; };
 		AA6677E422008CF000E6476A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5907F821A3147900D8493F /* MapKit.framework */; };
@@ -49,7 +48,6 @@
 		AAB14D9E221F042000AE453B /* Termine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB14D9D221F042000AE453B /* Termine.swift */; };
 		AAB14DA0221F142600AE453B /* Einstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB14D9F221F142300AE453B /* Einstellungen.swift */; };
 		AAB14DA4221F16D900AE453B /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB14DA3221F16D900AE453B /* CoreNFC.framework */; };
-		AAB8B013226CDC51008DE64A /* Campusplan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAB8B012226CDC50008DE64A /* Campusplan.jpg */; };
 		AAB8B015226CDEF5008DE64A /* Officielle Karte.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8B014226CDEF5008DE64A /* Officielle Karte.swift */; };
 		AACA3D962269ACA0000AF4DB /* BUSPLAN_STRUCT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA3D952269ACA0000AF4DB /* BUSPLAN_STRUCT.swift */; };
 		AACA3D9B226A2034000AF4DB /* AR_Universitaet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACA3D9A226A2034000AF4DB /* AR_Universitaet.swift */; };
@@ -100,7 +98,6 @@
 		AA575DFC21F79E6900F954F6 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		AA5907ED21A30B5200D8493F /* HeaderAuflistung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderAuflistung.swift; sourceTree = "<group>"; };
 		AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAusgabe.swift; sourceTree = "<group>"; };
-		AA5907F221A30DE200D8493F /* Noten.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noten.xcdatamodel; sourceTree = "<group>"; };
 		AA5907F421A30F1C00D8493F /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
 		AA5907F621A3141800D8493F /* Nitro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nitro.entitlements; sourceTree = "<group>"; };
 		AA5907F821A3147900D8493F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -127,7 +124,6 @@
 		AAB14D9D221F042000AE453B /* Termine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Termine.swift; sourceTree = "<group>"; };
 		AAB14D9F221F142300AE453B /* Einstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Einstellungen.swift; path = /Users/christian/projekts/Nitro/Nitro/Einstellungen.swift; sourceTree = "<absolute>"; };
 		AAB14DA3221F16D900AE453B /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
-		AAB8B012226CDC50008DE64A /* Campusplan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Campusplan.jpg; sourceTree = "<group>"; };
 		AAB8B014226CDEF5008DE64A /* Officielle Karte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Officielle Karte.swift"; sourceTree = "<group>"; };
 		AACA3D952269ACA0000AF4DB /* BUSPLAN_STRUCT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BUSPLAN_STRUCT.swift; sourceTree = "<group>"; };
 		AACA3D9A226A2034000AF4DB /* AR_Universitaet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Universitaet.swift; sourceTree = "<group>"; };
@@ -253,7 +249,6 @@
 		AA4C4F0521C0FAA1000B5BCC /* Karte */ = {
 			isa = PBXGroup;
 			children = (
-				AAB8B012226CDC50008DE64A /* Campusplan.jpg */,
 				AA8E661A21C0135900929FE8 /* Map.swift */,
 				AACA3D9A226A2034000AF4DB /* AR_Universitaet.swift */,
 				AA8E662221C036E900929FE8 /* Places.swift */,
@@ -266,7 +261,6 @@
 			isa = PBXGroup;
 			children = (
 				AA5907F621A3141800D8493F /* Nitro.entitlements */,
-				AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */,
 				AA5907F421A30F1C00D8493F /* Stickers.xcstickers */,
 				AA1B53C72196EEBB00941DF6 /* Assets.xcassets */,
 				AA1B53C92196EEBB00941DF6 /* LaunchScreen.storyboard */,
@@ -478,7 +472,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */,
-				AAB8B013226CDC51008DE64A /* Campusplan.jpg in Resources */,
 				AA1B53CB2196EEBB00941DF6 /* LaunchScreen.storyboard in Resources */,
 				AA1B53C82196EEBB00941DF6 /* Assets.xcassets in Resources */,
 				AA6326B021CD53BF004321EC /* UniInfo2.json in Resources */,
@@ -639,7 +632,6 @@
 				AA4C4F0B21C11E9B000B5BCC /* Scrapper.swift in Sources */,
 				AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */,
 				AA575DFD21F79E6900F954F6 /* WeatherData.swift in Sources */,
-				AA5907F321A30DE200D8493F /* Noten.xcdatamodeld in Sources */,
 				AA5907EE21A30B5200D8493F /* HeaderAuflistung.swift in Sources */,
 				AACA3D962269ACA0000AF4DB /* BUSPLAN_STRUCT.swift in Sources */,
 				AA78FC462221FDB60082F91C /* TermineExportMenü.swift in Sources */,
@@ -988,19 +980,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		AA5907F121A30DE200D8493F /* Noten.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				AA5907F221A30DE200D8493F /* Noten.xcdatamodel */,
-			);
-			currentVersion = AA5907F221A30DE200D8493F /* Noten.xcdatamodel */;
-			path = Noten.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = AA1B53B52196EEBA00941DF6 /* Project object */;
 }
