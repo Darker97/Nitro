@@ -1,6 +1,6 @@
 ### Projekt Nitro - Eine Inoffizielle HS-Fulda App 
 
-Unsere Hochschule stellt mehrere Online Dienste bereit. Leider gibt es keine App Alternative zu den entsprechenden Websiten. Diese App soll nun den Zugriff auf Informationen über die HS, wie auch über aktuelle Themen wie News und das aktuelle Essen der Mensa,  für den Studenten vereinfachen.
+Unsere Hochschule stellt mehrere Online Dienste bereit. Leider gibt es keine App Alternative zu den entsprechenden Websiten. Diese App soll nun den Zugriff auf Informationen über die HS, wie auch über aktuelle Themen wie News und das aktuelle Essen der Mensa,  für die Studenten vereinfachen.
 
 Diese App funktioniert nur mit den Diensten der Hochschule Fulda. 
 Mit entsprechender Konfiguration wäre es jedoch möglich Sie auch auf andere Websites anzuwenden.
