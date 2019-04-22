@@ -135,11 +135,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="90" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRe-S1-24u">
                                 <rect key="frame" x="20" y="100" width="359" height="697"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Diese App ist nicht offiziell.
+                                <string key="text">Diese App ist keine offizielle Anwendung der Hochschule Fulda.
 
-Sollten dir inhaltliche Fehler oder Bugs auffallen, so würde ich mich sehr über Feedback freuen. 🙂
+Sollten Dir inhaltliche Fehler oder Bugs auffallen, so würde ich mich sehr über Feedback freuen. 🙂
 
-Falls ihr Wissen wollt wie die App funktioniert oder eigene Ideen habt:
+Falls Ihr wissen wollt, wie die App funktioniert oder eigene Ideen habt:
 Den gesamten Code zur App findet ihr auf Github.
 
 Always happy Coding
@@ -151,8 +151,7 @@ Copyright (C) &lt;2019&gt;  &lt;Christian Baltzer&gt;
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+the Free Software Foundation, either version 3 of the License, or any later version.
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -756,8 +755,8 @@ GNU General Public License for more details.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6GX-bb-pIC">
-                                <rect key="frame" x="16" y="75" width="343" height="572"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="16" y="88" width="378" height="774"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -783,7 +782,7 @@ GNU General Public License for more details.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OHD-Wu-Mtx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8369" y="2186"/>
+            <point key="canvasLocation" x="8368.115942028986" y="2185.7142857142858"/>
         </scene>
         <!--Kategorien Auflistung-->
         <scene sceneID="HVJ-kJ-Pyk">
@@ -837,7 +836,7 @@ GNU General Public License for more details.</string>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwJ-N6-HJY">
-                                    <rect key="frame" x="8" y="50" width="173" height="42"/>
+                                    <rect key="frame" x="8" y="250" width="173" height="42"/>
                                     <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                     <state key="normal" title="⚙️Einstellungen"/>
@@ -846,7 +845,7 @@ GNU General Public License for more details.</string>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adh-zq-C5u">
-                                    <rect key="frame" x="8" y="100" width="81" height="42"/>
+                                    <rect key="frame" x="8" y="150" width="81" height="42"/>
                                     <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                     <state key="normal" title="💭Infos"/>
@@ -855,7 +854,7 @@ GNU General Public License for more details.</string>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pC-xO-xgg">
-                                    <rect key="frame" x="8" y="150" width="101" height="42"/>
+                                    <rect key="frame" x="8" y="8" width="101" height="42"/>
                                     <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                     <state key="normal" title="🍔Mensa"/>
@@ -864,7 +863,7 @@ GNU General Public License for more details.</string>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYW-z6-LWW">
-                                    <rect key="frame" x="8" y="200" width="86" height="42"/>
+                                    <rect key="frame" x="8" y="100" width="86" height="42"/>
                                     <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                     <state key="normal" title="🗺Karte"/>
@@ -872,22 +871,22 @@ GNU General Public License for more details.</string>
                                         <segue destination="slS-PG-ewr" kind="show" id="eux-Eb-EwY"/>
                                     </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhO-Sl-B4a">
-                                    <rect key="frame" x="8" y="250" width="90" height="42"/>
-                                    <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                    <state key="normal" title="🗞News"/>
-                                    <connections>
-                                        <segue destination="ClC-c7-7CJ" kind="show" identifier="" id="3ai-E9-plw"/>
-                                    </connections>
-                                </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ikf-hQ-Tai">
-                                    <rect key="frame" x="8" y="0.0" width="114" height="42"/>
+                                    <rect key="frame" x="8" y="200" width="114" height="42"/>
                                     <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                     <state key="normal" title="📆Termine"/>
                                     <connections>
                                         <segue destination="sNb-md-r7a" kind="show" id="HQ8-tH-Esb"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhO-Sl-B4a">
+                                    <rect key="frame" x="8" y="50" width="90" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <state key="normal" title="🗞News"/>
+                                    <connections>
+                                        <segue destination="ClC-c7-7CJ" kind="show" identifier="" id="3ai-E9-plw"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -1883,8 +1882,8 @@ GNU General Public License for more details.</string>
         <image name="ios10-weather-list-icon" width="42" height="28"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="oOx-vI-qJA"/>
+        <segue reference="8L6-Th-NN1"/>
         <segue reference="408-NG-v0G"/>
-        <segue reference="saN-aa-BEx"/>
+        <segue reference="3ai-E9-plw"/>
     </inferredMetricsTieBreakers>
 </document>

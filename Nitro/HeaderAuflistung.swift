@@ -20,6 +20,11 @@ class InfoAuflistung: UITableViewController {
         if main.Online != true {
             zurückButton.isEnabled = false
             zurückButton.accessibilityElementsHidden = true
+            
+            let alert = UIAlertController(title: "Achtung", message: "Keine Verbindung zum Internet möglich", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true)
+            
         }
 
         // abrufen der Daten und befüllen des Arrays
@@ -56,6 +61,9 @@ class InfoAuflistung: UITableViewController {
 
         button.tag = indexPath.row
 
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = 600
+        
         return cell
     }
 
