@@ -15,6 +15,7 @@ class HardCodedVarFunktionen {
         UserDefaults.standard.set(main.MensaResult, forKey: "MensaResult")
         UserDefaults.standard.set(main.FachbereichAuswahl, forKey: "FachbereichAuswahl")
         UserDefaults.standard.set(main.ZeitTag, forKey: "ZeitTag")
+        UserDefaults.standard.set(false, forKey: "FirstTime")
     }
 
     /// Laden aller Daten die in HardcodedVar gespeichert werden
