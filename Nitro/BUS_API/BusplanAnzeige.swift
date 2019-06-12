@@ -30,12 +30,10 @@ class BusplanAnzeige: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in _: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(_: UITableView, numberOfRowsInSection _: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return main.API_RMV_Zeit_ARRAY.count
     }
 
@@ -56,10 +54,8 @@ class BusplanAnzeige: UITableViewController {
      }
     
     func htmlauswerten() {
-        //print(HardCodedVar().API_RMV_Ergebnis)
         let Data_to_work_with = main.API_RMV_Ergebnis
         let decoder = JSONDecoder()
-        //print (Data_to_work_with)
         do{
             let Test = try decoder.decode(BusplanStruc.self, from: Data_to_work_with!)
             for infos in Test.journey{

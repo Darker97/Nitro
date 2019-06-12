@@ -10,6 +10,7 @@ import SwiftSoup
 import UIKit
 
 class MensaCell: UITableViewCell{
+    //gehört zu einer zukünftigen Funktion der Zelle
     @IBOutlet weak var NAME: UILabel!
     @IBOutlet weak var Details: UILabel!
     @IBOutlet weak var Preis: UILabel!
@@ -39,54 +40,36 @@ class Mensa: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         Html_auswerten()
-
         NavigationBar.title = Title
-
-        tableView.estimatedRowHeight = 140
-        tableView.rowHeight = UITableView.automaticDimension
-
-        tableView.refreshControl?.backgroundColor = UIColor(red: 0.113, green: 0.113, blue: 0.145, alpha: 1)
-        let attributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        tableView.refreshControl?.attributedTitle = NSAttributedString(string: "Letztes Update \(Date())", attributes: attributes)
-        refreshControl?.tintColor = UIColor.white
-
-        tableView.separatorStyle = UITableViewCell.SeparatorStyle.singleLine
-        tableView.reloadData()
     }
 
-    // MARK: - Table view data source
-
     override func numberOfSections(in _: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(_: UITableView, numberOfRowsInSection _: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return Name.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        // let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-        // Configure the cell...
+        let cellIdentifier = "CELL_MENSA"
 
-        // let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        var cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? UITableViewCell
 
-        let cellIdentifier = "cell"
-
-        var cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier) as? MensaCell
-
-        cell!.NAME.text = Name[indexPath.row]
-        cell!.Details.text = Details[indexPath.row]
-        cell!.Preis.text = Preis[indexPath.row]
-        
-        cell!.textLabel?.numberOfLines = 0
-        cell!.textLabel?.lineBreakMode = .byWordWrapping
-
+        cell!.textLabel?.text = Name[indexPath.row]
         cell!.detailTextLabel?.text = Details[indexPath.row]
-
+        
+        //Existiert ein Preis so wird er hinzugefügt, existiert keiner wird das Feld unsichtbar. Gehört zu einer Zukünftigen Funktion der Cell
+        /*if let _ = Preis[exist: indexPath.row] {
+            cell!.Preis.text = Preis[indexPath.row]
+        }else{
+            cell!.Preis.isHidden = true
+        }*/
+        
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = 600
+        
         return cell!
     }
 
@@ -95,18 +78,20 @@ class Mensa: UITableViewController {
     func Html_auswerten() {
         var Result = main.MensaResult
         
+        //Die Mensa kann auch zu sein, dann ist aber der Quellcode deutlich kleiner (kleiner als 600 Zeichen)
         if (Result.count < 600){
             Title = "geschlossen"
             Name.append("Geschlossen")
             Preis.append("")
             Details.append("")
             return
-        }
+        }else
+        {
         do {
             let doc: Document = try SwiftSoup.parse(Result)
 
             // Title der Seite
-            try Title = "Essen von Heute"
+            Title = "Essen von Heute"
 
             var Elements = try doc.select(".artikel")
             var srcsStringArray: String = try Elements.html()
@@ -152,13 +137,17 @@ class Mensa: UITableViewController {
             for parts in 0..<temp2.count{
                 Preis.append(temp2[parts])
             }
-            
         } catch {
-            Title = "geschlossen"
-            Name.append("Geschlossen")
-            Preis.append("")
-            Details.append("")
+            print ("Error")
         }
+        }
+        
     }
     
+}
+
+extension Collection where Indices.Iterator.Element == Index {
+    subscript (exist index: Index) -> Iterator.Element? {
+        return indices.contains(index) ? self[index] : nil
+    }
 }

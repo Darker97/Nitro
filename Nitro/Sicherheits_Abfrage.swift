@@ -6,13 +6,11 @@
 //  Copyright © 2018 Christian Baltzer. All rights reserved.
 //
 
-import CoreNFC
-import LocalAuthentication
 import UIKit
 
-class Sicherheits_Abfrage: UIViewController, NFCNDEFReaderSessionDelegate {
+class Sicherheits_Abfrage: UIViewController {
     // Bau der Sicherheitsabfrage
-
+/*
     @IBOutlet var TouchIDButton: UIButton!
 
     @IBOutlet var start_button: UIButton!
@@ -114,5 +112,5 @@ class Sicherheits_Abfrage: UIViewController, NFCNDEFReaderSessionDelegate {
     // zurück Button
     @IBAction func zurück(_: Any) {
         dismiss(animated: true, completion: nil)
-    }
+    }*/
 }
