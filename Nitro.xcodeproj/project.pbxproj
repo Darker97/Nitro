@@ -18,11 +18,6 @@
 		AA1B53CB2196EEBB00941DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1B53C92196EEBB00941DF6 /* LaunchScreen.storyboard */; };
 		AA1B53D62196EEBB00941DF6 /* NitroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53D52196EEBB00941DF6 /* NitroTests.swift */; };
 		AA1B53E12196EEBB00941DF6 /* NitroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B53E02196EEBB00941DF6 /* NitroUITests.swift */; };
-		AA3EA5D022B0E97500536ECA /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3EA5CF22B0E97400536ECA /* Messages.framework */; };
-		AA3EA5D322B0E97500536ECA /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3EA5D222B0E97500536ECA /* MessagesViewController.swift */; };
-		AA3EA5D622B0E97500536ECA /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3EA5D422B0E97500536ECA /* MainInterface.storyboard */; };
-		AA3EA5D822B0E97700536ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3EA5D722B0E97700536ECA /* Assets.xcassets */; };
-		AA3EA5DC22B0E97700536ECA /* Communication.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA3EA5CE22B0E97400536ECA /* Communication.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AA4618D121D2561400084872 /* FachbereichsInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4618D021D2561400084872 /* FachbereichsInfos.swift */; };
 		AA4618D321D2590A00084872 /* AKKInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4618D221D2590A00084872 /* AKKInfos.swift */; };
 		AA4C4F0921C0FB3C000B5BCC /* Mensa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */; };
@@ -32,7 +27,6 @@
 		AA5907F021A30C1400D8493F /* InfoAusgabe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */; };
 		AA5907F521A30F1C00D8493F /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA5907F421A30F1C00D8493F /* Stickers.xcstickers */; };
 		AA6326B021CD53BF004321EC /* UniInfo2.json in Resources */ = {isa = PBXBuildFile; fileRef = AA6326AF21CD53BF004321EC /* UniInfo2.json */; };
-		AA6677E422008CF000E6476A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5907F821A3147900D8493F /* MapKit.framework */; };
 		AA7285962207028B00886149 /* HardCodedVar-Funktionen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7285952207028B00886149 /* HardCodedVar-Funktionen.swift */; };
 		AA74A2C721E51BAC000AFA39 /* InfosLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74A2C621E51BAC000AFA39 /* InfosLoader.swift */; };
 		AA74A2C921E51DE3000AFA39 /* KategorienAuflistung.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74A2C821E51DE3000AFA39 /* KategorienAuflistung.swift */; };
@@ -74,13 +68,6 @@
 			remoteGlobalIDString = AA1B53BC2196EEBA00941DF6;
 			remoteInfo = Nitro;
 		};
-		AA3EA5DA22B0E97700536ECA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA1B53B52196EEBA00941DF6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA3EA5CD22B0E97400536ECA;
-			remoteInfo = Communication;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,7 +77,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				AA3EA5DC22B0E97700536ECA /* Communication.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,12 +103,7 @@
 		AA1B53DC2196EEBB00941DF6 /* NitroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NitroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1B53E02196EEBB00941DF6 /* NitroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NitroUITests.swift; sourceTree = "<group>"; };
 		AA1B53E22196EEBB00941DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA3EA5CE22B0E97400536ECA /* Communication.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Communication.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3EA5CF22B0E97400536ECA /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
-		AA3EA5D222B0E97500536ECA /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
-		AA3EA5D522B0E97500536ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		AA3EA5D722B0E97700536ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA3EA5D922B0E97700536ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA4618D021D2561400084872 /* FachbereichsInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FachbereichsInfos.swift; sourceTree = "<group>"; };
 		AA4618D221D2590A00084872 /* AKKInfos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKKInfos.swift; sourceTree = "<group>"; };
 		AA4C4F0821C0FB3C000B5BCC /* Mensa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mensa.swift; sourceTree = "<group>"; };
@@ -132,7 +113,6 @@
 		AA5907EF21A30C1400D8493F /* InfoAusgabe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAusgabe.swift; sourceTree = "<group>"; };
 		AA5907F421A30F1C00D8493F /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
 		AA5907F621A3141800D8493F /* Nitro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nitro.entitlements; sourceTree = "<group>"; };
-		AA5907F821A3147900D8493F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AA6326AF21CD53BF004321EC /* UniInfo2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UniInfo2.json; sourceTree = "<group>"; };
 		AA7285952207028B00886149 /* HardCodedVar-Funktionen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HardCodedVar-Funktionen.swift"; sourceTree = "<group>"; };
 		AA74A2C621E51BAC000AFA39 /* InfosLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfosLoader.swift; sourceTree = "<group>"; };
@@ -172,7 +152,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA6677E422008CF000E6476A /* MapKit.framework in Frameworks */,
 				1877B70441A9CDE3B6A7C5A1 /* Pods_Nitro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,14 +169,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				835CC02EA152F0C4BEACA34C /* Pods_NitroUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA3EA5CB22B0E97400536ECA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA3EA5D022B0E97500536ECA /* Messages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +194,6 @@
 				AA1B53BF2196EEBB00941DF6 /* Nitro */,
 				AA1B53D42196EEBB00941DF6 /* NitroTests */,
 				AA1B53DF2196EEBB00941DF6 /* NitroUITests */,
-				AA3EA5D122B0E97500536ECA /* Communication */,
 				AA1B53BE2196EEBB00941DF6 /* Products */,
 				AA5907F721A3147900D8493F /* Frameworks */,
 				2891ED1450A560E91F803BEA /* Pods */,
@@ -236,7 +206,6 @@
 				AA1B53BD2196EEBB00941DF6 /* Nitro.app */,
 				AA1B53D12196EEBB00941DF6 /* NitroTests.xctest */,
 				AA1B53DC2196EEBB00941DF6 /* NitroUITests.xctest */,
-				AA3EA5CE22B0E97400536ECA /* Communication.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -275,17 +244,6 @@
 				AA1B53E22196EEBB00941DF6 /* Info.plist */,
 			);
 			path = NitroUITests;
-			sourceTree = "<group>";
-		};
-		AA3EA5D122B0E97500536ECA /* Communication */ = {
-			isa = PBXGroup;
-			children = (
-				AA3EA5D222B0E97500536ECA /* MessagesViewController.swift */,
-				AA3EA5D422B0E97500536ECA /* MainInterface.storyboard */,
-				AA3EA5D722B0E97700536ECA /* Assets.xcassets */,
-				AA3EA5D922B0E97700536ECA /* Info.plist */,
-			);
-			path = Communication;
 			sourceTree = "<group>";
 		};
 		AA4618D821D2A9CF00084872 /* RSS */ = {
@@ -360,7 +318,6 @@
 			children = (
 				AAB14DA3221F16D900AE453B /* CoreNFC.framework */,
 				AA8FE06A21A373CA0066338D /* LocalAuthentication.framework */,
-				AA5907F821A3147900D8493F /* MapKit.framework */,
 				586AE186A4EC25782704F819 /* Pods_Nitro.framework */,
 				1DBA589C6E329AD89B57A055 /* Pods_NitroTests.framework */,
 				E897D7AA7406D6455FAAF3CD /* Pods_NitroUITests.framework */,
@@ -415,7 +372,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				AA3EA5DB22B0E97700536ECA /* PBXTargetDependency */,
 			);
 			name = Nitro;
 			productName = Nitro;
@@ -460,23 +416,6 @@
 			productReference = AA1B53DC2196EEBB00941DF6 /* NitroUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		AA3EA5CD22B0E97400536ECA /* Communication */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA3EA5DF22B0E97700536ECA /* Build configuration list for PBXNativeTarget "Communication" */;
-			buildPhases = (
-				AA3EA5CA22B0E97400536ECA /* Sources */,
-				AA3EA5CB22B0E97400536ECA /* Frameworks */,
-				AA3EA5CC22B0E97400536ECA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Communication;
-			productName = Communication;
-			productReference = AA3EA5CE22B0E97400536ECA /* Communication.appex */;
-			productType = "com.apple.product-type.app-extension.messages";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -500,7 +439,7 @@
 								enabled = 1;
 							};
 							com.apple.Maps.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.NearFieldCommunicationTagReading = {
 								enabled = 1;
@@ -517,9 +456,6 @@
 					AA1B53DB2196EEBB00941DF6 = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = AA1B53BC2196EEBA00941DF6;
-					};
-					AA3EA5CD22B0E97400536ECA = {
-						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
@@ -539,7 +475,6 @@
 				AA1B53BC2196EEBA00941DF6 /* Nitro */,
 				AA1B53D02196EEBB00941DF6 /* NitroTests */,
 				AA1B53DB2196EEBB00941DF6 /* NitroUITests */,
-				AA3EA5CD22B0E97400536ECA /* Communication */,
 			);
 		};
 /* End PBXProject section */
@@ -570,15 +505,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA3EA5CC22B0E97400536ECA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA3EA5D822B0E97700536ECA /* Assets.xcassets in Resources */,
-				AA3EA5D622B0E97500536ECA /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -751,14 +677,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA3EA5CA22B0E97400536ECA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA3EA5D322B0E97500536ECA /* MessagesViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -771,11 +689,6 @@
 			isa = PBXTargetDependency;
 			target = AA1B53BC2196EEBA00941DF6 /* Nitro */;
 			targetProxy = AA1B53DD2196EEBB00941DF6 /* PBXContainerItemProxy */;
-		};
-		AA3EA5DB22B0E97700536ECA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AA3EA5CD22B0E97400536ECA /* Communication */;
-			targetProxy = AA3EA5DA22B0E97700536ECA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -794,14 +707,6 @@
 				AA1B53CA2196EEBB00941DF6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		AA3EA5D422B0E97500536ECA /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA3EA5D522B0E97500536ECA /* Base */,
-			);
-			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -927,7 +832,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A712DD296FDE2799BB21737 /* Pods-Nitro.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Nitro/Nitro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -948,7 +852,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8984F822381722AB744FDDDD /* Pods-Nitro.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Nitro/Nitro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -1051,48 +954,6 @@
 			};
 			name = Release;
 		};
-		AA3EA5DD22B0E97700536ECA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QHAK8XB995;
-				INFOPLIST_FILE = Communication/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Darker.Nitro.Communication;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AA3EA5DE22B0E97700536ECA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QHAK8XB995;
-				INFOPLIST_FILE = Communication/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Darker.Nitro.Communication;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1128,15 +989,6 @@
 			buildConfigurations = (
 				AA1B53EC2196EEBB00941DF6 /* Debug */,
 				AA1B53ED2196EEBB00941DF6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AA3EA5DF22B0E97700536ECA /* Build configuration list for PBXNativeTarget "Communication" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA3EA5DD22B0E97700536ECA /* Debug */,
-				AA3EA5DE22B0E97700536ECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
