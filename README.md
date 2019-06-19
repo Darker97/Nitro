@@ -9,6 +9,8 @@ Weitere Informationen finden Sie im Wiki.
 Diese App ist keine offizielle Anwendung der Hochschule Fulda.
 Sie wurde im Kurs "Projektmanagement"  begonnen und dann Privat weiterentwickelt.
 
+Das Gource Video findet ihr hier:
+https://youtu.be/GV_LAfXqKpk
 
 ***
     Copyright (C) <2019>  <Christian Baltzer>
