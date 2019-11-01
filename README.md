@@ -12,6 +12,8 @@ Sie wurde im Kurs "Projektmanagement"  begonnen und dann Privat weiterentwickelt
 Das Gource Video findet ihr hier:
 https://youtu.be/GV_LAfXqKpk
 
+Die App kann [hier](https://apps.apple.com/us/app/hochschulapp-hs-fulda/id1449229611?ls=1) runtergeladen werden
+
 ***
     Copyright (C) <2019>  <Christian Baltzer>
 
